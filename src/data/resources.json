@@ -53,8 +53,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:consultorios.sec@uco.edu.co  mailto:dmontoya@uco.edu.co",
         "emails": [
-          "dmontoya@uco.edu.co",
-          "consultorios.sec@uco.edu.co"
+          "consultorios.sec@uco.edu.co",
+          "dmontoya@uco.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -75,8 +75,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:jaimealber.giraldo@upb.edu.co mailto:emmanuel.arrubla@upb.edu.co",
         "emails": [
-          "jaimealber.giraldo@upb.edu.co",
-          "emmanuel.arrubla@upb.edu.co"
+          "emmanuel.arrubla@upb.edu.co",
+          "jaimealber.giraldo@upb.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -167,8 +167,8 @@
           "https://api.whatsapp.com/send/?phone=525521843047"
         ],
         "phones": [
-          "5521843047",
-          "5255218430"
+          "5255218430",
+          "5521843047"
         ]
       },
       "cost": "Gratuito",
@@ -941,8 +941,8 @@
           "https://wa.link/1y2u92"
         ],
         "phones": [
-          "(601) 7965150",
-          "(3228151101"
+          "(3228151101",
+          "(601) 7965150"
         ]
       },
       "serviceType": "Sirve para que las personas afectadas por el conflicto armado realicen trámites y consultas virtuales de forma gratuita, rápida y sin intermediarios"
@@ -984,8 +984,8 @@
       "contact": {
         "raw": "Línea nacional: 01 8000 423 737 / Indicativo de Cundinamarca (601) 432 27 60 mailto:correspondencia1@adres.gov.co mailto:correspondencia2@adres.gov.co Para consultar su EPS directamente: https://www.adres.gov.co/consulte-su-eps",
         "emails": [
-          "correspondencia1@adres.gov.co",
-          "correspondencia2@adres.gov.co"
+          "correspondencia2@adres.gov.co",
+          "correspondencia1@adres.gov.co"
         ],
         "urls": [
           "https://www.adres.gov.co/consulte-su-eps"
@@ -1026,8 +1026,8 @@
           "https://wa.link/ns4708"
         ],
         "phones": [
-          "(321 3300382",
-          "(601) 756 8000"
+          "(601) 756 8000",
+          "(321 3300382"
         ],
         "emails": [
           "utorizaciones@aliansalud.com.co"
@@ -1096,8 +1096,8 @@
           "https://wa.link/1pxnit"
         ],
         "phones": [
-          "(601) 3078069",
-          "(311 6097426"
+          "(311 6097426",
+          "(601) 3078069"
         ],
         "emails": [
           "gerenciageneral@emssanareps.co"
@@ -1924,10 +1924,10 @@
         ],
         "phones": [
           "313 778 8460",
-          "(3102299708",
           "(602) 880 1785",
           "317 642 1117",
-          "(602) 518 4611"
+          "(602) 518 4611",
+          "(3102299708"
         ]
       }
     },
@@ -1951,7 +1951,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-08-22 06:35",
+    "extracted": "2026-08-22 12:33",
     "total": 113
   }
 }
