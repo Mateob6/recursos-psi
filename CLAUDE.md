@@ -5,7 +5,7 @@
 
 ## Qué es
 
-Directorio interactivo de recursos de apoyo biopsicosocial para personas afectadas por el terremoto M7.4 de agosto 2026 en Colombia. Parte del **Programa Univalle Contigo**, Facultad de Psicología, Universidad del Valle. Permite buscar, filtrar y contactar servicios psicológicos, de salud, albergues, puntos de acopio y líneas de emergencia.
+Directorio interactivo de recursos de apoyo biopsicosocial para personas afectadas por el terremoto M7.4 de agosto 2026 en Colombia. Parte del **Programa Univalle Contigo**, Facultad de Psicología, Universidad del Valle. Permite buscar, filtrar y contactar servicios psicológicos, de salud, albergues, puntos de acopio y líneas de emergencia. Los datos de contacto (teléfonos, correos) se muestran como texto explícito seleccionable además de botones de acción, para que sean copiables y dictables en emergencias.
 
 ## Stack
 
@@ -72,7 +72,7 @@ src/
 ├── components/
 │   ├── ui/                      ← cn utility
 │   ├── layout/                  ← Header, Footer, ThemeToggle, MobileNav
-│   └── resources/               ← SectionDirectory, SectionFilters, ResourceCard, SearchBar, MapView
+│   └── resources/               ← SectionDirectory, SectionFilters, ResourceCard (contacto explícito + botones), SearchBar, MapView
 ├── data/
 │   └── resources.json           ← Generado por scripts/sync-sheets.py (con tags + sections)
 └── lib/
