@@ -264,10 +264,160 @@ def parse():
     return resources
 
 
+CATEGORY_TO_SECTION = {
+    "psicosocial": "apoyo-emocional",
+    "lineas_emergencia": "apoyo-emocional",
+    "salud": "salud",
+    "atencion_primaria": "salud",
+    "albergues": "refugio",
+    "acopio": "donaciones",
+    "capacitacion": "guias",
+    "interactivas": "guias",
+    "funerarios": "funerarios",
+}
+
+SALUD_SUBCATEGORY_TO_TAG = {
+    "eps": "eps",
+    "regimenes": "regimen_especial",
+    "redes": "informacion",
+}
+
+POBLACION_KEYWORDS = [
+    ("lgbtiq", "lgbtiq"),
+    ("lgtbi", "lgbtiq"),
+    ("diversidad sexual", "lgbtiq"),
+    ("mujer", "mujeres"),
+    ("género", "mujeres"),
+    ("niñ", "ninez"),
+    ("adolescente", "ninez"),
+    ("persona mayor", "persona_mayor"),
+    ("adulto mayor", "persona_mayor"),
+    ("discapacidad", "discapacidad"),
+    ("profesional", "profesionales"),
+    ("víctima", "victimas_conflicto"),
+    ("conflicto armado", "victimas_conflicto"),
+]
+
+
+def derive_tags(resource):
+    cat = resource.get("category", "")
+    section = CATEGORY_TO_SECTION.get(cat)
+    if not section:
+        return {}
+
+    if section == "apoyo-emocional":
+        return _tags_apoyo(resource)
+    if section == "salud":
+        return _tags_salud(resource)
+    if section == "refugio":
+        return {"tipo": resource.get("subcategory", "oficial")}
+    if section == "donaciones":
+        status = resource.get("status", "")
+        return {"estado": status} if status else {}
+    if section == "guias":
+        return _tags_guias(resource)
+    return {}
+
+
+def _tags_apoyo(resource):
+    cat = resource["category"]
+    contact = resource.get("contact", {})
+    condition = (resource.get("condition") or "").lower()
+    city = (resource.get("city") or "").lower()
+    dept = (resource.get("department") or "").lower()
+    raw = contact.get("raw", "").lower()
+    service = (resource.get("serviceType") or "").lower()
+    target = (resource.get("targetPopulation") or "").lower()
+    modality = (resource.get("modality") or "").lower()
+
+    urgencia = "ahora" if cat == "lineas_emergencia" else (
+        "agendar" if "agendamiento" in condition or "agendar" in condition else "ahora"
+    )
+
+    canales = []
+    if contact.get("whatsapp"):
+        canales.append("whatsapp")
+    if contact.get("phones") or "teléfono" in raw or "telefono" in raw or "telefónic" in modality or "marcar" in raw or "indicativo" in raw:
+        canales.append("telefono")
+    if contact.get("emails"):
+        canales.append("correo")
+    if "forms.gle" in raw or "formulario" in raw or "docs.google.com/forms" in raw:
+        canales.append("formulario")
+    if "presencial" in modality or resource.get("address"):
+        canales.append("presencial")
+    if not canales and contact.get("urls"):
+        canales.append("formulario")
+
+    loc = city + " " + dept
+    if "nacional" in loc:
+        cobertura = "nacional"
+    elif "cali" in loc:
+        cobertura = "cali"
+    else:
+        cobertura = "otra"
+
+    text = target + " " + service
+    poblacion = []
+    seen = set()
+    for keyword, tag in POBLACION_KEYWORDS:
+        if keyword in text and tag not in seen:
+            poblacion.append(tag)
+            seen.add(tag)
+    if not poblacion:
+        poblacion = ["todos"]
+
+    tags = {"urgencia": urgencia, "cobertura": cobertura, "poblacion": poblacion}
+    if canales:
+        tags["canales"] = canales
+    return tags
+
+
+def _tags_salud(resource):
+    cat = resource["category"]
+    if cat == "atencion_primaria":
+        return {"tipo": "punto_atencion"}
+    sub = resource.get("subcategory", "eps")
+    return {"tipo": SALUD_SUBCATEGORY_TO_TAG.get(sub, "eps")}
+
+
+def _tags_guias(resource):
+    desc = (resource.get("description") or "").lower()
+    name = (resource.get("name") or "").lower()
+    contact = resource.get("contact", {})
+    urls = contact.get("urls", [])
+    cat = resource["category"]
+    text = desc + " " + name
+
+    if "profesional" in text or "decálogo" in text:
+        audiencia = "profesionales"
+    elif cat == "interactivas":
+        audiencia = "comunidad"
+    else:
+        audiencia = "personas_afectadas"
+
+    if any(u.endswith(".pdf") for u in urls) or "pdf" in text:
+        formato = "pdf"
+    elif any("youtube" in u or "youtu.be" in u for u in urls) or "video" in text or "audiovisual" in text:
+        formato = "video"
+    else:
+        formato = "web"
+
+    return {"audiencia": audiencia, "formato": formato}
+
+
+def enrich(resources):
+    for r in resources:
+        r["section"] = CATEGORY_TO_SECTION.get(r.get("category", ""))
+        tags = derive_tags(r)
+        if tags:
+            r["tags"] = tags
+
+
 def main():
     print("Syncing Google Sheets → resources.json")
     download()
     resources = parse()
+    enrich(resources)
 
     output = {
         "resources": resources,

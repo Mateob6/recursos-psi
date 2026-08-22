@@ -3,3 +3,4 @@ node_modules/
 out/
 scripts/.cache_spreadsheet.xlsx
 scripts/.venv/
+.vercel

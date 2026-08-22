@@ -116,3 +116,13 @@ Cross-links: recursos-psi ↔ reconstruir-psi (header + footer en ambos sitios).
 
 - **Global:** Programa Univalle Contigo + Universidad del Valle (logo1.png)
 - **Autoría (footer):** Mateo Belalcázar Correa (MSc), CIDEAS, Facultad de Psicología, Universidad del Valle
+
+## Pendiente: Dominio institucional
+
+El sitio se presentará como uso institucional del Programa Univalle Contigo. El subdominio actual (`recursos-psi.vercel.app`) es técnico/genérico. Opciones a evaluar con Nelson Molina y/o la Universidad:
+
+1. **Subdominio institucional UV** (gratis, burocracia): pedir a TI de Univalle algo como `contigo.univalle.edu.co`
+2. **Dominio propio** (~$10-15 USD/año): `univalle-contigo.org`, `recursos-terremoto.co`, etc. Conectar a Vercel es gratis.
+3. **Renombrar subdominio Vercel** (gratis, inmediato): `univalle-contigo.vercel.app` o similar
+
+Decisión pendiente de Nelson / Universidad.
