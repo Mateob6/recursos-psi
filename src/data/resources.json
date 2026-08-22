@@ -1,0 +1,2783 @@
+{
+  "resources": [
+    {
+      "id": "psi-1",
+      "category": "psicosocial",
+      "name": "Fundación Universitaria Católica del Norte",
+      "center": "Centro de Servicios Psicológicos San Agustín de Hipona",
+      "modality": "Virtual",
+      "department": "Antioquia",
+      "city": "Santa Rosa de Osos",
+      "contact": {
+        "emails": [
+          "mpenac@ucn.edu.co"
+        ],
+        "raw": "Comunicarse mediante correo: mailto:mpenac@ucn.edu.co"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "correo"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-2",
+      "category": "psicosocial",
+      "name": "Humanamente Co",
+      "center": "Servicio de Salud Mental",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "Nivel Nacional",
+      "contact": {
+        "instagram": [
+          "https://www.instagram.com/humanamente_co"
+        ],
+        "raw": "Escribir al DM de Instagram: https://www.instagram.com/humanamente_co?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Espacios de Escucha y Primeros Auxilios Psicológicos",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @humanamente_co",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-3",
+      "category": "psicosocial",
+      "name": "Universidad Católica de Oriente",
+      "center": "Centro de Atención Psicosocial CAPS",
+      "modality": "Virtual",
+      "department": "Antioquia",
+      "city": "Rionegro",
+      "contact": {
+        "emails": [
+          "consultorios.sec@uco.edu.co",
+          "dmontoya@uco.edu.co"
+        ],
+        "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:consultorios.sec@uco.edu.co  mailto:dmontoya@uco.edu.co"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "correo"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-4",
+      "category": "psicosocial",
+      "name": "Universidad Pontoificia Bolivariana",
+      "center": "Centro de Familia Y Atención Psicológica",
+      "modality": "Virtual",
+      "department": "Antioquia",
+      "city": "Medellín",
+      "contact": {
+        "emails": [
+          "emmanuel.arrubla@upb.edu.co",
+          "jaimealber.giraldo@upb.edu.co"
+        ],
+        "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:jaimealber.giraldo@upb.edu.co mailto:emmanuel.arrubla@upb.edu.co"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "correo"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-5",
+      "category": "psicosocial",
+      "name": "Fundación Universitaria Tecnológico Comfenalco",
+      "center": "Centro de Atención Psicológica",
+      "modality": "Virtual",
+      "department": "Bolívar",
+      "city": "Cartagena",
+      "contact": {
+        "emails": [
+          "Coord.sap@tecnologicocomfenalco.edu.co"
+        ],
+        "raw": "Comunicarse mediante correo: mailto:Coord.sap@tecnologicocomfenalco.edu.co"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "correo"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-6",
+      "category": "psicosocial",
+      "name": "Universidad de San Buenaventura Cali",
+      "center": "Centro de Atención Salud Mental CASMENT",
+      "modality": "Virtual",
+      "department": "Valle del Cauca",
+      "city": "Cali",
+      "contact": {
+        "urls": [
+          "https://f.mtr.cool/hhzxtodnly"
+        ],
+        "raw": "Comunicarse mediante formulario: https://f.mtr.cool/hhzxtodnly"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "formulario"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-7",
+      "category": "psicosocial",
+      "name": "Fundación Unimédicos",
+      "center": "Equipo de psicología",
+      "modality": "Vía telefónica",
+      "department": "Zonas Afectadas",
+      "city": "Zonas Afectadas",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/w2a1y1"
+        ],
+        "phones": [
+          "(3166399910",
+          "(604) 4483422"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/w2a1y1  (3166399910) También puede comunicarse dentro de los departamentos de Antioquia, Córdoba y Chocó con el teléfono: (604) 4483422"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Orientación psicológica",
+      "targetPopulation": "Personas que residan en las zonas afectadas por el evento sísmico.",
+      "source": "Publicación de Instagram de @fundación_unimedicos",
+      "recommendation": "Tener en cuenta que el teléfono fijo funciona en los departamentos de Antioquia, Córdoba y Chocó.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-8",
+      "category": "psicosocial",
+      "name": "Konoha Centro",
+      "center": "Equipo de Psicoterapeutas",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "whatsapp": [
+          "https://api.whatsapp.com/send/?phone=525521843047"
+        ],
+        "phones": [
+          "5255218430",
+          "5521843047"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: http://api.whatsapp.com/send/?phone=525521843047  (+52 5521843047)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Primeros Auxilios Psicológicos",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Comunciación por Instagram con @konohacentro",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-9",
+      "category": "psicosocial",
+      "name": "Universidad Icesi",
+      "center": "Equipo de psicología",
+      "modality": "Presencial",
+      "department": "Valle del Cauca",
+      "city": "Cali",
+      "contact": {
+        "emails": [
+          "maryorozco300@gmail.com"
+        ],
+        "raw": "Comunicarse mediante correo: mailto:maryorozco300@gmail.com"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Primeros Auxilios Psicológicos e intervención en crisis",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "Si la atención es presencial preguntar su ubicación al contactar la entidad.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "correo",
+          "presencial"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-10",
+      "category": "psicosocial",
+      "name": "Alianza entre: Cronopio, Instituto Neurológico del pacífico y Espacio Aurora",
+      "center": "Equipo de psicología y psiquiatría",
+      "modality": "Presencial, Virtual o Telefónica.",
+      "department": "Valle del Cauca",
+      "city": "Cali",
+      "contact": {
+        "phones": [
+          "3142725677",
+          "3147020125",
+          "3023891597"
+        ],
+        "urls": [
+          "https://forms.gle/d935fEKqewpDpGwr9"
+        ],
+        "raw": "Comunicarse mediante formulario: https://forms.gle/d935fEKqewpDpGwr9 También puede comunicarse mediante alguno de los siguientes números: 3023891597, 3147020125 o 3142725677."
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional y Primeros Auxilios Psicológicos",
+      "targetPopulation": "Personas que presneten síntomas de ansiedad, miedo, angustia, crisis de pánico, insomnio o estrés debido al evento sísmico.",
+      "source": "Información suministrada por una psicóloga del Espacio Aurora.",
+      "recommendation": "Si la atención es presencial preguntar su ubicación al contactar la entidad.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "telefono",
+          "formulario",
+          "presencial"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-11",
+      "category": "psicosocial",
+      "name": "Idependiente",
+      "center": "Pscicóloga particular",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/wbpuci"
+        ],
+        "phones": [
+          "(3156059273"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/wbpuci (3156059273) y escribir la frase \"Primeros Auxilios Psicológicos\""
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Primeros Auxilios Psicológicos",
+      "targetPopulation": "Personas directamente afectadas por el evento sísmico y familiares,",
+      "source": "Publicación de Instagram de @psicologavaleriaeusse",
+      "recommendation": "Recordar escribir la frase clave para tener una atención prioritaria.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-12",
+      "category": "psicosocial",
+      "name": "Universidad Antonio Nariño",
+      "center": "Programa de Atención Psicológica",
+      "modality": "Virtual",
+      "department": "Cundinamarca, Tolima y Quindío.",
+      "city": "Bogotá, Armenia e Ibagué",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/zz4swl"
+        ],
+        "phones": [
+          "(3112128017"
+        ],
+        "emails": [
+          "coordinador.cap@uan.edu.co"
+        ],
+        "raw": "Comunicarse mediante correo: mailto:coordinador.cap@uan.edu.co También mediante WhatsApp: https://wa.link/zz4swl (3112128017)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono",
+          "correo"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-13",
+      "category": "psicosocial",
+      "name": "Universidad de La Sabana",
+      "center": "Centro de Servicios de Psicología",
+      "modality": "Virtual",
+      "department": "Cundinamarca",
+      "city": "Chía",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/1jdk6a"
+        ],
+        "phones": [
+          "(3212525559"
+        ],
+        "emails": [
+          "psicologia.csp@unisabana.edu.co"
+        ],
+        "raw": "Comunicarse mediante correo: mailto:psicologia.csp@unisabana.edu.co También mediante WhatsApp: https://wa.link/1jdk6a (3212525559)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono",
+          "correo"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-14",
+      "category": "psicosocial",
+      "name": "Universidad de los Andes",
+      "center": "Centro de Atención Psicológica CAP",
+      "modality": "Virtual",
+      "department": "Cundinamarca",
+      "city": "Bogotá",
+      "contact": {
+        "urls": [
+          "https://f.mtr.cool/degyzdtsuw"
+        ],
+        "raw": "Comunicarse mediante formulario: https://f.mtr.cool/degyzdtsuw"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "formulario"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-15",
+      "category": "psicosocial",
+      "name": "Universidad Cooperativa de Colombia",
+      "center": "Unidad de Servicios y Atención Psicológica",
+      "modality": "Virtual",
+      "department": "Cundinamarca",
+      "city": "Bogotá",
+      "contact": {
+        "emails": [
+          "coordinacionpsi.bog@ucc.edu.co"
+        ],
+        "raw": "Comunicarse mediante correo: mailto:coordinacionpsi.bog@ucc.edu.co"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "correo"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-16",
+      "category": "psicosocial",
+      "name": "Universidad de San Buenaventura Bogotá",
+      "center": "Centro de atención Psicológica Fray Eloy Londoño",
+      "modality": "Virtual",
+      "department": "Cundinamarca",
+      "city": "Bogotá",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/ggjnim"
+        ],
+        "phones": [
+          "(3014414017"
+        ],
+        "emails": [
+          "cap.coordinador@usbbog.edu.co"
+        ],
+        "raw": "Comunicarse mediante correo: mailto:cap.coordinador@usbbog.edu.co También mediante WhastApp: https://wa.link/ggjnim (3014414017)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono",
+          "correo"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-17",
+      "category": "psicosocial",
+      "name": "Fundación Universitaria Konrad Lorenz",
+      "center": "Centro de Psicología Clínica",
+      "modality": "Virtual",
+      "department": "Cundinamarca",
+      "city": "Bogotá",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/ne6vbp"
+        ],
+        "phones": [
+          "(3504199637"
+        ],
+        "urls": [
+          "https://f.mtr.cool/djolgroycv"
+        ],
+        "raw": "Comunicarse mediante formulario: https://f.mtr.cool/djolgroycv También puede agendar apoyo psicológico al WhatsApp: https://wa.link/ne6vbp (3504199637)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono",
+          "formulario"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-18",
+      "category": "psicosocial",
+      "name": "Corporación Universitaria Iberoamericana",
+      "center": "Centro de Servicios Psicológicos Ibero CESPI",
+      "modality": "Virtual",
+      "department": "Cundinamarca",
+      "city": "Bogotá",
+      "contact": {
+        "emails": [
+          "serviciospsicologicos@ibero.edu.co"
+        ],
+        "urls": [
+          "https://f.mtr.cool/efwacdrege"
+        ],
+        "raw": "Comunicarse mediante formulario: https://f.mtr.cool/efwacdrege También mediante el correo: mailto:serviciospsicologicos@ibero.edu.co"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "correo",
+          "formulario"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-19",
+      "category": "psicosocial",
+      "name": "Politécnico Grancolombiano",
+      "center": "Consulta Externa Psicológica CEP",
+      "modality": "Virtual",
+      "department": "Cundinamarca",
+      "city": "Bogotá",
+      "contact": {
+        "emails": [
+          "consultoriopsicologia@poligran.edu.co"
+        ],
+        "raw": "Comunicarse mediante correo: mailto:consultoriopsicologia@poligran.edu.co"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Acompañamiento emocional",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @ascofapsi",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "correo"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-20",
+      "category": "psicosocial",
+      "name": "Alivia",
+      "center": "Unidad de Apoyo Emocional",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/hs17zo"
+        ],
+        "phones": [
+          "(3234904502"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/hs17zo (3234904502)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Primeros Auxilios Emocionales",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación compartida por psicóloga docente de la Universidad del Valle",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-21",
+      "category": "psicosocial",
+      "name": "Más (+) Mente IPS",
+      "center": "Equipo de Psicología",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/dyvjh6"
+        ],
+        "phones": [
+          "(3044667649"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/dyvjh6 (3044667649) y escribir la frase \"SISMO\""
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Primeros Auxilios Psicológicos",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @masmenteips",
+      "recommendation": "Recordar escribir la frase clave para tener una atención prioritaria.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-22",
+      "category": "psicosocial",
+      "name": "Lienzotú",
+      "center": "Equipo de Psicología",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "urls": [
+          "https://lienzotu-lab.com/actividades-grupales/#"
+        ],
+        "raw": "Inscribirse en la opción Colombia, estamos contigo. La cual aparece en el siguiente enlace: https://lienzotu-lab.com/actividades-grupales/#"
+      },
+      "cost": "Gratuito",
+      "condition": "Inscripción previa para los espacios disponibles, los cuales son: 21 y 26 de agosto, y el 2 y 9 de septiembre.",
+      "serviceType": "Espacio de apoyo emocional grupal",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram @lienzotu_col",
+      "recommendation": "Tener en cuenta que el apoyo emocional es grupal y debe inscribirse.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "formulario"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-23",
+      "category": "psicosocial",
+      "name": "Clínica para el ser humano",
+      "center": "Equipo de Psicología",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/9q233j"
+        ],
+        "phones": [
+          "(3013490924"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/9q233j (3013490924)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento y atención desde el 15 hasta el 29 de agosto.",
+      "serviceType": "Primeros Auxilios Psicológicos",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación de Instagram de @clinicaparaelserhumano",
+      "recommendation": "Tener en cuenta que la atención solo estará vigente 2 semanas.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-24",
+      "category": "psicosocial",
+      "name": "Selia",
+      "center": "Equipo de Psicología",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "raw": "Comunicarse mendiante formulario: https://selialatam.typeform.com/to/dKT8Atcx?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRzdgTvcAhwZG9mAmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpzxRLoSQhtKzwWP0zYdghKLcvhRNbBb7nkoDdg3SkipyTe4NBN0_o8PRtX6c_aem_YkJgnS25y8Nw8_evOgqF_A&typeform-source=l.instagram.com"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Primeros Auxilios Psicológicos",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Publicación en Instagram de @selia.co",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-25",
+      "category": "psicosocial",
+      "name": "Fundación Santo",
+      "center": "Programa Porque Quiero Estar Bien",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/ew5jh6"
+        ],
+        "phones": [
+          "(3330333588"
+        ],
+        "raw": "Comunicarse mdeiante WhatsApp o llamada al siguiente número: https://wa.link/ew5jh6 (3330333588)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Orientación psicológica y posible derivación para psicoterapia",
+      "targetPopulation": "Cualquier personas que necesite ayuda psicológica, al igual que aquellas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Comunicación con psicóloga de la Fundación Santo Domingo.",
+      "recommendation": "Horarios de atención: 8:00 a.m. a 1:00 a.m. del día siguiente.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-26",
+      "category": "psicosocial",
+      "name": "Gremio Colombiano de Profesionales de la Psicología",
+      "center": "Equipo de Psicología",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "urls": [
+          "https://grecolp.com/apoyo-psicosocial"
+        ],
+        "raw": "Comunicarse mediante formulario: https://grecolp.com/apoyo-psicosocial"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Apoyo psicosocial y Primeros Auxilios Psicológicos",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Inoformación de la página web del Gremio Colombiano de Profesionales de la Psicología.",
+      "recommendation": "Suministrar información de su situación actual en el formulario.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "formulario"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "profesionales"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-27",
+      "category": "psicosocial",
+      "name": "Fundación Sergio Urrego",
+      "center": "Línea Salvavidas",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/3ma7mu"
+        ],
+        "phones": [
+          "(3117668666"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/3ma7mu (3117668666)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Orientación psicológica y posible derivación para psicoterapia",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Comunicación con psicóloga de la Línea Salvavidas.",
+      "recommendation": "Horarios de atención: De lunes a Sábado de 8:00 a.m. a 10:00 p.m",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-28",
+      "category": "psicosocial",
+      "name": "Idependiente",
+      "center": "Raíces El Arte de Crecer",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/cqydnf"
+        ],
+        "phones": [
+          "(3170336150"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/cqydnf (3170336150)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Red de apoyo voluntario para acompañamiento psicológico",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Información suministrada por un profesional de salud.",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-29",
+      "category": "psicosocial",
+      "name": "Centro de Salud de Desepaz",
+      "center": "Unidad Funcional de Salud Mental Comunitaria (Oriente)",
+      "modality": "Virtual",
+      "department": "Valle del Cauca",
+      "city": "Cali",
+      "contact": {
+        "phones": [
+          "(602) 4377777"
+        ],
+        "raw": "Comunicarse vía telefónica. Indicativo Valle del Cauca (602) 4377777 extensión 2002 o 2003"
+      },
+      "cost": "Según su EPS o si pertenece al SISBÉN",
+      "condition": "Agendamiento",
+      "serviceType": "Atención médica y en Salud Mental.",
+      "targetPopulation": "Atención médica a través de su EPS o si pertenece al régimen subsidiado del SISBÉN.",
+      "source": "Información suministrada por un profesional de salud.",
+      "recommendation": "Si la atención será presencial consultar su ubicación o tener en cuenta que el Centro de Salud Desepaz se encuentra en: Cra 26 # 123-10",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "telefono"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-30",
+      "category": "psicosocial",
+      "name": "Asociación Creemos en Ti",
+      "center": "Equipo de Psicología",
+      "modality": "Virtual",
+      "department": "Zonas Afectadas",
+      "city": "Cobertura en: Chocó, Cali, Pereira y Manizales",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/8z2byf"
+        ],
+        "phones": [
+          "(316 6178134"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/8z2byf (316 6178134)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Primeros Auxilios Psicológicos, escucha y contención emocional.",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico, que puedan presentar aniedad, angustia, miedo intenso o desbordamiento emocional.",
+      "source": "Comunicación con encargado de la Asociación Creemos en Ti.",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-31",
+      "category": "psicosocial",
+      "name": "Programa Cali Diversidad",
+      "center": "Equipo de Psicología",
+      "modality": "Virtual",
+      "department": "Valle del Cauca",
+      "city": "Cali",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/nquei3"
+        ],
+        "phones": [
+          "(3233036110"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/nquei3 (3233036110)"
+      },
+      "cost": "Gratuito",
+      "condition": "Agendamiento",
+      "serviceType": "Orientación en Salud Mental y Apoyo psicosocial.",
+      "targetPopulation": "Población LGBTIQ+",
+      "source": "Información suministrada por un profesional de salud.",
+      "recommendation": "No cuenta con especificaciones.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "lgbtiq"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-32",
+      "category": "psicosocial",
+      "name": "Independiente",
+      "center": "Pilsen Wellness Center / Centro de Bienestar Pilsen",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/io20rb"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/io20rb"
+      },
+      "cost": "Gratuidad para voluntarios y rescatistas valídado por la organización a la que están vinculados. Costo de $25.000 para la demás población.",
+      "condition": "Agendamiento",
+      "serviceType": "Primeros Auxilios Psicológicos y Apoyo emocional en un espacio de 30 minutos. A su vez, consulta psicológica normal con tarifa de convenio.",
+      "targetPopulation": "Personas afectadas directa e indirectamente por el evento sísmico.",
+      "source": "Comunicación con la Directora Ejecutiva de la Fundación Pilsen Wellness Center.",
+      "recommendation": "Tener en cuenta que este acompañmiento tiene una duración de 30 minutos, es gratuito para voluntarios y rescatistas según la organzación a la que pertenezcan y para la demás población tiene un costo de $25.000.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "whatsapp"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "psi-33",
+      "category": "psicosocial",
+      "name": "Colegio Colombiano de Psicólogos COLPSIC",
+      "center": "Profesional con formación y experiencia en trauma y atención en situaciones de emergencia.",
+      "modality": "Virtual",
+      "department": "Nivel Nacional",
+      "city": "",
+      "contact": {
+        "urls": [
+          "https://forms.cloud.microsoft/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAYAAI9RjqpUQVIwR1RJR1U1RUYwUDZTTEFBNElPMVdXWC4u&origin=QRCode&route=shorturl"
+        ],
+        "raw": "Comunicarse mediante formulario: https://forms.cloud.microsoft/pages/responsepage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAYAAI9RjqpUQVIwR1RJR1U1RUYwUDZTTEFBNElPMVdXWC4u&origin=QRCode&route=shorturl"
+      },
+      "cost": "Gratuito",
+      "condition": "Inscripción previa para los espacios disponibles, los cuales son: 20, 21 y 23 de Agosto.",
+      "serviceType": "Es un espacio de cuidado, escucha, apoyo mutuo y presencia respetuosa para aquellas personas que están atendiendo, acompañando o participando en acciones de respuesta durante la emergencia.",
+      "targetPopulation": "Personas que han participado en atención y acompañamiento en respuesta a la emergencia.",
+      "source": "Información suministrada por psicólogo.",
+      "recommendation": "Diligenciar deatlladamente el formulario y tener en cuenta las opciones de fecha y horario para este espacio de encuentro.",
+      "tags": {
+        "urgencia": "agendar",
+        "canales": [
+          "formulario"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "profesionales"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-34",
+      "category": "lineas_emergencia",
+      "name": "Apoyo Psicológico Cali",
+      "city": "Cali",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/kak7kc"
+        ],
+        "phones": [
+          "(3162458423"
+        ],
+        "raw": "Marcar al Indicativo 106 o comunicarse mediante WhatsApp: https://wa.link/kak7kc (3162458423)"
+      },
+      "serviceType": "Es una línea de teleorientación en salud mental, operada por profesionales capacitados en escucha activa, orientación psicológica, intervención en crisis y acompañamiento emocional.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "profesionales"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-35",
+      "category": "lineas_emergencia",
+      "name": "FundaMENTAL",
+      "city": "Bogotá",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/vm2njr"
+        ],
+        "phones": [
+          "(300 754 8933"
+        ],
+        "raw": "Marcar al Indicativo 106 o comunicarse mediante WhatsApp: https://wa.link/vm2njr (300 754 8933)"
+      },
+      "serviceType": "Brinda un espacio de escuha a las personas que lo necesiten y promociona el cuidado de la salud mental, además,  fue diseñada para que los niños, niñas, adolescentes y adultos de todas las edades, reciban escucha y apoyo psicológico por parte de la Secretaría Distrital de Salud.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "otra",
+        "poblacion": [
+          "ninez"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-36",
+      "category": "lineas_emergencia",
+      "name": "Central de Monitoreo Cali",
+      "city": "Cali",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/x8bzzl"
+        ],
+        "phones": [
+          "(3102999708"
+        ],
+        "raw": "Llamar o comunicarse mediante WhatsApp: https://wa.link/x8bzzl (3102999708)"
+      },
+      "serviceType": "Aquellas situaciones relacionadas con la Gestión de Riegos de Emergencias y Desastres de la ciudad.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-37",
+      "category": "lineas_emergencia",
+      "name": "Fiscalía General de la Nación",
+      "city": "Nivel Nacional",
+      "contact": {
+        "raw": "Marcar el Indicativo 122"
+      },
+      "serviceType": "Sirve para recibir denuncias sobre delitos, pedir ayuda si eres víctima, consultar el estado de un caso y recibir orientación jurídica las 24 horas del día.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-38",
+      "category": "lineas_emergencia",
+      "name": "Patrulla Púrpura",
+      "city": "Nivel Nacional",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/rczjft"
+        ],
+        "phones": [
+          "(3188611522"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/rczjft (3188611522). También puede marcar el Indicativo 155 para contactar la Línea Nacional de Orientación a Mujeres Víctimas de Violencia."
+      },
+      "serviceType": "Sirve para prevenir, atender y hacer seguimiento a los casos de violencia intrafamiliar y violencia basada en género.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "mujeres"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-39",
+      "category": "lineas_emergencia",
+      "name": "Casa Matria",
+      "city": "Cali",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/34mzmp",
+          "https://wa.link/y1lxs3"
+        ],
+        "phones": [
+          "(3508032031",
+          "(3116120000"
+        ],
+        "raw": "Comunicarse a la Línea fácil 24/7: https://wa.link/34mzmp (3116120000). También puede comunicarse mediante WhatsApp: https://wa.link/y1lxs3 (3508032031)"
+      },
+      "serviceType": "Disponible para brindar orientación psicosocial y jurídica a mujeres víctimas de violencias basadas en género. Al igual que acompañamiento para la restitución de derechos.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "mujeres"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-40",
+      "category": "lineas_emergencia",
+      "name": "Línea Única de Emergencias Nacional",
+      "city": "Nivel Nacional",
+      "contact": {
+        "phones": [
+          "123"
+        ],
+        "raw": "Marcar al Indicativo: 123"
+      },
+      "serviceType": "Sirve para contactar gratis y de forma inmediata a los organismos de socorro, salud y seguridad ante cualquier situación de peligro, accidente o delito las 24 horas del día",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-41",
+      "category": "lineas_emergencia",
+      "name": "Defensa Civil Colombiana",
+      "city": "Nivel Nacional",
+      "contact": {
+        "raw": "Marcar el indicativo 144"
+      },
+      "serviceType": "Sirve para reportar desastres naturales, inundaciones, deslizamientos, incendios o situaciones de riesgo que requieran ayuda humanitaria y de socorro. También puede solicitar acompañamiento en trauma.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-42",
+      "category": "lineas_emergencia",
+      "name": "Bomberos",
+      "city": "Cali",
+      "contact": {
+        "raw": "Marcar el Indicativo 119"
+      },
+      "serviceType": "Se encragan de apagar incendios, rescatar personas y animales, atender emergencias médicas y cuidar el medio ambiente las 24 horas del día.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "telefono"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-43",
+      "category": "lineas_emergencia",
+      "name": "Instituto Colombiano de Bienestar Familiar en Colombia ICBF",
+      "city": "Nivel Nacional",
+      "contact": {
+        "emails": [
+          "sub.primerainfancia@cali.gov.co",
+          "citasatenciondia.seg@cali.gov.co"
+        ],
+        "raw": "Marcar el indicativo 141. También puede comunicarse a los isguientes correo: mailto:citasatenciondia.seg@cali.gov.co mailto:sub.primerainfancia@cali.gov.co"
+      },
+      "serviceType": "Permite reportar emergencias, hacer denuncias o pedir ayuda sobre maltrato, abuso sexual, trabajo infantil o cualquier riesgo contra niños, niñas y adolescentes en Colombia.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "correo"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "ninez"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-44",
+      "category": "lineas_emergencia",
+      "name": "Programa CaliDiversidad",
+      "city": "Cali",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/nquei3"
+        ],
+        "phones": [
+          "(3233036110"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/nquei3 (3233036110)"
+      },
+      "serviceType": "Brinda aención integral a la población LGBTIQ+ con acompañamiento psicológico, asesoría y orientación jurídica, y desarrolla estrategias para la eliminación de prácticas de discriminación contra la población LGBTIQ+ a través de la prevención de violencias y la garantía y protección de los Derechos Humanos.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "lgbtiq"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-45",
+      "category": "lineas_emergencia",
+      "name": "Programa de Atención a la Discapacidad",
+      "city": "Cali",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/lxeofx"
+        ],
+        "phones": [
+          "(3507329841"
+        ],
+        "emails": [
+          "prog.discapacidad@cali.gov.co"
+        ],
+        "raw": "Comunicarse mediante WhatsApp: https://wa.link/lxeofx (3507329841). También comunicarse mediante correo: mailto:prog.discapacidad@cali.gov.co"
+      },
+      "serviceType": "Promueve la inclusión y los derechos de las personas con discapacidad y sus cuidadores mediante la entrega de ayudas técnicas, tarjetas MIO de transporte, orientación psicosocial y jurídica en los territorios.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "whatsapp",
+          "telefono",
+          "correo"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "discapacidad"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-46",
+      "category": "lineas_emergencia",
+      "name": "Undidad para las Víctimas",
+      "city": "Nivel Nacional",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/1y2u92"
+        ],
+        "phones": [
+          "(3228151101",
+          "(601) 7965150"
+        ],
+        "raw": "Comunicarse medainte WhatsApp: https://wa.link/1y2u92 (3228151101). También puede comunicarse al teléfono: (601) 7965150 Indicativo Cundinamarca."
+      },
+      "serviceType": "Sirve para que las personas afectadas por el conflicto armado realicen trámites y consultas virtuales de forma gratuita, rápida y sin intermediarios",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "nacional",
+        "poblacion": [
+          "victimas_conflicto"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-47",
+      "category": "lineas_emergencia",
+      "name": "Programa Persona Mayor",
+      "city": "Cali",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/0p2ntw"
+        ],
+        "phones": [
+          "(3150548489"
+        ],
+        "raw": "De Lunes a Viernes de 7:30 a.m. a 4:00 p.m Comunicarse mediante WhatsApp: https://wa.link/0p2ntw  (3150548489)"
+      },
+      "serviceType": "Canal de atención telefónica de la Secretaria de Bienestar Social creado para orientar, informar y apoyar a las personas mayores del municipio sin que deban salir de sus casas.",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "whatsapp",
+          "telefono"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "persona_mayor"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "linea-48",
+      "category": "lineas_emergencia",
+      "name": "Secretaria de Bienestar Social",
+      "city": "Cali",
+      "contact": {
+        "phones": [
+          "195",
+          "(602) 8856173"
+        ],
+        "raw": "Ubicación: Avenida 2 Norte # 10-70 en el CAM Centro Administrativo Municipal. Puede marcar al Indicativo: 195 o al teléfono  Línea local 195 o al (602) 8856173"
+      },
+      "serviceType": "Ecargada de diseñar, coordinar y aplicar políticas públicas para proteger a las personas en situación de pobreza, vulnerabilidad o exclusión",
+      "tags": {
+        "urgencia": "ahora",
+        "canales": [
+          "telefono"
+        ],
+        "cobertura": "cali",
+        "poblacion": [
+          "todos"
+        ]
+      },
+      "section": "apoyo-emocional"
+    },
+    {
+      "id": "salud-49",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "ADRES",
+      "contact": {
+        "emails": [
+          "correspondencia2@adres.gov.co",
+          "correspondencia1@adres.gov.co"
+        ],
+        "urls": [
+          "https://www.adres.gov.co/consulte-su-eps"
+        ],
+        "raw": "Línea nacional: 01 8000 423 737 / Indicativo de Cundinamarca (601) 432 27 60 mailto:correspondencia1@adres.gov.co mailto:correspondencia2@adres.gov.co Para consultar su EPS directamente: https://www.adres.gov.co/consulte-su-eps"
+      },
+      "phone": "Línea nacional: 01 8000 423 737 / Indicativo de Cundinamarca (601) 432 27 60",
+      "email": "mailto:correspondencia1@adres.gov.co mailto:correspondencia2@adres.gov.co",
+      "url": "Para consultar su EPS directamente: https://www.adres.gov.co/consulte-su-eps",
+      "userNote": "Debe ingresar tipo y número de documento",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-50",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "SURA EPS",
+      "contact": {
+        "emails": [
+          "rqext@suramericana.com.co"
+        ],
+        "urls": [
+          "https://www.epssura.com/dir-medico"
+        ],
+        "raw": "Línea nacional: 01 8000 519 519 mailto:rqext@suramericana.com.co https://www.epssura.com/dir-medico"
+      },
+      "phone": "Línea nacional: 01 8000 519 519",
+      "email": "mailto:rqext@suramericana.com.co",
+      "url": "https://www.epssura.com/dir-medico",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-51",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "Aliansalud",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/ns4708"
+        ],
+        "phones": [
+          "(601) 756 8000",
+          "(321 3300382"
+        ],
+        "emails": [
+          "utorizaciones@aliansalud.com.co"
+        ],
+        "urls": [
+          "https://www.aliansalud.com.co/Paginas/Canales-de-atencion.aspx"
+        ],
+        "raw": "Línea nacional: 01 8000 123703 / Indicativo de Cundinamarca (601) 756 8000. WhatsApp: https://wa.link/ns4708 (321 3300382) mailto:utorizaciones@aliansalud.com.co https://www.aliansalud.com.co/Paginas/Canales-de-atencion.aspx"
+      },
+      "phone": "Línea nacional: 01 8000 123703 / Indicativo de Cundinamarca (601) 756 8000. WhatsApp: https://wa.link/ns4708 (321 3300382)",
+      "email": "mailto:utorizaciones@aliansalud.com.co",
+      "url": "https://www.aliansalud.com.co/Paginas/Canales-de-atencion.aspx",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-52",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "Asmet salud",
+      "contact": {
+        "phones": [
+          "(602) 8353783"
+        ],
+        "emails": [
+          "centrodecontacto@asmetsalud.com"
+        ],
+        "urls": [
+          "https://www.asmetsalud.com/tramite-a-la-mano"
+        ],
+        "raw": "Línea nacional: 01 8000 913876 / Indicativo del Valle del Cauca (602) 8353783 mailto:centrodecontacto@asmetsalud.com https://www.asmetsalud.com/tramite-a-la-mano"
+      },
+      "phone": "Línea nacional: 01 8000 913876 / Indicativo del Valle del Cauca (602) 8353783",
+      "email": "mailto:centrodecontacto@asmetsalud.com",
+      "url": "https://www.asmetsalud.com/tramite-a-la-mano",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-53",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "Capital Salud",
+      "contact": {
+        "phones": [
+          "(601) 7427257"
+        ],
+        "emails": [
+          "correspondencia@capitalsalud.gov.co"
+        ],
+        "urls": [
+          "https://www.capitalsalud.gov.co/afiliados/"
+        ],
+        "raw": "Línea nacional: 01 8000 122219 / Indicativo de Cundinamarca (601) 7427257 mailto:correspondencia@capitalsalud.gov.co https://www.capitalsalud.gov.co/afiliados/"
+      },
+      "phone": "Línea nacional: 01 8000 122219 / Indicativo de Cundinamarca (601) 7427257",
+      "email": "mailto:correspondencia@capitalsalud.gov.co",
+      "url": "https://www.capitalsalud.gov.co/afiliados/",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-54",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "Emssanar",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/1pxnit"
+        ],
+        "phones": [
+          "(311 6097426",
+          "(601) 3078069"
+        ],
+        "emails": [
+          "gerenciageneral@emssanareps.co"
+        ],
+        "urls": [
+          "https://emssanareps.co/afiliados/subsidiado/tramites/pqr"
+        ],
+        "raw": "Indicativo de Cundinamarca (601) 3078069. Comunicarse mediante WhatsApp: https://wa.link/1pxnit (311 6097426) mailto:gerenciageneral@emssanareps.co https://emssanareps.co/afiliados/subsidiado/tramites/pqr"
+      },
+      "phone": "Indicativo de Cundinamarca (601) 3078069. Comunicarse mediante WhatsApp: https://wa.link/1pxnit (311 6097426)",
+      "email": "mailto:gerenciageneral@emssanareps.co",
+      "url": "https://emssanareps.co/afiliados/subsidiado/tramites/pqr",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-55",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "Famisanar",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/35iqh2"
+        ],
+        "phones": [
+          "300 6438831"
+        ],
+        "emails": [
+          "servicioalcliente@famisanar.com.co"
+        ],
+        "urls": [
+          "https://www.famisanar.com.co/contactanos#"
+        ],
+        "raw": "Línea nacional: 01 8000 116662. Comunicarse medinate WhatsApp: https://wa.link/35iqh2 ( 300 6438831) mailto:servicioalcliente@famisanar.com.co https://www.famisanar.com.co/contactanos#"
+      },
+      "phone": "Línea nacional: 01 8000 116662. Comunicarse medinate WhatsApp: https://wa.link/35iqh2 ( 300 6438831)",
+      "email": "mailto:servicioalcliente@famisanar.com.co",
+      "url": "https://www.famisanar.com.co/contactanos#",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-56",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "Nueva EPS",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/2aak8w"
+        ],
+        "phones": [
+          "(3214459657"
+        ],
+        "emails": [
+          "servicioalcliente@nuevaeps.com.co"
+        ],
+        "urls": [
+          "https://nuevaeps.com.co/personas"
+        ],
+        "raw": "Puede marcar desde su celular al: #961. Comunicarse mediante WhatsApp: https://wa.link/2aak8w (3214459657) mailto:servicioalcliente@nuevaeps.com.co https://nuevaeps.com.co/personas"
+      },
+      "phone": "Puede marcar desde su celular al: #961. Comunicarse mediante WhatsApp: https://wa.link/2aak8w (3214459657)",
+      "email": "mailto:servicioalcliente@nuevaeps.com.co",
+      "url": "https://nuevaeps.com.co/personas",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-57",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "COOSALUD",
+      "contact": {
+        "emails": [
+          "defensorusuario@coosalud.com"
+        ],
+        "urls": [
+          "https://coosalud.com/"
+        ],
+        "raw": "Línea nacional: 01 8000 515611 mailto:defensorusuario@coosalud.com https://coosalud.com/"
+      },
+      "phone": "Línea nacional: 01 8000 515611",
+      "email": "mailto:defensorusuario@coosalud.com",
+      "url": "https://coosalud.com/",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-58",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "Sanitas",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/j430c2"
+        ],
+        "phones": [
+          "(3202550525",
+          "0180009191"
+        ],
+        "emails": [
+          "comunicacioneseps@colsanitas.com"
+        ],
+        "urls": [
+          "https://www.epssanitas.com/usuarios/web/nuevo-portal-eps#gsc.tab=0"
+        ],
+        "raw": "Línea nacional: 018000919100. Comunicarse mediante WhatsApp: https://wa.link/j430c2 (3202550525) mailto:comunicacioneseps@colsanitas.com https://www.epssanitas.com/usuarios/web/nuevo-portal-eps#gsc.tab=0"
+      },
+      "phone": "Línea nacional: 018000919100. Comunicarse mediante WhatsApp: https://wa.link/j430c2 (3202550525)",
+      "email": "mailto:comunicacioneseps@colsanitas.com",
+      "url": "https://www.epssanitas.com/usuarios/web/nuevo-portal-eps#gsc.tab=0",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-59",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "Servicios de salud estudiantes univalle",
+      "contact": {
+        "phones": [
+          "(602) 3212100"
+        ],
+        "urls": [
+          "https://vicebienestar.univalle.edu.co/servicio-medico-estudiantil"
+        ],
+        "raw": "Indicativo Valle del Cauca (602) 3212100 ext. 7686  https://vicebienestar.univalle.edu.co/servicio-medico-estudiantil"
+      },
+      "phone": "Indicativo Valle del Cauca (602) 3212100 ext. 7686",
+      "email": "",
+      "url": "https://vicebienestar.univalle.edu.co/servicio-medico-estudiantil",
+      "userNote": "",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-60",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "Comfandi SOS",
+      "contact": {
+        "emails": [
+          "notificacionesjudiciales@comfandi.com.co"
+        ],
+        "urls": [
+          "https://www.sos.com.co/"
+        ],
+        "raw": "Indicativo Valle del Cauca (602) 489 86 86 mailto:notificacionesjudiciales@comfandi.com.co https://www.sos.com.co/"
+      },
+      "phone": "Indicativo Valle del Cauca (602) 489 86 86",
+      "email": "mailto:notificacionesjudiciales@comfandi.com.co",
+      "url": "https://www.sos.com.co/",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-61",
+      "category": "salud",
+      "subcategory": "eps",
+      "name": "Comfenalco EPS",
+      "contact": {
+        "phones": [
+          "(602) 4853530"
+        ],
+        "emails": [
+          "solicitudeseps@epsdelagente.com.co"
+        ],
+        "urls": [
+          "https://www.epsdelagente.com.co/"
+        ],
+        "raw": "Indicativo Valle del Cauca (602) 4853530. Marcar 1 o 2 para Orientacion  Psicológica mailto:solicitudeseps@epsdelagente.com.co https://www.epsdelagente.com.co/"
+      },
+      "phone": "Indicativo Valle del Cauca (602) 4853530. Marcar 1 o 2 para Orientacion  Psicológica",
+      "email": "mailto:solicitudeseps@epsdelagente.com.co",
+      "url": "https://www.epsdelagente.com.co/",
+      "userNote": "Se debe crear usuario",
+      "tags": {
+        "tipo": "eps"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-62",
+      "category": "salud",
+      "subcategory": "regimenes",
+      "name": "Policia Nacional",
+      "contact": {
+        "phones": [
+          "(601) 3788990"
+        ],
+        "urls": [
+          "https://sgs.policia.gov.co:8080/pss"
+        ],
+        "raw": "Indicativo de Cundinamarca (601) 3788990  https://sgs.policia.gov.co:8080/pss"
+      },
+      "phone": "Indicativo de Cundinamarca (601) 3788990",
+      "email": "",
+      "url": "https://sgs.policia.gov.co:8080/pss",
+      "userNote": "Debe tener usuario ya creado",
+      "tags": {
+        "tipo": "regimen_especial"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-63",
+      "category": "salud",
+      "subcategory": "regimenes",
+      "name": "Magisterio",
+      "contact": {
+        "phones": [
+          "(601) 9169223"
+        ],
+        "emails": [
+          "servicioalcliente@fiduprevisora.com.co"
+        ],
+        "urls": [
+          "https://www.fomag.gov.co/"
+        ],
+        "raw": "Línea nacional: (01800) 016-0500 / Indicativo de Cundinamarca  (601) 9169223 mailto:servicioalcliente@fiduprevisora.com.co https://www.fomag.gov.co/"
+      },
+      "phone": "Línea nacional: (01800) 016-0500 / Indicativo de Cundinamarca  (601) 9169223",
+      "email": "mailto:servicioalcliente@fiduprevisora.com.co",
+      "url": "https://www.fomag.gov.co/",
+      "userNote": "Debe tener usuario ya creado",
+      "tags": {
+        "tipo": "regimen_especial"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-64",
+      "category": "salud",
+      "subcategory": "regimenes",
+      "name": "Servicio de salud universidad del Valle",
+      "contact": {
+        "emails": [
+          "servicliente.servisalud@correounivalle.edu.co"
+        ],
+        "urls": [
+          "https://vicebienestar.univalle.edu.co/servicio-medico-cotizantes/inicio"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 321 29 90 mailto:servicliente.servisalud@correounivalle.edu.co https://vicebienestar.univalle.edu.co/servicio-medico-cotizantes/inicio"
+      },
+      "phone": "Indicativo del Valle del Cauca (602) 321 29 90",
+      "email": "mailto:servicliente.servisalud@correounivalle.edu.co",
+      "url": "https://vicebienestar.univalle.edu.co/servicio-medico-cotizantes/inicio",
+      "userNote": "",
+      "tags": {
+        "tipo": "regimen_especial"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "salud-65",
+      "category": "salud",
+      "subcategory": "redes",
+      "name": "Rutas de atención damnificados terremoto",
+      "contact": {
+        "urls": [
+          "https://www.cali.gov.co/gobierno/publicaciones/193729/rutas-de-atencion-damnificados-terremoto/"
+        ],
+        "raw": "El link cuenta con los numeros telefonicos dependiendo la necesidad. El link cuenta conn toda la informacion necesaria para lograr en acceso de la persona con la entidad correspondiente https://www.cali.gov.co/gobierno/publicaciones/193729/rutas-de-atencion-damnificados-terremoto/"
+      },
+      "phone": "El link cuenta con los numeros telefonicos dependiendo la necesidad.",
+      "email": "El link cuenta conn toda la informacion necesaria para lograr en acceso de la persona con la entidad correspondiente",
+      "url": "https://www.cali.gov.co/gobierno/publicaciones/193729/rutas-de-atencion-damnificados-terremoto/",
+      "userNote": "No deben crear usuarios",
+      "tags": {
+        "tipo": "informacion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-66",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Punto Capri",
+      "address": "Sector Capri",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-67",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Punto Palmetto",
+      "address": "Sector Palmetto",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-68",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Diamante de Béisbol",
+      "address": "Calle 9 # 37A-01 Unidad Deportiva Jaime Aparicio",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención prehospitalaria y primeros auxilios.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-69",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Barrio El Lido",
+      "address": "Calle 5 con Carrera 44",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-70",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Barrio El Refugio",
+      "address": "Carrera 64 con Calle 4",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención prehospitalaria y urgencias de primer nivel.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-71",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Sector de Barrios: Pampalinda y Cuarto de Legua - Guadalupe",
+      "address": "Calle 4 con Carrera 56",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención médica básica y contención psicológica.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-72",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Barrio Pampalinda",
+      "address": "Sector Pampalinda Calle 5a",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención prehospitalaria de primer nivel.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-73",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Sector de Tequendama",
+      "address": "Avenida Roosevelt con Carrera 39",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención médica inmediata y clasificación.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-74",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Sector Nueva Tequendama",
+      "address": "Ubicado entre Calle 5 y Avenida Roosevelt, cerca a la Carrera 42",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención prehospitalaria y apoyo psicosocial.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-75",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Sector de Alameda",
+      "address": "Ubicado entre la Calle 5, la Calle 9B y Carreras como la 23, 25 y 26",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención prehospitalaria y primeros auxilios.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-76",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural / Puesto Móvil",
+      "name": "Barrio Los Cámbulos",
+      "address": "Calle 9 con Carrera 44",
+      "contact": {
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+      },
+      "serviceType": "Atención médica de primer nivel y primeros auxilios.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-77",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural (Red Ladera)",
+      "name": "Punto Red Ladera - Calle 4",
+      "address": "Calle 4 con Carrera 62",
+      "contact": {
+        "phones": [
+          "(602) 893 7700"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 893 7700 (Ladera)"
+      },
+      "serviceType": "Atención médica prioritaria y soporte psicosocial.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-78",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural (Red Ladera)",
+      "name": "Punto Red Ladera - Meléndez/El Refugio",
+      "address": "Calle 4 con Carrera 55",
+      "contact": {
+        "phones": [
+          "(602) 893 7700"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 893 7700 (Ladera)"
+      },
+      "serviceType": "Valoración médica inmediata y curaciones",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-79",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural (Red Ladera)",
+      "name": "Punto Red Ladera - Capri/Pasoancho",
+      "address": "Carrera 72 # 10 Bis-21",
+      "contact": {
+        "phones": [
+          "(602) 893 7700"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 893 7700 (Ladera)"
+      },
+      "serviceType": "Atención médica prioritaria y psicosocial.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-80",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural (Red Ladera)",
+      "name": "Punto Red Ladera - Tequendama",
+      "address": "Carrera 39A #5D-26",
+      "contact": {
+        "phones": [
+          "(602) 893 7700"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 893 7700 (Ladera)"
+      },
+      "serviceType": "Equipos interdisciplinarios y atención médica",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-81",
+      "category": "atencion_primaria",
+      "modality": "Punto Extramural (Red Ladera)",
+      "name": "Ciudadela Petronio / Unidad Deportiva Alberto Galindo",
+      "address": "Carrera 52 #2-68. Alrededor del Sector del Coliseo El Pueblo",
+      "contact": {
+        "phones": [
+          "(602) 893 7700"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 893 7700 (Ladera)"
+      },
+      "serviceType": "Atención extramural de contingencia",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-82",
+      "category": "atencion_primaria",
+      "modality": "Dispositivo Móvil de Salud",
+      "name": "Unidad Móvil Habitante de Calle / Bienestar",
+      "address": "Ubicado en sectores como: Chiminangos, El Refugio, Los Cámbulos, entre otros, consultar.",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/x8bzzl"
+        ],
+        "phones": [
+          "(3102999708"
+        ],
+        "raw": "Central de Monitoreo Cali, Emergencias. Comunicarse mediante WhatsApp: https://wa.link/x8bzzl (3102999708)"
+      },
+      "serviceType": "Medicina general, enfermería, odontología y entrega de kits.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "punto_atencion"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-83",
+      "category": "atencion_primaria",
+      "modality": "Hospital / IPS de Primer Nivel",
+      "name": "Hospital Cañaveralejo (Red Ladera)",
+      "address": "Calle 3 Oeste # 12A-20 (Siloé)",
+      "contact": {
+        "phones": [
+          "(602) 893 7700"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 893 7700 (Ladera)"
+      },
+      "serviceType": "Servicio de Urgencias 24/7 activo.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "hospital"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-84",
+      "category": "atencion_primaria",
+      "modality": "Hospital / IPS de Primer Nivel",
+      "name": "Hospital San Juan de Dios",
+      "address": "Carrera 4 # 13-41 (Centro)",
+      "contact": {
+        "phones": [
+          "(602) 888 2000"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 888 2000"
+      },
+      "serviceType": "Atención prioritaria y de urgencias activa.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "hospital"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-85",
+      "category": "atencion_primaria",
+      "modality": "Hospital / IPS de Primer Nivel",
+      "name": "Hospital Primitivo Iglesias (Red Centro)",
+      "address": "Carrera 16 # 33D-20",
+      "contact": {
+        "phones": [
+          "(602) 486 5555"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 486 5555"
+      },
+      "serviceType": "Servicios de urgencias y primer nivel plenamente operativos.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "hospital"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-86",
+      "category": "atencion_primaria",
+      "modality": "Hospital / IPS de Primer Nivel",
+      "name": "Hospital Carlos Holmes Trujillo (Red Oriente)",
+      "address": "Calle 72U # 28E-00",
+      "contact": {
+        "phones": [
+          "(602) 485 0700"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 485 0700"
+      },
+      "serviceType": "Atención continua de urgencias de primer nivel.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "hospital"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-87",
+      "category": "atencion_primaria",
+      "modality": "Hospital / IPS de Primer Nivel",
+      "name": "Hospital Isaías Duarte Cancino",
+      "address": "Calle 96 # 28D-01",
+      "contact": {
+        "phones": [
+          "(602) 485 2400"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 485 2400"
+      },
+      "serviceType": "Urgencias operativas y recepción de remisiones.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "hospital"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "aps-88",
+      "category": "atencion_primaria",
+      "modality": "Hospital / IPS de Primer Nivel",
+      "name": "Hospital Mario Correa Rengifo",
+      "address": "Carrera 78 # 2A-00 (La Bundita)",
+      "contact": {
+        "phones": [
+          "(602) 318 1200"
+        ],
+        "raw": "Indicativo del Valle del Cauca (602) 318 1200"
+      },
+      "serviceType": "Atención de urgencias y primer/segundo nivel.",
+      "city": "Cali",
+      "tags": {
+        "tipo": "hospital"
+      },
+      "section": "salud"
+    },
+    {
+      "id": "cap-89",
+      "category": "capacitacion",
+      "name": "Página Web PORTI",
+      "description": "PORTI (Portal sobre el Impacto en la Salud Mental de las Emergencias y Desastres) es una iniciativa independiente creada con el propósito de reunir, organizar y difundir información confiable sobre las consecuencias psicológicas de las emergencias y los desastres, así como recursos prácticos que orienten tanto a profesionales como a la comunidad en general.",
+      "contact": {
+        "urls": [
+          "https://portaldeayudaemergenciasydesastres.com/"
+        ],
+        "raw": "https://portaldeayudaemergenciasydesastres.com/"
+      },
+      "tags": {
+        "audiencia": "profesionales",
+        "formato": "web"
+      },
+      "section": "guias"
+    },
+    {
+      "id": "cap-90",
+      "category": "capacitacion",
+      "name": "Manual ABCDE para la aplicación de Primeros Auxilios Psicológicos",
+      "description": "Es una guía práctica para aprender a brindar Primeros Auxilios Psicológicos (PAP) a personas que atraviesan situaciones de crisis, emergencia o experiencias potencialmente traumáticas. Presenta el protocolo ABCDE, que orienta paso a paso la intervención mediante la escucha activa, el manejo de la respiración, la identificación y priorización de necesidades, la conexión con redes de apoyo y la psicoeducación.",
+      "contact": {
+        "urls": [
+          "https://pavlov.psyciencia.com/2018/09/59897_auxiliar.pdf"
+        ],
+        "raw": "https://pavlov.psyciencia.com/2018/09/59897_auxiliar.pdf"
+      },
+      "tags": {
+        "audiencia": "personas_afectadas",
+        "formato": "pdf"
+      },
+      "section": "guias"
+    },
+    {
+      "id": "cap-91",
+      "category": "capacitacion",
+      "name": "¿Cómo no romatizar el trauma?",
+      "description": "Es una publiación de Intsagram de una psicóloga donde se plasma que aquellas vivencias que son experimentadas como traumáticas para alguna persona debe ser transitada sin el peso de aprender una lección de ella, ya que no se necesita preguntarle inmediatamente al trauma \"¿qué me vas a eneseñar?\", sino que inicialmente se le debería preguntar \"¿Qué necesito para sentirme seguro otra vez?\"",
+      "contact": {
+        "instagram": [
+          "https://www.instagram.com/p"
+        ],
+        "raw": "https://www.instagram.com/p/DcAEtzNDiZV"
+      },
+      "tags": {
+        "audiencia": "personas_afectadas",
+        "formato": "web"
+      },
+      "section": "guias"
+    },
+    {
+      "id": "cap-92",
+      "category": "capacitacion",
+      "name": "Decálogo para el profesional que cuida de la salud mental de una población en situaciones de emergencia",
+      "description": "Recurso orientado a profesionales de la psicología que brinda recomendaciones y pautas básicas para la atención y el cuidado de la salud mental en situaciones de emergencia. Aborda aspectos como la valoración inicial, la comunicación, la intervención en crisis, el fortalecimiento de redes de apoyo, la remisión y el autocuidado del profesional",
+      "contact": {
+        "urls": [
+          "https://www.colpsic.org.co/wp-content/uploads/2023/08/Decalogo-3.pdf"
+        ],
+        "raw": "https://www.colpsic.org.co/wp-content/uploads/2023/08/Decalogo-3.pdf"
+      },
+      "tags": {
+        "audiencia": "profesionales",
+        "formato": "pdf"
+      },
+      "section": "guias"
+    },
+    {
+      "id": "cap-93",
+      "category": "capacitacion",
+      "name": "Caja de Herramientas para la Seguridad Comunitaria",
+      "description": "Conjunto de recursos metodológicos, pedagógicos y gráficos orientados al fortalecimiento de la seguridad y la convivencia comunitaria. Incluye herramientas para reconocer situaciones de riesgo, identificar emociones, analizar violencias, mapear actores, registrar incidentes y construir acuerdos colectivos. Puede ser útil para profesionales, organizaciones y comunidades que desarrollen procesos de acompañamiento, participación, prevención de violencias y fortalecimiento de redes comunitarias.",
+      "contact": {
+        "urls": [
+          "https://www.caribeafirmativo.lgbt/casas-caribe-afirmativo/caja-herramientas/"
+        ],
+        "raw": "https://www.caribeafirmativo.lgbt/casas-caribe-afirmativo/caja-herramientas/"
+      },
+      "tags": {
+        "audiencia": "profesionales",
+        "formato": "web"
+      },
+      "section": "guias"
+    },
+    {
+      "id": "cap-94",
+      "category": "capacitacion",
+      "name": "Cuidarse en Medio de la Crisis",
+      "description": "Guía práctica de apoyo psicoemocional para personas afectadas por un terremoto, que facilita el reconocimiento y la expresión de emociones asociadas al duelo y la pérdida, brinda estrategias de autocuidado y regulación emocional, fortalece la identificación de redes de apoyo y orienta sobre señales que indican la necesidad de buscar acompañamiento profesional.",
+      "contact": {
+        "urls": [
+          "https://cuidarse-en-medio-de-la-crisis.netlify.app/"
+        ],
+        "raw": "https://cuidarse-en-medio-de-la-crisis.netlify.app/"
+      },
+      "tags": {
+        "audiencia": "profesionales",
+        "formato": "web"
+      },
+      "section": "guias"
+    },
+    {
+      "id": "cap-95",
+      "category": "capacitacion",
+      "name": "Gestión de la atención en emergencias",
+      "description": "Es un material audiovisual donde profesionales de psicología abordar aspectosa tener cuenta al atender una emergencia y cómo propiciar el binestar psicosocial.",
+      "contact": {
+        "urls": [
+          "https://www.youtube.com/watch?v=94dXeYDa3l4"
+        ],
+        "raw": "https://www.youtube.com/watch?v=94dXeYDa3l4"
+      },
+      "tags": {
+        "audiencia": "profesionales",
+        "formato": "video"
+      },
+      "section": "guias"
+    },
+    {
+      "id": "web-96",
+      "category": "interactivas",
+      "name": "ConectaColombia7.4",
+      "contact": {
+        "urls": [
+          "https://www.conectacolombia.org/"
+        ],
+        "raw": "https://www.conectacolombia.org/"
+      },
+      "description": "Personas y comunidades están creando iniciativas para ayudar en emergencias. Explora, participa y conecta con quienes están aportando en tiempo real.",
+      "tags": {
+        "audiencia": "comunidad",
+        "formato": "web"
+      },
+      "section": "guias"
+    },
+    {
+      "id": "web-97",
+      "category": "interactivas",
+      "name": "Colombia Te Busca",
+      "contact": {
+        "urls": [
+          "https://colombiatebusca.com/"
+        ],
+        "raw": "https://colombiatebusca.com/"
+      },
+      "description": "Si no logras comunicarte con una persona, repórtala aquí. Si ya fue localizada, actualiza la información para llevar tranquilidad a su familia y a la comunidad.",
+      "tags": {
+        "audiencia": "comunidad",
+        "formato": "web"
+      },
+      "section": "guias"
+    },
+    {
+      "id": "alb-98",
+      "category": "albergues",
+      "subcategory": "oficial",
+      "name": "Coliseo de Hockey",
+      "city": "Cali",
+      "address": "Calle 9 # 38-34",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/x8bzzl"
+        ],
+        "phones": [
+          "(3102299708"
+        ],
+        "raw": "Comuinicarse por llamada o WhatsApp: https://wa.link/x8bzzl (3102299708)"
+      },
+      "tags": {
+        "tipo": "oficial"
+      },
+      "section": "refugio"
+    },
+    {
+      "id": "alb-99",
+      "category": "albergues",
+      "subcategory": "oficial",
+      "name": "Coliseo Metropolitano del Norte",
+      "city": "Cali",
+      "address": "Carrera 1A 12 # 69-26",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/x8bzzl"
+        ],
+        "phones": [
+          "(3102299708"
+        ],
+        "raw": "Comuinicarse por llamada o WhatsApp: https://wa.link/x8bzzl (3102299708)"
+      },
+      "tags": {
+        "tipo": "oficial"
+      },
+      "section": "refugio"
+    },
+    {
+      "id": "alb-100",
+      "category": "albergues",
+      "subcategory": "comunitario",
+      "name": "CIDIES Parque Los Pinos",
+      "city": "Cali",
+      "address": "Carrera 96 # 2B Oeste-25. Barrio Polvorines",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/4fl1br"
+        ],
+        "phones": [
+          "(3104723622"
+        ],
+        "raw": "Línea Comunitaria de WhatsApp: https://wa.link/4fl1br  (3104723622)"
+      },
+      "tags": {
+        "tipo": "comunitario"
+      },
+      "section": "refugio"
+    },
+    {
+      "id": "alb-101",
+      "category": "albergues",
+      "subcategory": "comunitario",
+      "name": "Barrio Chiminangos",
+      "city": "Cali",
+      "address": "Calle 62 con Carrera 1",
+      "contact": {},
+      "tags": {
+        "tipo": "comunitario"
+      },
+      "section": "refugio"
+    },
+    {
+      "id": "alb-102",
+      "category": "albergues",
+      "subcategory": "comunitario",
+      "name": "Bueno Madrid",
+      "city": "Cali",
+      "address": "Calle 34 con Carrera 5",
+      "contact": {},
+      "tags": {
+        "tipo": "comunitario"
+      },
+      "section": "refugio"
+    },
+    {
+      "id": "acopio-103",
+      "category": "acopio",
+      "name": "Ciudadela Petronio / Unidad Deportiva Alberto Galindo",
+      "status": "Activo",
+      "address": "Carrera 52 #2-68. Alrededor del Sector del Coliseo El Pueblo",
+      "city": "Cali",
+      "tags": {
+        "estado": "Activo"
+      },
+      "section": "donaciones"
+    },
+    {
+      "id": "acopio-104",
+      "category": "acopio",
+      "name": "Plazoleta Jairo Varela",
+      "status": "Activo",
+      "address": "Avenida 2 Norte con Calle 10",
+      "city": "Cali",
+      "tags": {
+        "estado": "Activo"
+      },
+      "section": "donaciones"
+    },
+    {
+      "id": "acopio-105",
+      "category": "acopio",
+      "name": "Banco de Alimentos",
+      "status": "Activo",
+      "address": "Calle 77 # 25-156. Barrio Alfonso Bonilla Aragón",
+      "city": "Cali",
+      "tags": {
+        "estado": "Activo"
+      },
+      "section": "donaciones"
+    },
+    {
+      "id": "acopio-106",
+      "category": "acopio",
+      "name": "Arena Cañaveralejo / Plaza de Toros",
+      "status": "Activo",
+      "address": "Carrera 56 #3-153",
+      "city": "Cali",
+      "tags": {
+        "estado": "Activo"
+      },
+      "section": "donaciones"
+    },
+    {
+      "id": "acopio-107",
+      "category": "acopio",
+      "name": "La Casa del Pueblo",
+      "status": "Activo",
+      "address": "Carrera 9 #4-25. Barrio San Antonio",
+      "city": "Cali",
+      "tags": {
+        "estado": "Activo"
+      },
+      "section": "donaciones"
+    },
+    {
+      "id": "acopio-108",
+      "category": "acopio",
+      "name": "Fundación Comedor Comunitario Santa Isabel",
+      "status": "Activo",
+      "address": "Crarrera 38D # 4-39",
+      "city": "Cali",
+      "tags": {
+        "estado": "Activo"
+      },
+      "section": "donaciones"
+    },
+    {
+      "id": "acopio-109",
+      "category": "acopio",
+      "name": "Unicentro Cali",
+      "status": "Activo",
+      "address": "Carrera 100 # 5-169",
+      "city": "Cali",
+      "tags": {
+        "estado": "Activo"
+      },
+      "section": "donaciones"
+    },
+    {
+      "id": "acopio-110",
+      "category": "acopio",
+      "name": "Templo de la Moda",
+      "status": "Activo",
+      "address": "Calle 9 con Carrera 26. Sede Alameda",
+      "city": "Cali",
+      "tags": {
+        "estado": "Activo"
+      },
+      "section": "donaciones"
+    },
+    {
+      "id": "acopio-111",
+      "category": "acopio",
+      "name": "Centro Deportivo Universitario CDU San Fernando",
+      "status": "Activo",
+      "address": "Calle 4b #36-00. Barrio El Sindicato",
+      "city": "Cali",
+      "tags": {
+        "estado": "Activo"
+      },
+      "section": "donaciones"
+    },
+    {
+      "id": "fun-112",
+      "category": "funerarios",
+      "name": "Secretaría de Bienestar Social",
+      "status": "Activo",
+      "address": "Puestos de Mando Unificado: Cruz Roja en Carrera 38 bis #5-91 y CAM en Avenida 2N #10-70",
+      "requirements": "1. Documento de identidad del familiar solicitante y de la persona fallecida. 2. Certificado o registro de defunción. 3. Epicrisis o certificado médico expedido por la institución de salud que atendió la situación.",
+      "contact": {
+        "whatsapp": [
+          "https://wa.link/x8bzzl"
+        ],
+        "phones": [
+          "(602) 518 4611",
+          "(602) 880 1785",
+          "317 642 1117",
+          "(3102299708",
+          "313 778 8460"
+        ],
+        "raw": "Whatsapp: https://wa.link/x8bzzl (3102299708)\nCall Center de Atención: (602) 518 4611 o (602) 880 1785.Línea Celular Directa: 317 642 1117 o 313 778 8460"
+      },
+      "tags": {},
+      "section": "funerarios"
+    },
+    {
+      "id": "fun-113",
+      "category": "funerarios",
+      "name": "Alianza Solidaria Nacional",
+      "status": "Activo",
+      "address": "No aplica",
+      "requirements": "",
+      "contact": {
+        "phones": [
+          "320 315 4976",
+          "314 213 8930",
+          "311 561 4854"
+        ],
+        "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523."
+      },
+      "tags": {},
+      "section": "funerarios"
+    }
+  ],
+  "meta": {
+    "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
+    "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
+    "extracted": "2026-08-21",
+    "total": 113
+  }
+}

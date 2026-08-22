@@ -1,0 +1,38 @@
+export function Footer() {
+  return (
+    <footer className="border-t border-[var(--border)] bg-[var(--surface)]">
+      <div className="mx-auto max-w-6xl px-4 py-8 space-y-6">
+        <div className="flex flex-wrap justify-center items-center gap-6">
+          <a href="https://www.univalle.edu.co/" target="_blank" rel="noreferrer">
+            <img src="/logos/logo1.png" alt="Universidad del Valle" className="h-12 w-auto object-contain" />
+          </a>
+        </div>
+
+        <div className="text-center space-y-2">
+          <p className="text-sm text-[var(--muted)]">
+            <strong className="text-[var(--foreground)]">Programa Univalle Contigo</strong> · Universidad del Valle
+          </p>
+          <p className="text-xs text-[var(--muted)]">
+            Datos curados por el equipo del Programa Univalle Contigo.
+          </p>
+          <p className="text-xs text-[var(--muted)]">
+            Elaboración técnica por <strong className="text-[var(--foreground)]">Mateo Belalcázar Correa</strong> (MSc),{" "}
+            <a href="https://psicologia.univalle.edu.co/?id=834" target="_blank" rel="noreferrer" className="text-[var(--accent)] hover:underline">CIDEAS</a>,{" "}
+            <a href="https://psicologia.univalle.edu.co/" target="_blank" rel="noreferrer" className="text-[var(--accent)] hover:underline">Facultad de Psicología</a>,{" "}
+            Universidad del Valle.
+          </p>
+          <div className="flex justify-center gap-4 pt-2">
+            <a
+              href="https://reconstruir-psi.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+              className="text-xs text-[var(--accent)] hover:underline"
+            >
+              Guías de recuperación →
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
