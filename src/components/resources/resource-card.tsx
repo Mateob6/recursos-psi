@@ -2,11 +2,38 @@
 
 import { SECTIONS, type Resource } from "@/lib/types";
 
+function extractPhoneNumber(raw: string): string | null {
+  const match = raw.match(/\(?\d[\d\s()+-]{6,}/);
+  return match ? match[0].trim() : null;
+}
+
 function ContactActions({ resource }: { resource: Resource }) {
   const c = resource.contact;
   if (!c) return null;
 
+  const explicitContacts: { icon: string; value: string }[] = [];
   const actions: { label: string; href: string; icon: string; primary?: boolean }[] = [];
+
+  if (c.phones?.length) {
+    c.phones.forEach((p) => {
+      const clean = p.replace(/\s+/g, " ").trim();
+      if (clean.length >= 7) explicitContacts.push({ icon: "📞", value: clean });
+    });
+  }
+
+  if (!c.phones?.length && resource.phone) {
+    const num = extractPhoneNumber(resource.phone);
+    if (num) explicitContacts.push({ icon: "📞", value: num });
+  }
+
+  if (c.emails?.length) {
+    c.emails.forEach((e) => explicitContacts.push({ icon: "✉️", value: e }));
+  }
+
+  if (!c.emails?.length && resource.email) {
+    const emails = resource.email.match(/[\w.+-]+@[\w-]+\.[\w.]+/g);
+    emails?.forEach((e) => explicitContacts.push({ icon: "✉️", value: e }));
+  }
 
   if (c.whatsapp?.length) {
     actions.push({
@@ -65,22 +92,36 @@ function ContactActions({ resource }: { resource: Resource }) {
     }
   }
 
-  if (!actions.length) return null;
+  if (!actions.length && !explicitContacts.length) return null;
 
   return (
-    <div className="flex flex-wrap gap-2 pt-3 border-t border-[var(--border)]">
-      {actions.map((a) => (
-        <a
-          key={a.href}
-          href={a.href}
-          target={a.href.startsWith("http") ? "_blank" : undefined}
-          rel={a.href.startsWith("http") ? "noreferrer" : undefined}
-          className={a.primary ? "action-btn action-btn-primary" : "action-btn"}
-        >
-          <span>{a.icon}</span>
-          {a.label}
-        </a>
-      ))}
+    <div className="pt-3 border-t border-[var(--border)] space-y-2">
+      {explicitContacts.length > 0 && (
+        <div className="space-y-1">
+          {explicitContacts.map((item, i) => (
+            <p key={i} className="text-xs text-[var(--muted)] flex items-start gap-1.5 select-all">
+              <span className="shrink-0">{item.icon}</span>
+              <span className="break-all font-mono">{item.value}</span>
+            </p>
+          ))}
+        </div>
+      )}
+      {actions.length > 0 && (
+        <div className="flex flex-wrap gap-2">
+          {actions.map((a) => (
+            <a
+              key={a.href}
+              href={a.href}
+              target={a.href.startsWith("http") ? "_blank" : undefined}
+              rel={a.href.startsWith("http") ? "noreferrer" : undefined}
+              className={a.primary ? "action-btn action-btn-primary" : "action-btn"}
+            >
+              <span>{a.icon}</span>
+              {a.label}
+            </a>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
