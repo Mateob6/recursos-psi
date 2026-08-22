@@ -1,18 +1,18 @@
 # Recursos Psi
 
 - **URL:** https://recursos-psi.vercel.app
-- **Repo:** (pendiente crear en GitHub)
+- **Repo:** https://github.com/Mateob6/recursos-psi
 
 ## Qué es
 
-Directorio interactivo de recursos de apoyo biopsicosocial para personas afectadas por el terremoto M7.4 de agosto 2026 en Colombia. Parte del programa **Univalle Contigo** de la Facultad de Psicología, Universidad del Valle. Permite buscar, filtrar y contactar servicios psicológicos, de salud, albergues, puntos de acopio y líneas de emergencia.
+Directorio interactivo de recursos de apoyo biopsicosocial para personas afectadas por el terremoto M7.4 de agosto 2026 en Colombia. Parte del **Programa Univalle Contigo**, Facultad de Psicología, Universidad del Valle. Permite buscar, filtrar y contactar servicios psicológicos, de salud, albergues, puntos de acopio y líneas de emergencia.
 
 ## Stack
 
 - Next.js 16 + React 19 + TypeScript (static export)
 - Tailwind CSS v4 (tokens semánticos via `@theme inline`)
-- Leaflet (mapa interactivo de puntos físicos en Cali)
-- Vercel (hosting estático)
+- Leaflet (mapa interactivo con GPS "Cerca de mí")
+- Vercel (hosting estático, auto-deploy on push)
 - Vercel Analytics + Speed Insights
 - Paleta carmesí Univalle (#9B1B30) + warm cream/stone (compartida con reconstruir-psi)
 
@@ -26,51 +26,80 @@ git push         # trigger deploy en Vercel
 
 ## Datos
 
-Fuente: Google Sheets curado por el equipo de Univalle Contigo (Nelson Molina Valencia, Ph.D).
+Fuente: Google Sheets curado por el equipo del Programa Univalle Contigo (Nelson Molina Valencia, Ph.D).
 
 - **Spreadsheet ID:** `1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg`
-- **JSON local:** `src/data/resources.json` (113 recursos, 9 categorías)
+- **JSON local:** `src/data/resources.json` (113 recursos, 9 categorías, tags inteligentes)
 - **Sync script:** `scripts/sync-sheets.py` — descarga xlsx y regenera el JSON
+- **Cron:** GitHub Actions cada 6 horas (`.github/workflows/sync-data.yml`) — si hay cambios, commit + push → Vercel redeploya
 
 ```bash
-cd scripts && uv run sync-sheets.py
+cd scripts && uv run sync-sheets.py    # sync manual
 ```
 
-### Categorías (9)
+### Secciones (6, agrupando 9 categorías)
 
-| Categoría | Cantidad | Descripción |
-|-----------|----------|-------------|
-| psicosocial | 33 | Servicios de atención psicológica y acompañamiento emocional |
-| lineas_emergencia | 15 | Líneas telefónicas de atención inmediata |
-| salud | 17 | EPS, entidades de gobierno, redes de salud |
-| atencion_primaria | 23 | Puntos extramurales, puestos móviles, hospitales (Cali) |
-| albergues | 5 | Albergues oficiales y comunitarios (Cali) |
-| acopio | 9 | Puntos de donaciones activos (Cali) |
-| capacitacion | 7 | Guías, manuales, recursos de formación |
-| funerarios | 2 | Servicios funerarios solidarios |
-| interactivas | 2 | Plataformas web de ayuda |
+| Sección | Ruta | Recursos | Categorías agrupadas | Filtros |
+|---------|------|----------|---------------------|---------|
+| Apoyo Emocional | `/apoyo-emocional` | 48 | psicosocial + lineas_emergencia | ¿Cuándo? ¿Cómo? ¿Dónde? ¿Para quién? |
+| Salud | `/salud` | 40 | salud + atencion_primaria | Tipo (EPS/Hospital/Punto/Régimen) + mapa |
+| Refugio | `/refugio` | 5 | albergues | Tipo (oficial/comunitario) + mapa |
+| Donaciones | `/donaciones` | 9 | acopio | Mapa |
+| Guías | `/guias` | 9 | capacitacion + interactivas | Audiencia + Formato |
+| Funerarios | `/funerarios` | 2 | funerarios | — |
+
+### Tags inteligentes
+
+Cada recurso tiene `tags` derivados por IA del contenido (no de la estructura del spreadsheet):
+- **Apoyo Emocional:** urgencia (ahora/agendar), canales (whatsapp/teléfono/correo/formulario/presencial), cobertura (nacional/cali/otra), población (todos/lgbtiq/mujeres/ninez/persona_mayor/discapacidad/profesionales)
+- **Salud:** tipo (eps/hospital/punto_atencion/regimen_especial/informacion)
+- **Guías:** audiencia (personas_afectadas/profesionales/comunidad), formato (web/pdf/video)
 
 ## Estructura
 
 ```
 src/
 ├── app/
-│   ├── globals.css              ← tokens carmesí/cream/stone (idénticos a reconstruir-psi)
-│   ├── layout.tsx               ← Header + Footer + Analytics
-│   ├── page.tsx                 ← HOME: hero + stats + banner emergencia + directorio
-│   └── mapa/
-│       └── page.tsx             ← Mapa Leaflet de puntos físicos en Cali
+│   ├── globals.css              ← tokens carmesí/cream/stone
+│   ├── layout.tsx               ← Header + Footer + MobileNav + Analytics
+│   ├── page.tsx                 ← HOME: "¿Qué necesitas?" + 6 section cards + stats
+│   ├── [section]/page.tsx       ← Página dinámica por sección con filtros inteligentes
+│   ├── mapa/page.tsx            ← Mapa Leaflet con GPS, filtros, "Cómo llegar"
+│   ├── icon.svg                 ← Favicon ψ carmesí
+│   ├── opengraph-image.tsx      ← OG image 1200×630 para redes sociales
+│   ├── sitemap.ts               ← 8 URLs
+│   └── robots.ts                ← allow all + sitemap
 ├── components/
 │   ├── ui/                      ← cn utility
-│   ├── layout/                  ← Header, Footer, ThemeToggle
-│   └── resources/               ← ResourceDirectory, ResourceCard, SearchBar, CategoryTabs, MapView
+│   ├── layout/                  ← Header, Footer, ThemeToggle, MobileNav
+│   └── resources/               ← SectionDirectory, SectionFilters, ResourceCard, SearchBar, MapView
 ├── data/
-│   └── resources.json           ← Generado por scripts/sync-sheets.py
+│   └── resources.json           ← Generado por scripts/sync-sheets.py (con tags + sections)
 └── lib/
-    └── types.ts                 ← Resource, ResourceCategory, CATEGORIES, ContactInfo
+    └── types.ts                 ← Resource, Section, SECTIONS, SECTION_FILTERS, FilterDimension
 scripts/
-└── sync-sheets.py               ← Google Sheets → resources.json
+└── sync-sheets.py               ← Google Sheets → resources.json (cron cada 6h via GitHub Actions)
+.github/
+└── workflows/sync-data.yml      ← Cron: sync + commit + push si hay cambios
 ```
+
+## Navegación
+
+| Nivel | Componente | Desktop | Mobile |
+|-------|-----------|---------|--------|
+| Header | header.tsx | ψ Recursos Psi + Mapa + Guías ↗ + logo UV + ThemeToggle | ψ Recursos Psi + logo UV + ThemeToggle |
+| Bottom nav | mobile-nav.tsx | Oculto | Barra fija: Inicio / Mapa / Guías |
+| Home | page.tsx | 6 cards de sección + stats + banner emergencia | Igual, 1 columna |
+| Sección | [section]/page.tsx | Filtros por dimensión + grid 3 cols | Filtros + 1 col |
+| Mapa | mapa/page.tsx | Leaflet + filtros + GPS + cards cercanos | Igual, full width |
+
+## Mapa
+
+- 37 puntos geolocalizados en Cali (coordenadas hardcodeadas en `KNOWN_LOCATIONS`)
+- Filtros toggle: Atención Primaria / Albergues / Acopio
+- GPS "Cerca de mí" con lista de 6 puntos más cercanos ordenados por distancia (Haversine)
+- Popups con acciones: WhatsApp, Llamar, Cómo llegar (Google Maps)
+- Buscador de markers por nombre/dirección
 
 ## Ecosistema terremoto
 
@@ -81,9 +110,9 @@ scripts/
 | emergencia-cali (PataMap) | Mascotas perdidas post-sismo | emergencia-cali.web.app |
 | bases-datos-emergencia | Análisis datos Univalle Contigo (N=4,644) | local |
 
-## Instituciones
+Cross-links: recursos-psi ↔ reconstruir-psi (header + footer en ambos sitios).
 
-- **Universidad del Valle** — logo1.png
-- **Facultad de Psicología** — logo2.png
-- **CIDEAS** — Grupo de investigación (texto)
-- **Univalle Contigo** — Programa institucional de respuesta al terremoto
+## Identidad institucional
+
+- **Global:** Programa Univalle Contigo + Universidad del Valle (logo1.png)
+- **Autoría (footer):** Mateo Belalcázar Correa (MSc), CIDEAS, Facultad de Psicología, Universidad del Valle
