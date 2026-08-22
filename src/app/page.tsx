@@ -36,8 +36,8 @@ export default function HomePage() {
         </p>
       </section>
 
-      {/* Quick stats — moved right after description */}
-      <div className="grid grid-cols-3 gap-3 max-w-xl mx-auto">
+      {/* Quick stats + map CTA */}
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl mx-auto">
         <div className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-3 text-center">
           <p className="text-xl font-bold text-[var(--accent)]">{resources.length}</p>
           <p className="text-xs text-[var(--muted)]">Recursos</p>
@@ -50,6 +50,13 @@ export default function HomePage() {
           <p className="text-xl font-bold text-[var(--accent)]">{totalGratuitos}</p>
           <p className="text-xs text-[var(--muted)]">Gratuitos</p>
         </div>
+        <Link
+          href="/mapa"
+          className="rounded-xl border border-[var(--border)] bg-[var(--surface)] p-3 text-center hover:border-[var(--accent)] transition-colors group"
+        >
+          <p className="text-xl group-hover:text-[var(--accent)] transition-colors">📍</p>
+          <p className="text-xs text-[var(--muted)] group-hover:text-[var(--accent)] transition-colors">Ver mapa</p>
+        </Link>
       </div>
 
       {/* Emergency banner */}
@@ -100,19 +107,6 @@ export default function HomePage() {
         ))}
       </div>
 
-      {/* Map CTA */}
-      <div className="text-center">
-        <Link
-          href="/mapa"
-          className="inline-flex items-center gap-2 rounded-xl border border-[var(--border)] bg-[var(--surface)] px-6 py-3 text-sm font-medium text-[var(--foreground)] hover:border-[var(--accent)] hover:text-[var(--accent)] transition-all"
-        >
-          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-            <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-          </svg>
-          Ver todos los puntos en el mapa de Cali
-        </Link>
-      </div>
     </div>
   );
 }
