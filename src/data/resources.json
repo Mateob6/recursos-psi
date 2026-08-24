@@ -105,8 +105,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:jaimealber.giraldo@upb.edu.co mailto:emmanuel.arrubla@upb.edu.co",
         "emails": [
-          "jaimealber.giraldo@upb.edu.co",
-          "emmanuel.arrubla@upb.edu.co"
+          "emmanuel.arrubla@upb.edu.co",
+          "jaimealber.giraldo@upb.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -310,8 +310,8 @@
         "raw": "Comunicarse mediante formulario: https://forms.gle/d935fEKqewpDpGwr9 También puede comunicarse mediante alguno de los siguientes números: 3023891597, 3147020125 o 3142725677.",
         "phones": [
           "3023891597",
-          "3147020125",
-          "3142725677"
+          "3142725677",
+          "3147020125"
         ],
         "urls": [
           "https://forms.gle/d935fEKqewpDpGwr9"
@@ -1287,8 +1287,8 @@
           "https://wa.link/y1lxs3"
         ],
         "phones": [
-          "(3116120000",
-          "(3508032031"
+          "(3508032031",
+          "(3116120000"
         ]
       },
       "serviceType": "Disponible para brindar orientación psicosocial y jurídica a mujeres víctimas de violencias basadas en género. Al igual que acompañamiento para la restitución de derechos.",
@@ -1466,8 +1466,8 @@
           "https://wa.link/1y2u92"
         ],
         "phones": [
-          "(601) 7965150",
-          "(3228151101"
+          "(3228151101",
+          "(601) 7965150"
         ]
       },
       "serviceType": "Sirve para que las personas afectadas por el conflicto armado realicen trámites y consultas virtuales de forma gratuita, rápida y sin intermediarios",
@@ -1676,8 +1676,8 @@
           "https://wa.link/1pxnit"
         ],
         "phones": [
-          "(311 6097426",
-          "(601) 3078069"
+          "(601) 3078069",
+          "(311 6097426"
         ],
         "emails": [
           "gerenciageneral@emssanareps.co"
@@ -1787,8 +1787,8 @@
           "https://wa.link/j430c2"
         ],
         "phones": [
-          "(3202550525",
-          "0180009191"
+          "0180009191",
+          "(3202550525"
         ],
         "emails": [
           "comunicacioneseps@colsanitas.com"
@@ -2744,11 +2744,11 @@
           "https://wa.link/x8bzzl"
         ],
         "phones": [
+          "317 642 1117",
+          "(602) 518 4611",
           "(3102299708",
           "313 778 8460",
-          "(602) 880 1785",
-          "317 642 1117",
-          "(602) 518 4611"
+          "(602) 880 1785"
         ]
       },
       "section": "funerarios"
@@ -2763,9 +2763,9 @@
       "contact": {
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
+          "311 561 4854",
           "320 315 4976",
-          "314 213 8930",
-          "311 561 4854"
+          "314 213 8930"
         ]
       },
       "section": "funerarios"
@@ -2774,7 +2774,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-08-24 12:43",
+    "extracted": "2026-08-24 18:36",
     "total": 113
   }
 }
