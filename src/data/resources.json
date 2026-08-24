@@ -205,8 +205,8 @@
           "https://wa.link/w2a1y1"
         ],
         "phones": [
-          "(3166399910",
-          "(604) 4483422"
+          "(604) 4483422",
+          "(3166399910"
         ]
       },
       "cost": "Gratuito",
@@ -1287,8 +1287,8 @@
           "https://wa.link/y1lxs3"
         ],
         "phones": [
-          "(3508032031",
-          "(3116120000"
+          "(3116120000",
+          "(3508032031"
         ]
       },
       "serviceType": "Disponible para brindar orientación psicosocial y jurídica a mujeres víctimas de violencias basadas en género. Al igual que acompañamiento para la restitución de derechos.",
@@ -1466,8 +1466,8 @@
           "https://wa.link/1y2u92"
         ],
         "phones": [
-          "(3228151101",
-          "(601) 7965150"
+          "(601) 7965150",
+          "(3228151101"
         ]
       },
       "serviceType": "Sirve para que las personas afectadas por el conflicto armado realicen trámites y consultas virtuales de forma gratuita, rápida y sin intermediarios",
@@ -1594,8 +1594,8 @@
           "https://wa.link/ns4708"
         ],
         "phones": [
-          "(321 3300382",
-          "(601) 756 8000"
+          "(601) 756 8000",
+          "(321 3300382"
         ],
         "emails": [
           "utorizaciones@aliansalud.com.co"
@@ -1676,8 +1676,8 @@
           "https://wa.link/1pxnit"
         ],
         "phones": [
-          "(601) 3078069",
-          "(311 6097426"
+          "(311 6097426",
+          "(601) 3078069"
         ],
         "emails": [
           "gerenciageneral@emssanareps.co"
@@ -1787,8 +1787,8 @@
           "https://wa.link/j430c2"
         ],
         "phones": [
-          "0180009191",
-          "(3202550525"
+          "(3202550525",
+          "0180009191"
         ],
         "emails": [
           "comunicacioneseps@colsanitas.com"
@@ -2744,11 +2744,11 @@
           "https://wa.link/x8bzzl"
         ],
         "phones": [
-          "(602) 880 1785",
-          "(602) 518 4611",
           "(3102299708",
+          "313 778 8460",
+          "(602) 880 1785",
           "317 642 1117",
-          "313 778 8460"
+          "(602) 518 4611"
         ]
       },
       "section": "funerarios"
@@ -2763,9 +2763,9 @@
       "contact": {
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
-          "311 561 4854",
           "320 315 4976",
-          "314 213 8930"
+          "314 213 8930",
+          "311 561 4854"
         ]
       },
       "section": "funerarios"
@@ -2774,7 +2774,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-08-24 06:53",
+    "extracted": "2026-08-24 12:43",
     "total": 113
   }
 }
