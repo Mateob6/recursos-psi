@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const dynamic = "force-static";
-export const alt = "Recursos Psi — Programa Univalle Contigo";
+export const alt = "Directorio para recibir apoyos — Programa Univalle Contigo";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -37,7 +37,7 @@ export default function OgImage() {
           >
             ψ
           </div>
-          <span style={{ fontSize: "24px", color: "#57534e" }}>Recursos Psi</span>
+          <span style={{ fontSize: "24px", color: "#57534e" }}>Directorio para recibir apoyos</span>
           <span style={{ fontSize: "16px", color: "#9B1B30", marginLeft: "8px" }}>
             Programa Univalle Contigo
           </span>

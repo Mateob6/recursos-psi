@@ -20,8 +20,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://recursos-psi.vercel.app"),
   title: {
-    default: "Recursos Psi — Programa Univalle Contigo",
-    template: "%s — Recursos Psi",
+    default: "Directorio para recibir apoyos — Programa Univalle Contigo",
+    template: "%s — Directorio para recibir apoyos",
   },
   description:
     "Directorio de recursos de apoyo biopsicosocial para personas afectadas por el terremoto de agosto 2026 en Colombia. Servicios psicológicos, salud, albergues, líneas de emergencia y más.",
@@ -42,15 +42,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "es_CO",
-    siteName: "Recursos Psi",
-    title: "Recursos Psi — Programa Univalle Contigo",
+    siteName: "Directorio para recibir apoyos",
+    title: "Directorio para recibir apoyos — Programa Univalle Contigo",
     description:
       "Directorio de recursos de apoyo biopsicosocial para personas afectadas por el terremoto de agosto 2026.",
     url: "https://recursos-psi.vercel.app",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Recursos Psi — Programa Univalle Contigo",
+    title: "Directorio para recibir apoyos — Programa Univalle Contigo",
     description:
       "Directorio de recursos de apoyo biopsicosocial post-terremoto. Servicios psicológicos, salud, albergues y más.",
   },

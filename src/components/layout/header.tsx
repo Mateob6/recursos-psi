@@ -11,7 +11,7 @@ export function Header() {
           </span>
           <div className="flex flex-col">
             <span className="text-lg font-semibold text-[var(--foreground)] leading-tight">
-              Recursos Psi
+              Directorio para recibir apoyos
             </span>
             <span className="text-[11px] text-[var(--muted)] leading-tight hidden sm:block">
               Programa Univalle Contigo

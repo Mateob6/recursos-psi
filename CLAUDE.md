@@ -1,4 +1,4 @@
-# Recursos Psi
+# Directorio para recibir apoyos (recursos-psi)
 
 - **URL:** https://recursos-psi.vercel.app
 - **Repo:** https://github.com/Mateob6/recursos-psi
