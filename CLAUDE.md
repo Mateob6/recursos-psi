@@ -14,7 +14,7 @@ Directorio interactivo de recursos de apoyo biopsicosocial para personas afectad
 - Leaflet (mapa interactivo con GPS "Cerca de mí")
 - Vercel (hosting estático, auto-deploy on push)
 - Vercel Analytics + Speed Insights
-- Paleta carmesí Univalle (#9B1B30) + warm cream/stone (compartida con reconstruir-psi)
+- Identidad visual oficial Univalle Contigo: Fuente Poppins, Morado Biopsicosocial (#532888) como acento principal, botones tipo píldora, e iconos SVG oficiales.
 
 ## Desarrollo
 
@@ -60,12 +60,12 @@ Cada recurso tiene `tags` derivados por IA del contenido (no de la estructura de
 ```
 src/
 ├── app/
-│   ├── globals.css              ← tokens carmesí/cream/stone
-│   ├── layout.tsx               ← Header + Footer + MobileNav + Analytics
-│   ├── page.tsx                 ← HOME: "¿Qué necesitas?" + 6 section cards + stats
-│   ├── [section]/page.tsx       ← Página dinámica por sección con filtros inteligentes
+│   ├── globals.css              ← tokens morado Univalle Contigo, dark theme lavanda, SVG mask classes
+│   ├── layout.tsx               ← Header + Footer + MobileNav + Analytics + Fuente Poppins
+│   ├── page.tsx                 ← HOME: Uvardilla + "¿Qué necesitas?" + 6 section cards + stats
+│   ├── [section]/page.tsx       ← Página dinámica por sección con Uvardillas dinámicas y filtros
 │   ├── mapa/page.tsx            ← Mapa Leaflet con GPS, filtros, "Cómo llegar"
-│   ├── icon.svg                 ← Favicon ψ carmesí
+│   ├── icon.svg                 ← Favicon isotipo Univalle Contigo (corazón rojo)
 │   ├── opengraph-image.tsx      ← OG image 1200×630 para redes sociales
 │   ├── sitemap.ts               ← 8 URLs
 │   └── robots.ts                ← allow all + sitemap
@@ -87,8 +87,8 @@ scripts/
 
 | Nivel | Componente | Desktop | Mobile |
 |-------|-----------|---------|--------|
-| Header | header.tsx | ψ Directorio para recibir apoyos + Mapa + logo UV + ThemeToggle | ψ Directorio para recibir apoyos + logo UV + ThemeToggle |
-| Bottom nav | mobile-nav.tsx | Oculto | Barra fija: Inicio / Mapa / Guías |
+| Header | header.tsx | Isotipo corazón + Directorio + Mapa + logo Univalle Contigo + ThemeToggle | Isotipo + Directorio + logo UV + ThemeToggle |
+| Bottom nav | mobile-nav.tsx | Oculto | Barra fija: Inicio (Isotipo) / Mapa / Guías |
 | Home | page.tsx | 6 cards de sección + stats + banner emergencia | Igual, 1 columna |
 | Sección | [section]/page.tsx | Filtros por dimensión + grid 3 cols | Filtros + 1 col |
 | Mapa | mapa/page.tsx | Leaflet + filtros + GPS + cards cercanos | Igual, full width |
@@ -114,7 +114,7 @@ Cross-links: recursos-psi → reconstruir-psi (footer únicamente, enlace "Guía
 
 ## Identidad institucional
 
-- **Global:** Programa Univalle Contigo + Universidad del Valle (logo1.png)
+- **Global:** Identidad visual oficial "Univalle Contigo" (Logo completo, isotipo corazón, Uvardilla dinámica por sección, iconos SVG con máscaras de color por estrategia).
 - **Autoría (footer):** Mateo Belalcázar Correa (MSc), CIDEAS, Facultad de Psicología, Universidad del Valle
 
 ## Pendiente: Dominio institucional
