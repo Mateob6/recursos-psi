@@ -72,8 +72,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:consultorios.sec@uco.edu.co  mailto:dmontoya@uco.edu.co",
         "emails": [
-          "consultorios.sec@uco.edu.co",
-          "dmontoya@uco.edu.co"
+          "dmontoya@uco.edu.co",
+          "consultorios.sec@uco.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -105,8 +105,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:jaimealber.giraldo@upb.edu.co mailto:emmanuel.arrubla@upb.edu.co",
         "emails": [
-          "emmanuel.arrubla@upb.edu.co",
-          "jaimealber.giraldo@upb.edu.co"
+          "jaimealber.giraldo@upb.edu.co",
+          "emmanuel.arrubla@upb.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -205,8 +205,8 @@
           "https://wa.link/w2a1y1"
         ],
         "phones": [
-          "(604) 4483422",
-          "(3166399910"
+          "(3166399910",
+          "(604) 4483422"
         ]
       },
       "cost": "Gratuito",
@@ -242,8 +242,8 @@
           "https://api.whatsapp.com/send/?phone=525521843047"
         ],
         "phones": [
-          "5521843047",
-          "5255218430"
+          "5255218430",
+          "5521843047"
         ]
       },
       "cost": "Gratuito",
@@ -309,9 +309,9 @@
       "contact": {
         "raw": "Comunicarse mediante formulario: https://forms.gle/d935fEKqewpDpGwr9 También puede comunicarse mediante alguno de los siguientes números: 3023891597, 3147020125 o 3142725677.",
         "phones": [
-          "3023891597",
+          "3147020125",
           "3142725677",
-          "3147020125"
+          "3023891597"
         ],
         "urls": [
           "https://forms.gle/d935fEKqewpDpGwr9"
@@ -1544,8 +1544,8 @@
       "contact": {
         "raw": "Línea nacional: 01 8000 423 737 / Indicativo de Cundinamarca (601) 432 27 60 mailto:correspondencia1@adres.gov.co mailto:correspondencia2@adres.gov.co Para consultar su EPS directamente: https://www.adres.gov.co/consulte-su-eps",
         "emails": [
-          "correspondencia1@adres.gov.co",
-          "correspondencia2@adres.gov.co"
+          "correspondencia2@adres.gov.co",
+          "correspondencia1@adres.gov.co"
         ],
         "urls": [
           "https://www.adres.gov.co/consulte-su-eps"
@@ -2744,11 +2744,11 @@
           "https://wa.link/x8bzzl"
         ],
         "phones": [
-          "317 642 1117",
+          "(602) 880 1785",
           "(602) 518 4611",
-          "(3102299708",
+          "317 642 1117",
           "313 778 8460",
-          "(602) 880 1785"
+          "(3102299708"
         ]
       },
       "section": "funerarios"
@@ -2764,8 +2764,8 @@
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
           "311 561 4854",
-          "320 315 4976",
-          "314 213 8930"
+          "314 213 8930",
+          "320 315 4976"
         ]
       },
       "section": "funerarios"
@@ -2774,7 +2774,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-08-24 18:36",
+    "extracted": "2026-08-25 01:06",
     "total": 113
   }
 }
