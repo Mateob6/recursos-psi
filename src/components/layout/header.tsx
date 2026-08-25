@@ -6,9 +6,10 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--background)]/95 backdrop-blur-sm">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-3 group">
-          <span className="text-2xl font-bold text-[var(--accent)] group-hover:opacity-80 transition-opacity">
-            ψ
-          </span>
+          <div className="shrink-0 group-hover:opacity-80 transition-opacity">
+            <img src="/assets/isotipo-rojo.svg" alt="" className="w-8 h-8 object-contain logo-light" />
+            <img src="/assets/isotipo-blanco.svg" alt="" className="w-8 h-8 object-contain logo-dark" />
+          </div>
           <div className="flex flex-col">
             <span className="text-lg font-semibold text-[var(--foreground)] leading-tight">
               Directorio para recibir apoyos

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const items = [
-  { href: "/", label: "Inicio", icon: "ψ", isInternal: true },
+  { href: "/", label: "Inicio", icon: <span className="svg-icon w-5 h-5" style={{ maskImage: "url(/assets/isotipo-rojo.svg)", WebkitMaskImage: "url(/assets/isotipo-rojo.svg)" }} />, isInternal: true },
   { href: "/mapa", label: "Mapa", icon: "📍", isInternal: true },
   {
     href: "https://reconstruir-psi.vercel.app",
