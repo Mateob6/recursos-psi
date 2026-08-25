@@ -30,7 +30,8 @@ Fuente: Google Sheets curado por el equipo del Programa Univalle Contigo (Nelson
 
 - **Spreadsheet ID:** `1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg`
 - **JSON local:** `src/data/resources.json` (113 recursos, 9 categorías, tags inteligentes)
-- **Sync script:** `scripts/sync-sheets.py` — descarga xlsx y regenera el JSON
+- **Sync script:** `scripts/sync-sheets.py` — descarga xlsx y regenera el JSON.
+  - *Extracción inteligente:* Procesa el texto libre para extraer WhatsApp (`wa.link`), teléfonos (7-10 dígitos y códigos cortos de 3 dígitos ej. 123), correos y URLs válidas.
 - **Cron:** GitHub Actions cada 6 horas (`.github/workflows/sync-data.yml`) — si hay cambios, commit + push → Vercel redeploya
 
 ```bash
