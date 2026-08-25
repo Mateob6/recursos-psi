@@ -72,8 +72,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:consultorios.sec@uco.edu.co  mailto:dmontoya@uco.edu.co",
         "emails": [
-          "consultorios.sec@uco.edu.co",
-          "dmontoya@uco.edu.co"
+          "dmontoya@uco.edu.co",
+          "consultorios.sec@uco.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -814,7 +814,10 @@
       "department": "Nivel Nacional",
       "city": "",
       "contact": {
-        "raw": "Comunicarse mendiante formulario: https://selialatam.typeform.com/to/dKT8Atcx?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRzdgTvcAhwZG9mAmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpzxRLoSQhtKzwWP0zYdghKLcvhRNbBb7nkoDdg3SkipyTe4NBN0_o8PRtX6c_aem_YkJgnS25y8Nw8_evOgqF_A&typeform-source=l.instagram.com"
+        "raw": "Comunicarse mendiante formulario: https://selialatam.typeform.com/to/dKT8Atcx?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRzdgTvcAhwZG9mAmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpzxRLoSQhtKzwWP0zYdghKLcvhRNbBb7nkoDdg3SkipyTe4NBN0_o8PRtX6c_aem_YkJgnS25y8Nw8_evOgqF_A&typeform-source=l.instagram.com",
+        "urls": [
+          "https://selialatam.typeform.com/to/dKT8Atcx?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAdGRzdgTvcAhwZG9mAmV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzU2NzA2NzM0MzM1MjQyNwABpzxRLoSQhtKzwWP0zYdghKLcvhRNbBb7nkoDdg3SkipyTe4NBN0_o8PRtX6c_aem_YkJgnS25y8Nw8_evOgqF_A&typeform-source=l.instagram.com"
+        ]
       },
       "cost": "Gratuito",
       "condition": "Agendamiento",
@@ -1153,7 +1156,8 @@
           "https://wa.link/kak7kc"
         ],
         "phones": [
-          "(3162458423"
+          "(3162458423",
+          "106"
         ]
       },
       "serviceType": "Es una línea de teleorientación en salud mental, operada por profesionales capacitados en escucha activa, orientación psicológica, intervención en crisis y acompañamiento emocional.",
@@ -1181,7 +1185,8 @@
           "https://wa.link/vm2njr"
         ],
         "phones": [
-          "(300 754 8933"
+          "(300 754 8933",
+          "106"
         ]
       },
       "serviceType": "Brinda un espacio de escuha a las personas que lo necesiten y promociona el cuidado de la salud mental, además,  fue diseñada para que los niños, niñas, adolescentes y adultos de todas las edades, reciban escucha y apoyo psicológico por parte de la Secretaría Distrital de Salud.",
@@ -1232,7 +1237,10 @@
       "name": "Fiscalía General de la Nación",
       "city": "Nivel Nacional",
       "contact": {
-        "raw": "Marcar el Indicativo 122"
+        "raw": "Marcar el Indicativo 122",
+        "phones": [
+          "122"
+        ]
       },
       "serviceType": "Sirve para recibir denuncias sobre delitos, pedir ayuda si eres víctima, consultar el estado de un caso y recibir orientación jurídica las 24 horas del día.",
       "section": "apoyo-emocional",
@@ -1258,6 +1266,7 @@
           "https://wa.link/rczjft"
         ],
         "phones": [
+          "155",
           "(3188611522"
         ]
       },
@@ -1312,7 +1321,10 @@
       "name": "Línea Única de Emergencias Nacional",
       "city": "Nivel Nacional",
       "contact": {
-        "raw": "Marcar al Indicativo: 123"
+        "raw": "Marcar al Indicativo: 123",
+        "phones": [
+          "123"
+        ]
       },
       "serviceType": "Sirve para contactar gratis y de forma inmediata a los organismos de socorro, salud y seguridad ante cualquier situación de peligro, accidente o delito las 24 horas del día",
       "section": "apoyo-emocional",
@@ -1333,7 +1345,10 @@
       "name": "Defensa Civil Colombiana",
       "city": "Nivel Nacional",
       "contact": {
-        "raw": "Marcar el indicativo 144"
+        "raw": "Marcar el indicativo 144",
+        "phones": [
+          "144"
+        ]
       },
       "serviceType": "Sirve para reportar desastres naturales, inundaciones, deslizamientos, incendios o situaciones de riesgo que requieran ayuda humanitaria y de socorro. También puede solicitar acompañamiento en trauma.",
       "section": "apoyo-emocional",
@@ -1354,7 +1369,10 @@
       "name": "Bomberos",
       "city": "Cali",
       "contact": {
-        "raw": "Marcar el Indicativo 119"
+        "raw": "Marcar el Indicativo 119",
+        "phones": [
+          "119"
+        ]
       },
       "serviceType": "Se encragan de apagar incendios, rescatar personas y animales, atender emergencias médicas y cuidar el medio ambiente las 24 horas del día.",
       "section": "apoyo-emocional",
@@ -1376,9 +1394,12 @@
       "city": "Nivel Nacional",
       "contact": {
         "raw": "Marcar el indicativo 141. También puede comunicarse a los isguientes correo: mailto:citasatenciondia.seg@cali.gov.co mailto:sub.primerainfancia@cali.gov.co",
+        "phones": [
+          "141"
+        ],
         "emails": [
-          "citasatenciondia.seg@cali.gov.co",
-          "sub.primerainfancia@cali.gov.co"
+          "sub.primerainfancia@cali.gov.co",
+          "citasatenciondia.seg@cali.gov.co"
         ]
       },
       "serviceType": "Permite reportar emergencias, hacer denuncias o pedir ayuda sobre maltrato, abuso sexual, trabajo infantil o cualquier riesgo contra niños, niñas y adolescentes en Colombia.",
@@ -1466,8 +1487,8 @@
           "https://wa.link/1y2u92"
         ],
         "phones": [
-          "(601) 7965150",
-          "(3228151101"
+          "(3228151101",
+          "(601) 7965150"
         ]
       },
       "serviceType": "Sirve para que las personas afectadas por el conflicto armado realicen trámites y consultas virtuales de forma gratuita, rápida y sin intermediarios",
@@ -1520,6 +1541,7 @@
       "contact": {
         "raw": "Ubicación: Avenida 2 Norte # 10-70 en el CAM Centro Administrativo Municipal. Puede marcar al Indicativo: 195 o al teléfono  Línea local 195 o al (602) 8856173",
         "phones": [
+          "195",
           "(602) 8856173"
         ]
       },
@@ -1676,8 +1698,8 @@
           "https://wa.link/1pxnit"
         ],
         "phones": [
-          "(311 6097426",
-          "(601) 3078069"
+          "(601) 3078069",
+          "(311 6097426"
         ],
         "emails": [
           "gerenciageneral@emssanareps.co"
@@ -1977,7 +1999,11 @@
       "name": "Punto Capri",
       "address": "Sector Capri",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
       "city": "Cali",
@@ -1993,7 +2019,11 @@
       "name": "Punto Palmetto",
       "address": "Sector Palmetto",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
       "city": "Cali",
@@ -2009,7 +2039,11 @@
       "name": "Diamante de Béisbol",
       "address": "Calle 9 # 37A-01 Unidad Deportiva Jaime Aparicio",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención prehospitalaria y primeros auxilios.",
       "city": "Cali",
@@ -2025,7 +2059,11 @@
       "name": "Barrio El Lido",
       "address": "Calle 5 con Carrera 44",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
       "city": "Cali",
@@ -2041,7 +2079,11 @@
       "name": "Barrio El Refugio",
       "address": "Carrera 64 con Calle 4",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención prehospitalaria y urgencias de primer nivel.",
       "city": "Cali",
@@ -2057,7 +2099,11 @@
       "name": "Sector de Barrios: Pampalinda y Cuarto de Legua - Guadalupe",
       "address": "Calle 4 con Carrera 56",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención médica básica y contención psicológica.",
       "city": "Cali",
@@ -2073,7 +2119,11 @@
       "name": "Barrio Pampalinda",
       "address": "Sector Pampalinda Calle 5a",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención prehospitalaria de primer nivel.",
       "city": "Cali",
@@ -2089,7 +2139,11 @@
       "name": "Sector de Tequendama",
       "address": "Avenida Roosevelt con Carrera 39",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención médica inmediata y clasificación.",
       "city": "Cali",
@@ -2105,7 +2159,11 @@
       "name": "Sector Nueva Tequendama",
       "address": "Ubicado entre Calle 5 y Avenida Roosevelt, cerca a la Carrera 42",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención prehospitalaria y apoyo psicosocial.",
       "city": "Cali",
@@ -2121,7 +2179,11 @@
       "name": "Sector de Alameda",
       "address": "Ubicado entre la Calle 5, la Calle 9B y Carreras como la 23, 25 y 26",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención prehospitalaria y primeros auxilios.",
       "city": "Cali",
@@ -2137,7 +2199,11 @@
       "name": "Barrio Los Cámbulos",
       "address": "Calle 9 con Carrera 44",
       "contact": {
-        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)"
+        "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
+        "phones": [
+          "195",
+          "123"
+        ]
       },
       "serviceType": "Atención médica de primer nivel y primeros auxilios.",
       "city": "Cali",
@@ -2745,10 +2811,10 @@
         ],
         "phones": [
           "313 778 8460",
-          "(3102299708",
-          "317 642 1117",
           "(602) 518 4611",
-          "(602) 880 1785"
+          "(602) 880 1785",
+          "317 642 1117",
+          "(3102299708"
         ]
       },
       "section": "funerarios"
@@ -2763,9 +2829,9 @@
       "contact": {
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
-          "311 561 4854",
           "320 315 4976",
-          "314 213 8930"
+          "314 213 8930",
+          "311 561 4854"
         ]
       },
       "section": "funerarios"
@@ -2774,7 +2840,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-08-25 18:36",
+    "extracted": "2026-08-25 16:01",
     "total": 113
   }
 }

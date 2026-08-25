@@ -54,6 +54,7 @@ def extract_contacts(text):
 
     phones = re.findall(r"\(?\d{3}\)?\s*\d{3}\s*\d{4}", text)
     phones += re.findall(r"\(\d{3}\)\s*\d{7,8}", text)
+    phones += re.findall(r"\b1\d{2}\b", text)
     if phones:
         contacts["phones"] = list(set(phones))
 
@@ -69,7 +70,7 @@ def extract_contacts(text):
         for u in urls
         if "wa.link" not in u
         and "api.whatsapp" not in u
-        and "instagram.com" not in u
+        and "instagram.com/" not in u
         and "mailto:" not in u
     ]
     if urls:
