@@ -37,34 +37,45 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
     ? resources.filter((r) => r.address)
     : [];
 
+  let mascotSrc = null;
+  if (sectionKey === "apoyo-emocional") mascotSrc = "/assets/uvardilla-1.png";
+  else if (sectionKey === "donaciones" || sectionKey === "refugio" || sectionKey === "salud") mascotSrc = "/assets/uvardilla-2.png";
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 space-y-8">
       {/* Header */}
-      <div>
-        <Link
-          href="/"
-          className="text-sm text-[var(--accent)] hover:underline mb-3 inline-block"
-        >
-          ← ¿Qué necesitas?
-        </Link>
-        <div className="flex items-center gap-3">
-          <span className="svg-icon w-10 h-10" style={{ maskImage: `url(${meta.icon})`, WebkitMaskImage: `url(${meta.icon})`, color: meta.color }} />
-          <div>
-            <h1 className="text-2xl md:text-3xl font-semibold text-[var(--foreground)]">
-              {meta.label}
-            </h1>
-            <p className="text-[var(--muted)] text-sm mt-0.5">
-              {resources.length} recursos · {meta.description}
-            </p>
-          </div>
-        </div>
-        {meta.highlight && (
-          <p
-            className="mt-3 text-sm font-medium rounded-lg px-3 py-2 inline-block"
-            style={{ background: `${meta.color}10`, color: meta.color }}
+      <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <Link
+            href="/"
+            className="text-sm text-[var(--accent)] hover:underline mb-3 inline-block font-medium"
           >
-            {meta.highlight}
-          </p>
+            ← Volver a ¿Qué necesitas?
+          </Link>
+          <div className="flex items-center gap-3">
+            <span className="svg-icon w-10 h-10" style={{ maskImage: `url(${meta.icon})`, WebkitMaskImage: `url(${meta.icon})`, color: meta.color }} />
+            <div>
+              <h1 className="text-2xl md:text-3xl font-semibold text-[var(--foreground)]">
+                {meta.label}
+              </h1>
+              <p className="text-[var(--muted)] text-sm mt-0.5">
+                {resources.length} recursos · {meta.description}
+              </p>
+            </div>
+          </div>
+          {meta.highlight && (
+            <p
+              className="mt-3 text-sm font-medium rounded-full px-4 py-1.5 inline-block"
+              style={{ background: `${meta.color}15`, color: meta.color }}
+            >
+              {meta.highlight}
+            </p>
+          )}
+        </div>
+        {mascotSrc && (
+          <div className="hidden md:block shrink-0">
+            <img src={mascotSrc} alt="Uvardilla" className="w-24 h-auto object-contain" />
+          </div>
         )}
       </div>
 

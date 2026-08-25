@@ -48,16 +48,16 @@
     --foreground: #fafaf9;
     --muted: #a8a29e;
     --border: #44403c;
-    --accent: #fb7185;
-    --accent-foreground: #4c0519;
-    --accent-subtle: #2a0a14;
+    --accent: #c084fc;
+    --accent-foreground: #3b0764;
+    --accent-subtle: #3b0764;
     --success: #4ade80;
     --success-subtle: #14261a;
     --warning: #fbbf24;
     --warning-subtle: #292014;
     --danger: #fb923c;
     --danger-subtle: #2a1a0a;
-    --ring: #f43f5e;
+    --ring: #d8b4fe;
   }
 }
 
@@ -68,16 +68,16 @@
   --foreground: #fafaf9;
   --muted: #a8a29e;
   --border: #44403c;
-  --accent: #fb7185;
-  --accent-foreground: #4c0519;
-  --accent-subtle: #2a0a14;
+  --accent: #c084fc;
+  --accent-foreground: #3b0764;
+  --accent-subtle: #3b0764;
   --success: #4ade80;
   --success-subtle: #14261a;
   --warning: #fbbf24;
   --warning-subtle: #292014;
   --danger: #fb923c;
   --danger-subtle: #2a1a0a;
-  --ring: #f43f5e;
+  --ring: #d8b4fe;
 }
 
 body {
@@ -120,7 +120,7 @@ body {
 }
 
 .action-btn {
-  @apply inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium transition-all;
+  @apply inline-flex items-center gap-1.5 rounded-full px-4 py-2 text-sm font-medium transition-all;
   background: var(--surface-raised);
   border: 1px solid var(--border);
   color: var(--foreground);
@@ -142,7 +142,7 @@ body {
 }
 
 .search-input {
-  @apply w-full rounded-xl px-4 py-3 text-base outline-none transition-all;
+  @apply w-full rounded-full px-5 py-3 text-base outline-none transition-all;
   background: var(--surface);
   border: 2px solid var(--border);
   color: var(--foreground);
