@@ -17,8 +17,7 @@
   --color-danger: var(--danger);
   --color-danger-subtle: var(--danger-subtle);
   --color-ring: var(--ring);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-poppins);
 }
 
 :root,
@@ -29,16 +28,16 @@
   --foreground: #1c1917;
   --muted: #57534e;
   --border: #e7e0d8;
-  --accent: #9B1B30;
+  --accent: #532888;
   --accent-foreground: #ffffff;
-  --accent-subtle: #fdf2f4;
+  --accent-subtle: #f3f0f7;
   --success: #15803d;
   --success-subtle: #f0fdf4;
   --warning: #b45309;
   --warning-subtle: #fffbeb;
   --danger: #c2410c;
   --danger-subtle: #fff7ed;
-  --ring: #be123c;
+  --ring: #451b75;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -84,6 +83,22 @@
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+[data-theme="dark"] .logo-light { display: none; }
+[data-theme="dark"] .logo-dark { display: block; }
+:root:not([data-theme="dark"]) .logo-dark { display: none; }
+:root:not([data-theme="dark"]) .logo-light { display: block; }
+
+.svg-icon {
+  display: inline-block;
+  background-color: currentColor;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
 }
 
 .category-chip {

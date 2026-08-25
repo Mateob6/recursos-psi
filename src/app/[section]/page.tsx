@@ -48,7 +48,7 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
           ← ¿Qué necesitas?
         </Link>
         <div className="flex items-center gap-3">
-          <span className="text-3xl">{meta.icon}</span>
+          <span className="svg-icon w-10 h-10" style={{ maskImage: `url(${meta.icon})`, WebkitMaskImage: `url(${meta.icon})`, color: meta.color }} />
           <div>
             <h1 className="text-2xl md:text-3xl font-semibold text-[var(--foreground)]">
               {meta.label}

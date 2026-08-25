@@ -87,7 +87,7 @@ scripts/
 
 | Nivel | Componente | Desktop | Mobile |
 |-------|-----------|---------|--------|
-| Header | header.tsx | ψ Recursos Psi + Mapa + Guías ↗ + logo UV + ThemeToggle | ψ Recursos Psi + logo UV + ThemeToggle |
+| Header | header.tsx | ψ Directorio para recibir apoyos + Mapa + logo UV + ThemeToggle | ψ Directorio para recibir apoyos + logo UV + ThemeToggle |
 | Bottom nav | mobile-nav.tsx | Oculto | Barra fija: Inicio / Mapa / Guías |
 | Home | page.tsx | 6 cards de sección + stats + banner emergencia | Igual, 1 columna |
 | Sección | [section]/page.tsx | Filtros por dimensión + grid 3 cols | Filtros + 1 col |
@@ -105,12 +105,12 @@ scripts/
 
 | Proyecto | Propósito | URL |
 |----------|-----------|-----|
-| **recursos-psi** (este) | Directorio de recursos de ayuda | recursos-psi.vercel.app |
+| **Directorio para recibir apoyos** (este) | Directorio de recursos de ayuda | recursos-psi.vercel.app |
 | reconstruir-psi | Guías educativas basadas en evidencia | reconstruir-psi.vercel.app |
 | emergencia-cali (PataMap) | Mascotas perdidas post-sismo | emergencia-cali.web.app |
 | bases-datos-emergencia | Análisis datos Univalle Contigo (N=4,644) | local |
 
-Cross-links: recursos-psi ↔ reconstruir-psi (header + footer en ambos sitios).
+Cross-links: recursos-psi → reconstruir-psi (footer únicamente, enlace "Guías de recuperación").
 
 ## Identidad institucional
 

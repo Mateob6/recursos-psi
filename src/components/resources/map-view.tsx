@@ -48,9 +48,9 @@ export function getCoords(resource: Resource): [number, number] | null {
 }
 
 const CAT_META: Record<string, { label: string; color: string; icon: string }> = {
-  atencion_primaria: { label: "Atención Primaria", color: "#0284c7", icon: "🚑" },
-  albergues: { label: "Albergues", color: "#7c3aed", icon: "🏠" },
-  acopio: { label: "Puntos de Acopio", color: "#d97706", icon: "📦" },
+  atencion_primaria: { label: "Atención Primaria", color: "#C20E1A", icon: "/assets/icon-corazon.svg" },
+  albergues: { label: "Albergues", color: "#AA087C", icon: "/assets/icon-construccion.svg" },
+  acopio: { label: "Puntos de Acopio", color: "#DC9122", icon: "/assets/icon-donacion.svg" },
 };
 
 function haversine(a: [number, number], b: [number, number]): number {
@@ -145,7 +145,7 @@ export function MapView({ resources, onSelectResource }: MapViewProps) {
             box-shadow: 0 2px 8px rgba(0,0,0,0.3);
             display: flex; align-items: center; justify-content: center;
             font-size: 14px; cursor: pointer;
-          ">${catMeta.icon}</div>`,
+          "><span style="display:block;width:16px;height:16px;background-color:white;mask-image:url(${catMeta.icon});-webkit-mask-image:url(${catMeta.icon});mask-size:contain;-webkit-mask-size:contain;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat;mask-position:center;-webkit-mask-position:center;"></span></div>`,
           iconSize: [32, 32],
           iconAnchor: [16, 16],
           popupAnchor: [0, -16],
@@ -170,7 +170,7 @@ export function MapView({ resources, onSelectResource }: MapViewProps) {
         }
 
         popup += `</div>`;
-        popup += `<div style="margin-top:8px"><span style="font-size:11px;padding:2px 8px;border-radius:9px;background:${catMeta.color}15;color:${catMeta.color}">${catMeta.icon} ${catMeta.label}</span></div>`;
+        popup += `<div style="margin-top:8px"><span style="font-size:11px;padding:2px 8px;border-radius:9px;background:${catMeta.color}15;color:${catMeta.color};display:inline-flex;align-items:center;gap:4px;"><span style="display:block;width:12px;height:12px;background-color:currentColor;mask-image:url(${catMeta.icon});-webkit-mask-image:url(${catMeta.icon});mask-size:contain;-webkit-mask-size:contain;mask-repeat:no-repeat;-webkit-mask-repeat:no-repeat;mask-position:center;-webkit-mask-position:center;"></span> ${catMeta.label}</span></div>`;
         popup += `</div>`;
 
         marker.bindPopup(popup);
@@ -354,10 +354,10 @@ export function MapView({ resources, onSelectResource }: MapViewProps) {
                     )}
                     <div className="flex items-center gap-2 mt-2">
                       <span
-                        className="text-[10px] rounded-full px-2 py-0.5"
+                        className="text-[10px] rounded-full px-2 py-0.5 flex items-center gap-1"
                         style={{ background: `${meta?.color}15`, color: meta?.color }}
                       >
-                        {meta?.icon} {meta?.label}
+                        <span className="svg-icon w-3 h-3" style={{ maskImage: `url(${meta?.icon})`, WebkitMaskImage: `url(${meta?.icon})` }} /> {meta?.label}
                       </span>
                       {resource.address && (
                         <a

@@ -145,10 +145,11 @@ export function ResourceCard({ resource }: { resource: Resource }) {
         </div>
         {cat && (
           <span
-            className="shrink-0 rounded-full px-2 py-0.5 text-xs font-medium"
+            className="shrink-0 flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium"
             style={{ background: `${cat.color}15`, color: cat.color }}
           >
-            {cat.icon} {cat.label}
+            <span className="svg-icon w-3.5 h-3.5" style={{ maskImage: `url(${cat.icon})`, WebkitMaskImage: `url(${cat.icon})` }} />
+            {cat.label}
           </span>
         )}
       </div>

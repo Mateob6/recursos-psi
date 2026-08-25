@@ -32,8 +32,9 @@ export function Header() {
           </Link>
 
           <div className="flex items-center gap-2">
-            <a href="https://www.univalle.edu.co/" target="_blank" rel="noreferrer">
-              <img src="/logos/logo1.png" alt="Universidad del Valle" className="h-8 w-auto object-contain" />
+            <a href="https://www.univalle.edu.co/" target="_blank" rel="noreferrer" className="flex items-center">
+              <img src="/assets/logo-rojo.svg" alt="Univalle Contigo" className="h-10 w-auto object-contain logo-light" />
+              <img src="/assets/logo-blanco.svg" alt="Univalle Contigo" className="h-10 w-auto object-contain logo-dark" />
             </a>
             <ThemeToggle />
           </div>

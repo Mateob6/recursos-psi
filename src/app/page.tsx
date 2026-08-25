@@ -18,13 +18,15 @@ export default function HomePage() {
     <div className="mx-auto max-w-5xl px-4 py-8 md:py-14 space-y-10">
       {/* Logo UV only */}
       <div className="flex justify-center">
-        <a href="https://www.univalle.edu.co/" target="_blank" rel="noreferrer" className="hover:scale-105 transition-transform">
-          <img src="/logos/logo1.png" alt="Universidad del Valle" className="h-14 md:h-16 w-auto object-contain" />
+        <a href="https://www.univalle.edu.co/" target="_blank" rel="noreferrer" className="hover:scale-105 transition-transform flex items-center">
+          <img src="/assets/logo-rojo.svg" alt="Univalle Contigo" className="h-16 md:h-20 w-auto object-contain logo-light" />
+          <img src="/assets/logo-blanco.svg" alt="Univalle Contigo" className="h-16 md:h-20 w-auto object-contain logo-dark" />
         </a>
       </div>
 
       {/* Hero */}
-      <section className="text-center space-y-4 max-w-3xl mx-auto">
+      <section className="text-center space-y-4 max-w-3xl mx-auto flex flex-col items-center">
+        <img src="/assets/uvardilla-general.png" alt="Uvardilla" className="w-32 h-auto mb-2" />
         <p className="font-mono text-sm tracking-wider uppercase text-[var(--accent)]">
           PROGRAMA UNIVALLE CONTIGO · AGOSTO 2026
         </p>
@@ -79,7 +81,7 @@ export default function HomePage() {
             className="group relative rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-6 transition-all hover:border-[var(--accent)]/40 hover:shadow-lg hover:-translate-y-0.5"
           >
             <div className="flex items-start justify-between mb-3">
-              <span className="text-3xl">{s.icon}</span>
+              <span className="svg-icon w-10 h-10" style={{ maskImage: `url(${s.icon})`, WebkitMaskImage: `url(${s.icon})`, color: s.color }} />
               <span
                 className="rounded-full px-2.5 py-0.5 text-xs font-bold tabular-nums"
                 style={{ background: `${s.color}15`, color: s.color }}
