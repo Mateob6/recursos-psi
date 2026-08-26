@@ -102,7 +102,7 @@ body {
 }
 
 .category-chip {
-  @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-sm font-medium transition-all cursor-pointer select-none;
+  @apply inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-sm font-medium transition-all cursor-pointer select-none min-h-[44px];
   background: var(--surface);
   border: 1px solid var(--border);
   color: var(--muted);

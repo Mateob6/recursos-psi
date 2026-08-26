@@ -62,7 +62,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={cycle}
-      className="flex h-9 w-9 items-center justify-center rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--muted)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
+      className="flex h-11 w-11 items-center justify-center rounded-lg border border-[var(--border)] bg-[var(--surface)] text-[var(--muted)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
       aria-label={labels[theme]}
       title={labels[theme]}
     >

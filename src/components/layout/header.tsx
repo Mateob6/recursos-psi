@@ -7,8 +7,8 @@ export function Header() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Link href="/" className="flex items-center gap-3 group">
           <div className="shrink-0 group-hover:opacity-80 transition-opacity">
-            <img src="/assets/isotipo-rojo.svg" alt="" className="w-8 h-8 object-contain logo-light" />
-            <img src="/assets/isotipo-blanco.svg" alt="" className="w-8 h-8 object-contain logo-dark" />
+            <img src="/assets/isotipo-rojo.svg" alt="" className="w-8 h-8 object-contain logo-light" width={32} height={32} />
+            <img src="/assets/isotipo-blanco.svg" alt="" className="w-8 h-8 object-contain logo-dark" width={32} height={32} />
           </div>
           <div className="flex flex-col">
             <span className="text-lg font-semibold text-[var(--foreground)] leading-tight">
@@ -34,8 +34,8 @@ export function Header() {
 
           <div className="flex items-center gap-2">
             <a href="https://www.univalle.edu.co/" target="_blank" rel="noreferrer" className="flex items-center">
-              <img src="/assets/logo-rojo.svg" alt="Univalle Contigo" className="h-10 w-auto object-contain logo-light" />
-              <img src="/assets/logo-blanco.svg" alt="Univalle Contigo" className="h-10 w-auto object-contain logo-dark" />
+              <img src="/assets/logo-rojo.svg" alt="Univalle Contigo" className="h-10 w-auto object-contain logo-light" height={40} />
+              <img src="/assets/logo-blanco.svg" alt="Univalle Contigo" className="h-10 w-auto object-contain logo-dark" height={40} />
             </a>
             <ThemeToggle />
           </div>

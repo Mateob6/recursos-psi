@@ -19,14 +19,14 @@ export default function HomePage() {
       {/* Logo UV only */}
       <div className="flex justify-center">
         <a href="https://www.univalle.edu.co/" target="_blank" rel="noreferrer" className="hover:scale-105 transition-transform flex items-center">
-          <img src="/assets/logo-rojo.svg" alt="Univalle Contigo" className="h-16 md:h-20 w-auto object-contain logo-light" />
-          <img src="/assets/logo-blanco.svg" alt="Univalle Contigo" className="h-16 md:h-20 w-auto object-contain logo-dark" />
+          <img src="/assets/logo-rojo.svg" alt="Univalle Contigo" className="h-16 md:h-20 w-auto object-contain logo-light" height={80} />
+          <img src="/assets/logo-blanco.svg" alt="Univalle Contigo" className="h-16 md:h-20 w-auto object-contain logo-dark" height={80} />
         </a>
       </div>
 
       {/* Hero */}
       <section className="text-center space-y-4 max-w-3xl mx-auto flex flex-col items-center">
-        <img src="/assets/uvardilla-general.png" alt="Uvardilla" className="w-32 h-auto mb-2" />
+        <img src="/assets/uvardilla-general.webp" alt="Uvardilla" className="w-32 h-auto mb-2" width={170} height={256} />
         <p className="font-mono text-sm tracking-wider uppercase text-[var(--accent)]">
           PROGRAMA UNIVALLE CONTIGO · AGOSTO 2026
         </p>

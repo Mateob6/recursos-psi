@@ -4,7 +4,7 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-8 space-y-6">
         <div className="flex flex-wrap justify-center items-center gap-6">
           <a href="https://www.univalle.edu.co/" target="_blank" rel="noreferrer">
-            <img src="/logos/logo1.png" alt="Universidad del Valle" className="h-12 w-auto object-contain" />
+            <img src="/logos/logo1.png" alt="Universidad del Valle" className="h-12 w-auto object-contain" height={48} loading="lazy" />
           </a>
         </div>
 

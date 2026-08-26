@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { SECTIONS, type Resource, type Section } from "@/lib/types";
 import data from "@/data/resources.json";
 import { SectionDirectory } from "@/components/resources/section-directory";
-import { MapView } from "@/components/resources/map-view";
+import { LazyMapView } from "@/components/resources/map-view-lazy";
 
 const SECTIONS_WITH_MAP: Section[] = ["salud", "refugio", "donaciones"];
 
@@ -38,8 +38,8 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
     : [];
 
   let mascotSrc = null;
-  if (sectionKey === "apoyo-emocional") mascotSrc = "/assets/uvardilla-1.png";
-  else if (sectionKey === "donaciones" || sectionKey === "refugio" || sectionKey === "salud") mascotSrc = "/assets/uvardilla-2.png";
+  if (sectionKey === "apoyo-emocional") mascotSrc = "/assets/uvardilla-1.webp";
+  else if (sectionKey === "donaciones" || sectionKey === "refugio" || sectionKey === "salud") mascotSrc = "/assets/uvardilla-2.webp";
 
   return (
     <div className="mx-auto max-w-6xl px-4 py-8 space-y-8">
@@ -74,14 +74,14 @@ export default async function SectionPage({ params }: { params: Promise<{ sectio
         </div>
         {mascotSrc && (
           <div className="hidden md:block shrink-0">
-            <img src={mascotSrc} alt="Uvardilla" className="w-24 h-auto object-contain" />
+            <img src={mascotSrc} alt="Uvardilla" className="w-24 h-auto object-contain" width={128} height={192} loading="lazy" />
           </div>
         )}
       </div>
 
       {/* Map for physical sections */}
       {showMap && mapResources.length > 0 && (
-        <MapView resources={mapResources} />
+        <LazyMapView resources={mapResources} />
       )}
 
       {/* Directory with section-specific filters */}

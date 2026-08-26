@@ -28,7 +28,7 @@ export function MobileNav() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`flex flex-col items-center gap-0.5 px-4 py-1 rounded-lg transition-colors ${
+                className={`flex flex-col items-center gap-0.5 px-4 py-2.5 rounded-lg transition-colors ${
                   isActive ? "text-[var(--accent)]" : "text-[var(--muted)]"
                 }`}
               >
@@ -44,7 +44,7 @@ export function MobileNav() {
               href={item.href}
               target="_blank"
               rel="noreferrer"
-              className="flex flex-col items-center gap-0.5 px-4 py-1 rounded-lg text-[var(--muted)] transition-colors"
+              className="flex flex-col items-center gap-0.5 px-4 py-2.5 rounded-lg text-[var(--muted)] transition-colors"
             >
               <span className="text-lg">{item.icon}</span>
               <span className="text-[10px] font-medium">{item.label}</span>
