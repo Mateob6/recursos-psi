@@ -16,10 +16,11 @@ export function Footer() {
             Datos curados por el equipo del Programa Univalle Contigo.
           </p>
           <p className="text-xs text-[var(--muted)]">
-            Elaboración técnica por <strong className="text-[var(--foreground)]">Mateo Belalcázar Correa</strong> (MSc),{" "}
+            Elaboración técnica por{" "}
+            <a href="https://mateob6.github.io/" target="_blank" rel="noreferrer" className="text-[var(--foreground)] font-bold hover:text-[var(--accent)] hover:underline transition-colors">Mateo Belalcázar Correa</a> (MSc),{" "}
             <a href="https://psicologia.univalle.edu.co/?id=834" target="_blank" rel="noreferrer" className="text-[var(--accent)] hover:underline">CIDEAS</a>,{" "}
             <a href="https://psicologia.univalle.edu.co/" target="_blank" rel="noreferrer" className="text-[var(--accent)] hover:underline">Facultad de Psicología</a>,{" "}
-            Universidad del Valle.
+            <a href="https://www.univalle.edu.co/" target="_blank" rel="noreferrer" className="text-[var(--accent)] hover:underline">Universidad del Valle</a>.
           </p>
           <div className="flex justify-center gap-4 pt-2">
             <a
