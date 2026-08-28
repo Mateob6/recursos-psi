@@ -262,6 +262,26 @@ def parse():
             "contact": extract_contacts(clean(ws.cell(row=row, column=5).value)),
         })
 
+    # 9. Vivienda y Reconstrucción
+    ws = wb["Vivienda y Reconstrucción"]
+    for row in range(2, ws.max_row + 1):
+        a = clean(ws.cell(row=row, column=1).value)
+        if not a or a == "Recurso":
+            continue
+        rid += 1
+        resources.append({
+            "id": f"viv-{rid}",
+            "category": "vivienda",
+            "name": a,
+            "description": clean(ws.cell(row=row, column=2).value),
+            "center": clean(ws.cell(row=row, column=3).value),
+            "contact": extract_contacts(clean(ws.cell(row=row, column=4).value)),
+            "condition": clean(ws.cell(row=row, column=5).value),
+            "address": clean(ws.cell(row=row, column=6).value),
+            "source": clean(ws.cell(row=row, column=7).value),
+            "city": "Cali",
+        })
+
     return resources
 
 
@@ -275,6 +295,7 @@ CATEGORY_TO_SECTION = {
     "capacitacion": "guias",
     "interactivas": "guias",
     "funerarios": "funerarios",
+    "vivienda": "vivienda",
 }
 
 SALUD_SUBCATEGORY_TO_TAG = {
@@ -317,6 +338,8 @@ def derive_tags(resource):
         return {"estado": status} if status else {}
     if section == "guias":
         return _tags_guias(resource)
+    if section == "vivienda":
+        return _tags_vivienda(resource)
     return {}
 
 
@@ -404,6 +427,23 @@ def _tags_guias(resource):
         formato = "web"
 
     return {"audiencia": audiencia, "formato": formato}
+
+
+def _tags_vivienda(resource):
+    name = (resource.get("name") or "").lower()
+    desc = (resource.get("description") or "").lower()
+    text = name + " " + desc
+
+    if "reporte" in text or "rufe" in text or "registro" in text:
+        tipo = "tramite"
+    elif "orientación legal" in text or "arrendamiento" in text or "arrendatario" in text:
+        tipo = "legal"
+    elif "guía" in text:
+        tipo = "guia"
+    else:
+        tipo = "informacion"
+
+    return {"tipo": tipo}
 
 
 def enrich(resources):

@@ -11,10 +11,10 @@ Directorio interactivo de recursos de apoyo biopsicosocial para personas afectad
 
 - Next.js 16 + React 19 + TypeScript (static export)
 - Tailwind CSS v4 (tokens semánticos via `@theme inline`)
-- Leaflet (mapa interactivo con GPS "Cerca de mí")
+- Leaflet (mapa interactivo con GPS "Cerca de mí", lazy-loaded via `next/dynamic` solo en secciones con mapa)
 - Vercel (hosting estático, auto-deploy on push)
 - Vercel Analytics + Speed Insights
-- Identidad visual oficial Univalle Contigo: Fuente Poppins, Morado Biopsicosocial (#532888) como acento principal, botones tipo píldora, e iconos SVG oficiales.
+- Identidad visual oficial Univalle Contigo: Fuente Poppins (weights 400/600/700), Morado Biopsicosocial (#532888) como acento principal, botones tipo píldora, e iconos SVG oficiales.
 
 ## Desarrollo
 
@@ -73,7 +73,7 @@ src/
 ├── components/
 │   ├── ui/                      ← cn utility
 │   ├── layout/                  ← Header, Footer, ThemeToggle, MobileNav
-│   └── resources/               ← SectionDirectory, SectionFilters, ResourceCard (contacto explícito + botones), SearchBar, MapView
+│   └── resources/               ← SectionDirectory, SectionFilters, ResourceCard (contacto explícito + botones), SearchBar, MapView, LazyMapView (wrapper next/dynamic)
 ├── data/
 │   └── resources.json           ← Generado por scripts/sync-sheets.py (con tags + sections)
 └── lib/
@@ -117,6 +117,16 @@ Cross-links: recursos-psi → reconstruir-psi (footer únicamente, enlace "Guía
 
 - **Global:** Identidad visual oficial "Univalle Contigo" (Logo completo, isotipo corazón, Uvardilla dinámica por sección, iconos SVG con máscaras de color por estrategia).
 - **Autoría (footer):** Mateo Belalcázar Correa (MSc), CIDEAS, Facultad de Psicología, Universidad del Valle
+
+## Performance móvil
+
+Optimizado para lanzamiento masivo a la comunidad Univalle (ago 2026):
+
+- **Imágenes:** Uvardillas en WebP redimensionadas a 2x display size (3.1MB → 16KB, -99.5%). Todas las `<img>` con `width`/`height` explícitos (previene CLS) y `loading="lazy"` en below-fold.
+- **Code splitting:** MapView lazy-loaded via `next/dynamic` + `ssr: false` (wrapper `map-view-lazy.tsx`). Solo carga en secciones con mapa (salud, refugio, donaciones).
+- **Touch targets:** Mínimo 44px en mobile nav, theme toggle y filter chips (cumple guidelines Apple/Google).
+- **Fuentes:** Poppins 3 weights (400/600/700), self-hosted via `next/font/google`.
+- **Sin dependencias muertas:** `react-leaflet` removido (nunca se importaba).
 
 ## Pendiente: Dominio institucional
 

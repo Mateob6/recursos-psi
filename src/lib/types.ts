@@ -7,7 +7,8 @@ export type ResourceCategory =
   | "albergues"
   | "acopio"
   | "funerarios"
-  | "lineas_emergencia";
+  | "lineas_emergencia"
+  | "vivienda";
 
 export type Section =
   | "apoyo-emocional"
@@ -15,7 +16,8 @@ export type Section =
   | "refugio"
   | "donaciones"
   | "guias"
-  | "funerarios";
+  | "funerarios"
+  | "vivienda";
 
 export interface ContactInfo {
   phones?: string[];
@@ -121,6 +123,15 @@ export const SECTIONS: SectionMeta[] = [
     description: "Manuales, guías prácticas y plataformas para profesionales, comunidades y personas afectadas",
   },
   {
+    key: "vivienda",
+    label: "Vivienda",
+    question: "Mi vivienda resultó afectada",
+    icon: "/assets/icon-juridico.svg",
+    color: "#B85C2F",
+    description: "Reportar daños, evaluación estructural, orientación legal para arrendatarios y alivios tributarios",
+    highlight: "WhatsApp 310 229 9708 para reportar",
+  },
+  {
     key: "funerarios",
     label: "Servicios Funerarios",
     question: "Necesito servicios funerarios",
@@ -222,6 +233,18 @@ export const SECTION_FILTERS: Record<Section, FilterDimension[]> = {
         { value: "web", label: "Web", icon: "🌐" },
         { value: "pdf", label: "PDF", icon: "📄" },
         { value: "video", label: "Video", icon: "🎥" },
+      ],
+    },
+  ],
+  vivienda: [
+    {
+      key: "tipo",
+      label: "Tipo",
+      options: [
+        { value: "tramite", label: "Trámite / Reporte", icon: "📋" },
+        { value: "informacion", label: "Información", icon: "ℹ️" },
+        { value: "legal", label: "Orientación legal", icon: "⚖️" },
+        { value: "guia", label: "Guía", icon: "📖" },
       ],
     },
   ],
