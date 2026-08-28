@@ -105,8 +105,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:jaimealber.giraldo@upb.edu.co mailto:emmanuel.arrubla@upb.edu.co",
         "emails": [
-          "emmanuel.arrubla@upb.edu.co",
-          "jaimealber.giraldo@upb.edu.co"
+          "jaimealber.giraldo@upb.edu.co",
+          "emmanuel.arrubla@upb.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -242,8 +242,8 @@
           "https://api.whatsapp.com/send/?phone=525521843047"
         ],
         "phones": [
-          "5255218430",
-          "5521843047"
+          "5521843047",
+          "5255218430"
         ]
       },
       "cost": "Gratuito",
@@ -310,8 +310,8 @@
         "raw": "Comunicarse mediante formulario: https://forms.gle/d935fEKqewpDpGwr9 También puede comunicarse mediante alguno de los siguientes números: 3023891597, 3147020125 o 3142725677.",
         "phones": [
           "3023891597",
-          "3142725677",
-          "3147020125"
+          "3147020125",
+          "3142725677"
         ],
         "urls": [
           "https://forms.gle/d935fEKqewpDpGwr9"
@@ -1156,8 +1156,8 @@
           "https://wa.link/kak7kc"
         ],
         "phones": [
-          "106",
-          "(3162458423"
+          "(3162458423",
+          "106"
         ]
       },
       "serviceType": "Es una línea de teleorientación en salud mental, operada por profesionales capacitados en escucha activa, orientación psicológica, intervención en crisis y acompañamiento emocional.",
@@ -1266,8 +1266,8 @@
           "https://wa.link/rczjft"
         ],
         "phones": [
-          "155",
-          "(3188611522"
+          "(3188611522",
+          "155"
         ]
       },
       "serviceType": "Sirve para prevenir, atender y hacer seguimiento a los casos de violencia intrafamiliar y violencia basada en género.",
@@ -1296,8 +1296,8 @@
           "https://wa.link/y1lxs3"
         ],
         "phones": [
-          "(3116120000",
-          "(3508032031"
+          "(3508032031",
+          "(3116120000"
         ]
       },
       "serviceType": "Disponible para brindar orientación psicosocial y jurídica a mujeres víctimas de violencias basadas en género. Al igual que acompañamiento para la restitución de derechos.",
@@ -1398,8 +1398,8 @@
           "141"
         ],
         "emails": [
-          "sub.primerainfancia@cali.gov.co",
-          "citasatenciondia.seg@cali.gov.co"
+          "citasatenciondia.seg@cali.gov.co",
+          "sub.primerainfancia@cali.gov.co"
         ]
       },
       "serviceType": "Permite reportar emergencias, hacer denuncias o pedir ayuda sobre maltrato, abuso sexual, trabajo infantil o cualquier riesgo contra niños, niñas y adolescentes en Colombia.",
@@ -1566,8 +1566,8 @@
       "contact": {
         "raw": "Línea nacional: 01 8000 423 737 / Indicativo de Cundinamarca (601) 432 27 60 mailto:correspondencia1@adres.gov.co mailto:correspondencia2@adres.gov.co Para consultar su EPS directamente: https://www.adres.gov.co/consulte-su-eps",
         "emails": [
-          "correspondencia2@adres.gov.co",
-          "correspondencia1@adres.gov.co"
+          "correspondencia1@adres.gov.co",
+          "correspondencia2@adres.gov.co"
         ],
         "urls": [
           "https://www.adres.gov.co/consulte-su-eps"
@@ -1616,8 +1616,8 @@
           "https://wa.link/ns4708"
         ],
         "phones": [
-          "(321 3300382",
-          "(601) 756 8000"
+          "(601) 756 8000",
+          "(321 3300382"
         ],
         "emails": [
           "utorizaciones@aliansalud.com.co"
@@ -1809,8 +1809,8 @@
           "https://wa.link/j430c2"
         ],
         "phones": [
-          "0180009191",
-          "(3202550525"
+          "(3202550525",
+          "0180009191"
         ],
         "emails": [
           "comunicacioneseps@colsanitas.com"
@@ -2001,8 +2001,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
@@ -2021,8 +2021,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
@@ -2041,8 +2041,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención prehospitalaria y primeros auxilios.",
@@ -2061,8 +2061,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
@@ -2081,8 +2081,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención prehospitalaria y urgencias de primer nivel.",
@@ -2101,8 +2101,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención médica básica y contención psicológica.",
@@ -2121,8 +2121,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención prehospitalaria de primer nivel.",
@@ -2141,8 +2141,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención médica inmediata y clasificación.",
@@ -2161,8 +2161,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención prehospitalaria y apoyo psicosocial.",
@@ -2181,8 +2181,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención prehospitalaria y primeros auxilios.",
@@ -2201,8 +2201,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "195",
-          "123"
+          "123",
+          "195"
         ]
       },
       "serviceType": "Atención médica de primer nivel y primeros auxilios.",
@@ -2810,11 +2810,11 @@
           "https://wa.link/x8bzzl"
         ],
         "phones": [
-          "(602) 880 1785",
-          "(3102299708",
           "313 778 8460",
+          "(602) 880 1785",
+          "(602) 518 4611",
           "317 642 1117",
-          "(602) 518 4611"
+          "(3102299708"
         ]
       },
       "section": "funerarios"
@@ -2829,9 +2829,9 @@
       "contact": {
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
+          "311 561 4854",
           "320 315 4976",
-          "314 213 8930",
-          "311 561 4854"
+          "314 213 8930"
         ]
       },
       "section": "funerarios"
@@ -2960,7 +2960,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-08-28 09:30",
+    "extracted": "2026-08-28 21:42",
     "total": 119
   }
 }
