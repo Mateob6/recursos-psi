@@ -141,6 +141,18 @@ body {
   opacity: 0.9;
 }
 
+.action-btn-email {
+  background: #EA4335;
+  border-color: #EA4335;
+  color: #ffffff;
+}
+
+.action-btn-email:hover {
+  opacity: 0.9;
+  border-color: #EA4335;
+  color: #ffffff;
+}
+
 .action-btn-whatsapp {
   background: #25D366;
   border-color: #25D366;

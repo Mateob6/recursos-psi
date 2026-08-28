@@ -132,6 +132,7 @@ function ContactActions({ resource }: { resource: Resource }) {
       label: "Correo",
       href: `mailto:${c.emails[0]}`,
       icon: "✉️",
+      btnStyle: "email",
     });
   }
 
@@ -187,7 +188,7 @@ function ContactActions({ resource }: { resource: Resource }) {
               href={a.href}
               target={a.href.startsWith("http") ? "_blank" : undefined}
               rel={a.href.startsWith("http") ? "noreferrer" : undefined}
-              className={`action-btn${a.btnStyle === "whatsapp" ? " action-btn-whatsapp" : a.primary ? " action-btn-primary" : ""}`}
+              className={`action-btn${a.btnStyle === "whatsapp" ? " action-btn-whatsapp" : a.btnStyle === "email" ? " action-btn-email" : a.primary ? " action-btn-primary" : ""}`}
             >
               <span>{a.icon}</span>
               {a.label}
