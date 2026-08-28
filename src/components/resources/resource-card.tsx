@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { SECTIONS, type Resource } from "@/lib/types";
+import { track } from "@/lib/analytics";
 
 const COLLAPSE_THRESHOLD = 120;
 
@@ -37,7 +38,7 @@ function formatDescription(text: string) {
   );
 }
 
-function CollapsibleDescription({ text }: { text: string }) {
+function CollapsibleDescription({ text, resourceName }: { text: string; resourceName: string }) {
   const [expanded, setExpanded] = useState(false);
   const isLong = text.length > COLLAPSE_THRESHOLD;
 
@@ -63,7 +64,7 @@ function CollapsibleDescription({ text }: { text: string }) {
         <>
           <p>{summary}</p>
           <button
-            onClick={() => setExpanded(true)}
+            onClick={() => { setExpanded(true); track("expandir", { recurso: resourceName }); }}
             className="text-[var(--accent)] text-xs font-medium mt-1 hover:underline"
           >
             ▼ Ver más
@@ -189,6 +190,7 @@ function ContactActions({ resource }: { resource: Resource }) {
               target={a.href.startsWith("http") ? "_blank" : undefined}
               rel={a.href.startsWith("http") ? "noreferrer" : undefined}
               className={`action-btn${a.btnStyle === "whatsapp" ? " action-btn-whatsapp" : a.btnStyle === "email" ? " action-btn-email" : a.primary ? " action-btn-primary" : ""}`}
+              onClick={() => track("contacto", { recurso: resource.name, canal: a.label.toLowerCase(), seccion: resource.section || "" })}
             >
               <span>{a.icon}</span>
               {a.label}
@@ -214,7 +216,7 @@ export function ResourceCard({ resource }: { resource: Resource }) {
             <p className="text-sm text-[var(--muted)] mt-0.5">{resource.center}</p>
           )}
           {resource.description && (
-            <CollapsibleDescription text={resource.description} />
+            <CollapsibleDescription text={resource.description} resourceName={resource.name} />
           )}
         </div>
         {cat && (

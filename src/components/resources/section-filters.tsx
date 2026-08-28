@@ -1,6 +1,7 @@
 "use client";
 
 import type { FilterDimension } from "@/lib/types";
+import { track } from "@/lib/analytics";
 
 interface SectionFiltersProps {
   dimensions: FilterDimension[];
@@ -31,9 +32,11 @@ export function SectionFilters({ dimensions, active, onChange }: SectionFiltersP
                 key={opt.value}
                 className="category-chip text-xs"
                 data-active={active[dim.key] === opt.value}
-                onClick={() =>
-                  onChange(dim.key, active[dim.key] === opt.value ? null : opt.value)
-                }
+                onClick={() => {
+                  const next = active[dim.key] === opt.value ? null : opt.value;
+                  if (next) track("filtro", { dimension: dim.label, valor: opt.label });
+                  onChange(dim.key, next);
+                }}
               >
                 {opt.icon && <span>{opt.icon}</span>}
                 {opt.label}

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from "react";
 import type { Resource, ResourceCategory } from "@/lib/types";
+import { track } from "@/lib/analytics";
 
 const CALI_CENTER: [number, number] = [3.4372, -76.5225];
 
@@ -203,6 +204,7 @@ export function MapView({ resources, onSelectResource }: MapViewProps) {
         const latlng: [number, number] = [pos.coords.latitude, pos.coords.longitude];
         setUserPos(latlng);
         setLocating(false);
+        track("gps");
 
         if (userMarkerRef.current) {
           userMarkerRef.current.setLatLng(latlng);
@@ -364,7 +366,7 @@ export function MapView({ resources, onSelectResource }: MapViewProps) {
                           href={directionsUrl(resource.address)}
                           target="_blank"
                           rel="noreferrer"
-                          onClick={(e) => e.stopPropagation()}
+                          onClick={(e) => { e.stopPropagation(); track("como-llegar", { recurso: resource.name }); }}
                           className="text-[10px] text-[#ea4335] font-medium hover:underline"
                         >
                           🗺️ Cómo llegar

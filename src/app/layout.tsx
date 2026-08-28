@@ -55,6 +55,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es" className={`${poppins.variable} h-full antialiased`}>
+      <head>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="b95015b9-7a64-4ff1-9154-19985f06eb9a" />
+      </head>
       <body className="flex min-h-screen flex-col font-sans bg-[var(--background)] text-[var(--foreground)]">
         <Header />
         <main className="flex-1 w-full pb-16 sm:pb-0">{children}</main>
