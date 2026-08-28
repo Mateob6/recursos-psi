@@ -38,7 +38,7 @@ Fuente: Google Sheets curado por el equipo del Programa Univalle Contigo (Nelson
 cd scripts && uv run sync-sheets.py    # sync manual
 ```
 
-### Secciones (6, agrupando 9 categorías)
+### Secciones (7, agrupando 10 categorías)
 
 | Sección | Ruta | Recursos | Categorías agrupadas | Filtros |
 |---------|------|----------|---------------------|---------|
@@ -47,6 +47,7 @@ cd scripts && uv run sync-sheets.py    # sync manual
 | Refugio | `/refugio` | 5 | albergues | Tipo (oficial/comunitario) + mapa |
 | Donaciones | `/donaciones` | 9 | acopio | Mapa |
 | Guías | `/guias` | 9 | capacitacion + interactivas | Audiencia + Formato |
+| Vivienda | `/vivienda` | 6 | vivienda | Tipo (trámite/información/legal/guía) |
 | Funerarios | `/funerarios` | 2 | funerarios | — |
 
 ### Tags inteligentes
@@ -55,6 +56,7 @@ Cada recurso tiene `tags` derivados por IA del contenido (no de la estructura de
 - **Apoyo Emocional:** urgencia (ahora/agendar), canales (whatsapp/teléfono/correo/formulario/presencial), cobertura (nacional/cali/otra), población (todos/lgbtiq/mujeres/ninez/persona_mayor/discapacidad/profesionales)
 - **Salud:** tipo (eps/hospital/punto_atencion/regimen_especial/informacion)
 - **Guías:** audiencia (personas_afectadas/profesionales/comunidad), formato (web/pdf/video)
+- **Vivienda:** tipo (tramite/informacion/legal/guia)
 
 ## Estructura
 

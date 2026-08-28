@@ -84,7 +84,7 @@ function ContactActions({ resource }: { resource: Resource }) {
   if (!c) return null;
 
   const explicitContacts: { icon: string; value: string }[] = [];
-  const actions: { label: string; href: string; icon: string; primary?: boolean }[] = [];
+  const actions: { label: string; href: string; icon: string; primary?: boolean; btnStyle?: string }[] = [];
 
   if (c.phones?.length) {
     c.phones.forEach((p) => {
@@ -113,6 +113,7 @@ function ContactActions({ resource }: { resource: Resource }) {
       href: c.whatsapp[0],
       icon: "💬",
       primary: true,
+      btnStyle: "whatsapp" as const,
     });
   }
 
@@ -186,7 +187,7 @@ function ContactActions({ resource }: { resource: Resource }) {
               href={a.href}
               target={a.href.startsWith("http") ? "_blank" : undefined}
               rel={a.href.startsWith("http") ? "noreferrer" : undefined}
-              className={a.primary ? "action-btn action-btn-primary" : "action-btn"}
+              className={`action-btn${a.btnStyle === "whatsapp" ? " action-btn-whatsapp" : a.primary ? " action-btn-primary" : ""}`}
             >
               <span>{a.icon}</span>
               {a.label}

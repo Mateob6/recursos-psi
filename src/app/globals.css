@@ -141,6 +141,18 @@ body {
   opacity: 0.9;
 }
 
+.action-btn-whatsapp {
+  background: #25D366;
+  border-color: #25D366;
+  color: #ffffff;
+}
+
+.action-btn-whatsapp:hover {
+  opacity: 0.9;
+  border-color: #25D366;
+  color: #ffffff;
+}
+
 .search-input {
   @apply w-full rounded-full px-5 py-3 text-base outline-none transition-all;
   background: var(--surface);
