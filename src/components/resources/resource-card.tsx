@@ -123,7 +123,7 @@ function ContactActions({ resource }: { resource: Resource }) {
       label: "Llamar",
       href: `tel:${phone}`,
       icon: "📞",
-      primary: !actions.length,
+      primary: true,
     });
   }
 
