@@ -1,14 +1,17 @@
 "use client";
 
+import { useState } from "react";
 import { SECTIONS, type Resource } from "@/lib/types";
 
-function FormattedDescription({ text }: { text: string }) {
+const COLLAPSE_THRESHOLD = 120;
+
+function formatDescription(text: string) {
   const numbered = text.match(/\(\d+\)\s/);
   if (!numbered) {
     const sentences = text.split(/(?<=\.)\s+/).filter(Boolean);
-    if (sentences.length <= 2) return <p className="text-sm text-[var(--muted)] mt-0.5">{text}</p>;
+    if (sentences.length <= 1) return <p>{text}</p>;
     return (
-      <div className="text-sm text-[var(--muted)] mt-1 space-y-1">
+      <div className="space-y-1">
         {sentences.map((s, i) => <p key={i}>{s}</p>)}
       </div>
     );
@@ -17,9 +20,9 @@ function FormattedDescription({ text }: { text: string }) {
   const parts = text.split(/(?=\(\d+\))/);
   const intro = parts[0]?.match(/\(\d+\)/) ? null : parts.shift()?.trim();
   return (
-    <div className="text-sm text-[var(--muted)] mt-1 space-y-1">
+    <div className="space-y-1.5">
       {intro && <p>{intro}</p>}
-      <ol className="list-none space-y-0.5 pl-0">
+      <ol className="list-none space-y-1 pl-0">
         {parts.map((item, i) => {
           const clean = item.replace(/^\(\d+\)\s*/, "").replace(/\.$/, "");
           return (
@@ -30,6 +33,43 @@ function FormattedDescription({ text }: { text: string }) {
           );
         })}
       </ol>
+    </div>
+  );
+}
+
+function CollapsibleDescription({ text }: { text: string }) {
+  const [expanded, setExpanded] = useState(false);
+  const isLong = text.length > COLLAPSE_THRESHOLD;
+
+  if (!isLong) {
+    return <div className="text-sm text-[var(--muted)] mt-1">{formatDescription(text)}</div>;
+  }
+
+  const summary = text.slice(0, COLLAPSE_THRESHOLD).replace(/\s+\S*$/, "") + "…";
+
+  return (
+    <div className="text-sm text-[var(--muted)] mt-1">
+      {expanded ? (
+        <>
+          {formatDescription(text)}
+          <button
+            onClick={() => setExpanded(false)}
+            className="text-[var(--accent)] text-xs font-medium mt-1 hover:underline"
+          >
+            ▲ Ver menos
+          </button>
+        </>
+      ) : (
+        <>
+          <p>{summary}</p>
+          <button
+            onClick={() => setExpanded(true)}
+            className="text-[var(--accent)] text-xs font-medium mt-1 hover:underline"
+          >
+            ▼ Ver más
+          </button>
+        </>
+      )}
     </div>
   );
 }
@@ -172,7 +212,7 @@ export function ResourceCard({ resource }: { resource: Resource }) {
             <p className="text-sm text-[var(--muted)] mt-0.5">{resource.center}</p>
           )}
           {resource.description && (
-            <FormattedDescription text={resource.description} />
+            <CollapsibleDescription text={resource.description} />
           )}
         </div>
         {cat && (
