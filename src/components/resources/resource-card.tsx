@@ -140,7 +140,7 @@ export function ResourceCard({ resource }: { resource: Resource }) {
             <p className="text-sm text-[var(--muted)] mt-0.5">{resource.center}</p>
           )}
           {resource.description && (
-            <p className="text-sm text-[var(--muted)] mt-0.5 line-clamp-2">{resource.description}</p>
+            <p className="text-sm text-[var(--muted)] mt-0.5">{resource.description}</p>
           )}
         </div>
         {cat && (
