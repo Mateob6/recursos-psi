@@ -92,7 +92,7 @@ scripts/
 |-------|-----------|---------|--------|
 | Header | header.tsx | Isotipo corazón + Directorio + Mapa + logo Univalle Contigo + ThemeToggle | Isotipo + Directorio + logo UV + ThemeToggle |
 | Bottom nav | mobile-nav.tsx | Oculto | Barra fija: Inicio (Isotipo) / Mapa / Guías |
-| Home | page.tsx | 6 cards de sección + stats + banner emergencia | Igual, 1 columna |
+| Home | page.tsx | 7 cards de sección + stats + banner emergencia | Igual, 1 columna |
 | Sección | [section]/page.tsx | Filtros por dimensión + grid 3 cols | Filtros + 1 col |
 | Mapa | mapa/page.tsx | Leaflet + filtros + GPS + cards cercanos | Igual, full width |
 
@@ -118,7 +118,18 @@ Cross-links: recursos-psi → reconstruir-psi (footer únicamente, enlace "Guía
 ## Identidad institucional
 
 - **Global:** Identidad visual oficial "Univalle Contigo" (Logo completo, isotipo corazón, Uvardilla dinámica por sección, iconos SVG con máscaras de color por estrategia).
-- **Autoría (footer):** Mateo Belalcázar Correa (MSc), CIDEAS, Facultad de Psicología, Universidad del Valle
+- **Autoría (footer):** [Mateo Belalcázar Correa](https://mateob6.github.io/) (MSc), [CIDEAS](https://psicologia.univalle.edu.co/?id=834), [Facultad de Psicología](https://psicologia.univalle.edu.co/), [Universidad del Valle](https://www.univalle.edu.co/). Todos con hipervínculo.
+
+## Componentes UI
+
+### ResourceCard (`resource-card.tsx`)
+
+- **CollapsibleDescription**: Descripciones >120 chars se colapsan con "▼ Ver más" / "▲ Ver menos". Al expandir, detecta patrones `(1)`, `(2)`... y los renderiza como lista numerada con badges. Textos sin numeración se separan por oraciones.
+- **Botones de acción** con color por canal:
+  - WhatsApp → verde (#25D366, clase `action-btn-whatsapp`)
+  - Llamar → morado accent (clase `action-btn-primary`)
+  - Correo → rojo Gmail (#EA4335, clase `action-btn-email`)
+  - Ir al sitio → gris secundario (clase `action-btn`)
 
 ## Performance móvil
 
