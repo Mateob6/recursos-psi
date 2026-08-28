@@ -2,6 +2,38 @@
 
 import { SECTIONS, type Resource } from "@/lib/types";
 
+function FormattedDescription({ text }: { text: string }) {
+  const numbered = text.match(/\(\d+\)\s/);
+  if (!numbered) {
+    const sentences = text.split(/(?<=\.)\s+/).filter(Boolean);
+    if (sentences.length <= 2) return <p className="text-sm text-[var(--muted)] mt-0.5">{text}</p>;
+    return (
+      <div className="text-sm text-[var(--muted)] mt-1 space-y-1">
+        {sentences.map((s, i) => <p key={i}>{s}</p>)}
+      </div>
+    );
+  }
+
+  const parts = text.split(/(?=\(\d+\))/);
+  const intro = parts[0]?.match(/\(\d+\)/) ? null : parts.shift()?.trim();
+  return (
+    <div className="text-sm text-[var(--muted)] mt-1 space-y-1">
+      {intro && <p>{intro}</p>}
+      <ol className="list-none space-y-0.5 pl-0">
+        {parts.map((item, i) => {
+          const clean = item.replace(/^\(\d+\)\s*/, "").replace(/\.$/, "");
+          return (
+            <li key={i} className="flex gap-1.5 items-baseline">
+              <span className="shrink-0 w-5 h-5 rounded-full bg-[var(--accent)]/10 text-[var(--accent)] text-xs font-bold flex items-center justify-center">{i + 1}</span>
+              <span>{clean}</span>
+            </li>
+          );
+        })}
+      </ol>
+    </div>
+  );
+}
+
 function extractPhoneNumber(raw: string): string | null {
   const match = raw.match(/\(?\d[\d\s()+-]{6,}/);
   return match ? match[0].trim() : null;
@@ -140,7 +172,7 @@ export function ResourceCard({ resource }: { resource: Resource }) {
             <p className="text-sm text-[var(--muted)] mt-0.5">{resource.center}</p>
           )}
           {resource.description && (
-            <p className="text-sm text-[var(--muted)] mt-0.5">{resource.description}</p>
+            <FormattedDescription text={resource.description} />
           )}
         </div>
         {cat && (
