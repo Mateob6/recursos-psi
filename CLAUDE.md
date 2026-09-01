@@ -14,6 +14,7 @@ Directorio interactivo de recursos de apoyo biopsicosocial para personas afectad
 - Leaflet (mapa interactivo con GPS "Cerca de mí", lazy-loaded via `next/dynamic` solo en secciones con mapa)
 - Vercel (hosting estático, auto-deploy on push)
 - Vercel Analytics + Speed Insights
+- Umami Analytics (custom events) — dashboard en `cloud.umami.is`
 - Identidad visual oficial Univalle Contigo: Fuente Poppins (weights 400/600/700), Morado Biopsicosocial (#532888) como acento principal, botones tipo píldora, e iconos SVG oficiales.
 
 ## Desarrollo
@@ -64,8 +65,8 @@ Cada recurso tiene `tags` derivados por IA del contenido (no de la estructura de
 src/
 ├── app/
 │   ├── globals.css              ← tokens morado Univalle Contigo, dark theme lavanda, SVG mask classes
-│   ├── layout.tsx               ← Header + Footer + MobileNav + Analytics + Fuente Poppins
-│   ├── page.tsx                 ← HOME: Uvardilla + "¿Qué necesitas?" + 6 section cards + stats
+│   ├── layout.tsx               ← Header + Footer + MobileNav + Analytics (Vercel + Umami) + Fuente Poppins
+│   ├── page.tsx                 ← HOME: Logo+Uvardilla + "¿Qué necesitas?" + stats + section cards + Rutas de atención (carrusel)
 │   ├── [section]/page.tsx       ← Página dinámica por sección con Uvardillas dinámicas y filtros
 │   ├── mapa/page.tsx            ← Mapa Leaflet con GPS, filtros, "Cómo llegar"
 │   ├── icon.svg                 ← Favicon isotipo Univalle Contigo (corazón rojo)
@@ -75,10 +76,11 @@ src/
 ├── components/
 │   ├── ui/                      ← cn utility
 │   ├── layout/                  ← Header, Footer, ThemeToggle, MobileNav
-│   └── resources/               ← SectionDirectory, SectionFilters, ResourceCard (contacto explícito + botones), SearchBar, MapView, LazyMapView (wrapper next/dynamic)
+│   └── resources/               ← SectionDirectory, SectionFilters, ResourceCard (contacto explícito + botones), SearchBar, MapView, LazyMapView, RutaCarousel (carrusel infografías ruta de atención)
 ├── data/
 │   └── resources.json           ← Generado por scripts/sync-sheets.py (con tags + sections)
 └── lib/
+    ├── analytics.ts             ← Helper track() para Umami custom events
     └── types.ts                 ← Resource, Section, SECTIONS, SECTION_FILTERS, FilterDimension
 scripts/
 └── sync-sheets.py               ← Google Sheets → resources.json (cron cada 6h via GitHub Actions)
@@ -131,6 +133,17 @@ Cross-links: recursos-psi → reconstruir-psi (footer únicamente, enlace "Guía
   - Correo → rojo Gmail (#EA4335, clase `action-btn-email`)
   - Ir al sitio → gris secundario (clase `action-btn`)
 
+### RutaCarousel (`ruta-carousel.tsx`)
+
+Carrusel client-side con las 3 infografías de la Ruta de atención Univalle Contigo (PDF enviado por Nelson Molina, 31 ago 2026). Ubicado al final del home, después de las section cards.
+
+- **Imágenes:** `public/assets/ruta/` (3 WebP ~240KB c/u, extraídas del PDF a 200dpi)
+  - `ruta-salud-fisica.webp` — Fase 1: Salud Física (telecontacto estudiantes)
+  - `ruta-psicosocial.webp` — Fase 1: Psicosocial (telecontacto estudiantes)
+  - `ruta-contactos.webp` — Fase 2: Guía de Contactos (profesionales biopsicosociales)
+- **Funcionalidades:** auto-avance 6s (pausa en hover/touch), dots de navegación, flechas desktop (hover), swipe mobile, lightbox con modal al hacer clic, navegación por teclado (ESC, flechas)
+- **Layout home:** Logo Univalle Contigo + Uvardilla a la derecha → Hero → Stats → Emergencia → Section cards → **Rutas de atención** (título h2 grande) → Footer
+
 ## Performance móvil
 
 Optimizado para lanzamiento masivo a la comunidad Univalle (ago 2026):
@@ -140,6 +153,25 @@ Optimizado para lanzamiento masivo a la comunidad Univalle (ago 2026):
 - **Touch targets:** Mínimo 44px en mobile nav, theme toggle y filter chips (cumple guidelines Apple/Google).
 - **Fuentes:** Poppins 3 weights (400/600/700), self-hosted via `next/font/google`.
 - **Sin dependencias muertas:** `react-leaflet` removido (nunca se importaba).
+
+## Analíticas
+
+**Vercel Analytics + Speed Insights:** pageviews, rutas, dispositivos, tiempos de carga (automático).
+
+**Umami Analytics** (custom events, tier gratis 100K events/mes):
+- **Dashboard:** `cloud.umami.is` — pestaña "Events" para custom events
+- **Website ID:** `b95015b9-7a64-4ff1-9154-19985f06eb9a`
+- **Helper:** `src/lib/analytics.ts` — función `track(event, data?)` que envía a Umami si está disponible
+
+| Evento | Componente | Datos |
+|--------|-----------|-------|
+| `contacto` | ResourceCard | recurso, canal (whatsapp/llamar/correo/ir al sitio), sección |
+| `expandir` | ResourceCard (CollapsibleDescription) | recurso |
+| `filtro` | SectionFilters | dimensión, valor |
+| `gps` | MapView | — |
+| `como-llegar` | MapView | recurso |
+
+Para agregar tracking a nuevas interacciones: `import { track } from "@/lib/analytics"` y llamar `track("evento", { key: "value" })`.
 
 ## Pendiente: Dominio institucional
 

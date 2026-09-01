@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SECTIONS } from "@/lib/types";
 import type { Resource } from "@/lib/types";
 import data from "@/data/resources.json";
+import { RutaCarousel } from "@/components/resources/ruta-carousel";
 
 export default function HomePage() {
   const resources = data.resources as Resource[];
@@ -16,17 +17,23 @@ export default function HomePage() {
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-8 md:py-14 space-y-10">
-      {/* Logo UV only */}
-      <div className="flex justify-center">
+      {/* Logo UV + Uvardilla */}
+      <div className="flex items-center justify-center gap-4">
         <a href="https://www.univalle.edu.co/" target="_blank" rel="noreferrer" className="hover:scale-105 transition-transform flex items-center">
           <img src="/assets/logo-rojo.svg" alt="Univalle Contigo" className="h-16 md:h-20 w-auto object-contain logo-light" height={80} />
           <img src="/assets/logo-blanco.svg" alt="Univalle Contigo" className="h-16 md:h-20 w-auto object-contain logo-dark" height={80} />
         </a>
+        <img
+          src="/assets/uvardilla-general.webp"
+          alt="Uvardilla"
+          className="w-16 md:w-20 h-auto"
+          width={170}
+          height={256}
+        />
       </div>
 
       {/* Hero */}
       <section className="text-center space-y-4 max-w-3xl mx-auto flex flex-col items-center">
-        <img src="/assets/uvardilla-general.webp" alt="Uvardilla" className="w-32 h-auto mb-2" width={170} height={256} />
         <p className="font-mono text-sm tracking-wider uppercase text-[var(--accent)]">
           PROGRAMA UNIVALLE CONTIGO · AGOSTO 2026
         </p>
@@ -108,6 +115,16 @@ export default function HomePage() {
           </Link>
         ))}
       </div>
+
+      {/* Ruta de atención */}
+      <section className="space-y-6 text-center">
+        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold tracking-tight text-[var(--foreground)]">
+          Rutas de atención Univalle Contigo
+        </h2>
+        <div className="max-w-3xl mx-auto">
+          <RutaCarousel />
+        </div>
+      </section>
 
     </div>
   );
