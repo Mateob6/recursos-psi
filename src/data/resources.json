@@ -72,8 +72,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:consultorios.sec@uco.edu.co  mailto:dmontoya@uco.edu.co",
         "emails": [
-          "consultorios.sec@uco.edu.co",
-          "dmontoya@uco.edu.co"
+          "dmontoya@uco.edu.co",
+          "consultorios.sec@uco.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -1156,8 +1156,8 @@
           "https://wa.link/kak7kc"
         ],
         "phones": [
-          "(3162458423",
-          "106"
+          "106",
+          "(3162458423"
         ]
       },
       "serviceType": "Es una línea de teleorientación en salud mental, operada por profesionales capacitados en escucha activa, orientación psicológica, intervención en crisis y acompañamiento emocional.",
@@ -1296,8 +1296,8 @@
           "https://wa.link/y1lxs3"
         ],
         "phones": [
-          "(3116120000",
-          "(3508032031"
+          "(3508032031",
+          "(3116120000"
         ]
       },
       "serviceType": "Disponible para brindar orientación psicosocial y jurídica a mujeres víctimas de violencias basadas en género. Al igual que acompañamiento para la restitución de derechos.",
@@ -1398,8 +1398,8 @@
           "141"
         ],
         "emails": [
-          "sub.primerainfancia@cali.gov.co",
-          "citasatenciondia.seg@cali.gov.co"
+          "citasatenciondia.seg@cali.gov.co",
+          "sub.primerainfancia@cali.gov.co"
         ]
       },
       "serviceType": "Permite reportar emergencias, hacer denuncias o pedir ayuda sobre maltrato, abuso sexual, trabajo infantil o cualquier riesgo contra niños, niñas y adolescentes en Colombia.",
@@ -1487,8 +1487,8 @@
           "https://wa.link/1y2u92"
         ],
         "phones": [
-          "(3228151101",
-          "(601) 7965150"
+          "(601) 7965150",
+          "(3228151101"
         ]
       },
       "serviceType": "Sirve para que las personas afectadas por el conflicto armado realicen trámites y consultas virtuales de forma gratuita, rápida y sin intermediarios",
@@ -1541,8 +1541,8 @@
       "contact": {
         "raw": "Ubicación: Avenida 2 Norte # 10-70 en el CAM Centro Administrativo Municipal. Puede marcar al Indicativo: 195 o al teléfono  Línea local 195 o al (602) 8856173",
         "phones": [
-          "195",
-          "(602) 8856173"
+          "(602) 8856173",
+          "195"
         ]
       },
       "serviceType": "Ecargada de diseñar, coordinar y aplicar políticas públicas para proteger a las personas en situación de pobreza, vulnerabilidad o exclusión",
@@ -1616,8 +1616,8 @@
           "https://wa.link/ns4708"
         ],
         "phones": [
-          "(321 3300382",
-          "(601) 756 8000"
+          "(601) 756 8000",
+          "(321 3300382"
         ],
         "emails": [
           "utorizaciones@aliansalud.com.co"
@@ -2810,11 +2810,11 @@
           "https://wa.link/x8bzzl"
         ],
         "phones": [
-          "317 642 1117",
-          "(602) 518 4611",
           "(602) 880 1785",
-          "(3102299708",
-          "313 778 8460"
+          "(602) 518 4611",
+          "313 778 8460",
+          "317 642 1117",
+          "(3102299708"
         ]
       },
       "section": "funerarios"
@@ -2829,9 +2829,9 @@
       "contact": {
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
-          "311 561 4854",
           "320 315 4976",
-          "314 213 8930"
+          "314 213 8930",
+          "311 561 4854"
         ]
       },
       "section": "funerarios"
@@ -2960,7 +2960,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-08-31 22:26",
+    "extracted": "2026-09-01 03:33",
     "total": 119
   }
 }
