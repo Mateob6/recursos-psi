@@ -72,8 +72,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:consultorios.sec@uco.edu.co  mailto:dmontoya@uco.edu.co",
         "emails": [
-          "dmontoya@uco.edu.co",
-          "consultorios.sec@uco.edu.co"
+          "consultorios.sec@uco.edu.co",
+          "dmontoya@uco.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -1185,8 +1185,8 @@
           "https://wa.link/vm2njr"
         ],
         "phones": [
-          "106",
-          "(300 754 8933"
+          "(300 754 8933",
+          "106"
         ]
       },
       "serviceType": "Brinda un espacio de escuha a las personas que lo necesiten y promociona el cuidado de la salud mental, además,  fue diseñada para que los niños, niñas, adolescentes y adultos de todas las edades, reciban escucha y apoyo psicológico por parte de la Secretaría Distrital de Salud.",
@@ -1266,8 +1266,8 @@
           "https://wa.link/rczjft"
         ],
         "phones": [
-          "155",
-          "(3188611522"
+          "(3188611522",
+          "155"
         ]
       },
       "serviceType": "Sirve para prevenir, atender y hacer seguimiento a los casos de violencia intrafamiliar y violencia basada en género.",
@@ -1296,8 +1296,8 @@
           "https://wa.link/y1lxs3"
         ],
         "phones": [
-          "(3508032031",
-          "(3116120000"
+          "(3116120000",
+          "(3508032031"
         ]
       },
       "serviceType": "Disponible para brindar orientación psicosocial y jurídica a mujeres víctimas de violencias basadas en género. Al igual que acompañamiento para la restitución de derechos.",
@@ -1398,8 +1398,8 @@
           "141"
         ],
         "emails": [
-          "citasatenciondia.seg@cali.gov.co",
-          "sub.primerainfancia@cali.gov.co"
+          "sub.primerainfancia@cali.gov.co",
+          "citasatenciondia.seg@cali.gov.co"
         ]
       },
       "serviceType": "Permite reportar emergencias, hacer denuncias o pedir ayuda sobre maltrato, abuso sexual, trabajo infantil o cualquier riesgo contra niños, niñas y adolescentes en Colombia.",
@@ -1566,8 +1566,8 @@
       "contact": {
         "raw": "Línea nacional: 01 8000 423 737 / Indicativo de Cundinamarca (601) 432 27 60 mailto:correspondencia1@adres.gov.co mailto:correspondencia2@adres.gov.co Para consultar su EPS directamente: https://www.adres.gov.co/consulte-su-eps",
         "emails": [
-          "correspondencia1@adres.gov.co",
-          "correspondencia2@adres.gov.co"
+          "correspondencia2@adres.gov.co",
+          "correspondencia1@adres.gov.co"
         ],
         "urls": [
           "https://www.adres.gov.co/consulte-su-eps"
@@ -1616,8 +1616,8 @@
           "https://wa.link/ns4708"
         ],
         "phones": [
-          "(321 3300382",
-          "(601) 756 8000"
+          "(601) 756 8000",
+          "(321 3300382"
         ],
         "emails": [
           "utorizaciones@aliansalud.com.co"
@@ -1698,8 +1698,8 @@
           "https://wa.link/1pxnit"
         ],
         "phones": [
-          "(601) 3078069",
-          "(311 6097426"
+          "(311 6097426",
+          "(601) 3078069"
         ],
         "emails": [
           "gerenciageneral@emssanareps.co"
@@ -1809,8 +1809,8 @@
           "https://wa.link/j430c2"
         ],
         "phones": [
-          "0180009191",
-          "(3202550525"
+          "(3202550525",
+          "0180009191"
         ],
         "emails": [
           "comunicacioneseps@colsanitas.com"
@@ -2810,11 +2810,11 @@
           "https://wa.link/x8bzzl"
         ],
         "phones": [
-          "317 642 1117",
-          "(3102299708",
-          "313 778 8460",
           "(602) 518 4611",
-          "(602) 880 1785"
+          "(602) 880 1785",
+          "(3102299708",
+          "317 642 1117",
+          "313 778 8460"
         ]
       },
       "section": "funerarios"
@@ -2829,9 +2829,9 @@
       "contact": {
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
-          "314 213 8930",
+          "311 561 4854",
           "320 315 4976",
-          "311 561 4854"
+          "314 213 8930"
         ]
       },
       "section": "funerarios"
@@ -2960,7 +2960,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-09-01 16:02",
+    "extracted": "2026-09-01 20:32",
     "total": 119
   }
 }
