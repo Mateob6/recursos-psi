@@ -105,8 +105,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:jaimealber.giraldo@upb.edu.co mailto:emmanuel.arrubla@upb.edu.co",
         "emails": [
-          "jaimealber.giraldo@upb.edu.co",
-          "emmanuel.arrubla@upb.edu.co"
+          "emmanuel.arrubla@upb.edu.co",
+          "jaimealber.giraldo@upb.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -242,8 +242,8 @@
           "https://api.whatsapp.com/send/?phone=525521843047"
         ],
         "phones": [
-          "5521843047",
-          "5255218430"
+          "5255218430",
+          "5521843047"
         ]
       },
       "cost": "Gratuito",
@@ -309,9 +309,9 @@
       "contact": {
         "raw": "Comunicarse mediante formulario: https://forms.gle/d935fEKqewpDpGwr9 También puede comunicarse mediante alguno de los siguientes números: 3023891597, 3147020125 o 3142725677.",
         "phones": [
-          "3147020125",
           "3023891597",
-          "3142725677"
+          "3142725677",
+          "3147020125"
         ],
         "urls": [
           "https://forms.gle/d935fEKqewpDpGwr9"
@@ -1156,8 +1156,8 @@
           "https://wa.link/kak7kc"
         ],
         "phones": [
-          "106",
-          "(3162458423"
+          "(3162458423",
+          "106"
         ]
       },
       "serviceType": "Es una línea de teleorientación en salud mental, operada por profesionales capacitados en escucha activa, orientación psicológica, intervención en crisis y acompañamiento emocional.",
@@ -1266,8 +1266,8 @@
           "https://wa.link/rczjft"
         ],
         "phones": [
-          "(3188611522",
-          "155"
+          "155",
+          "(3188611522"
         ]
       },
       "serviceType": "Sirve para prevenir, atender y hacer seguimiento a los casos de violencia intrafamiliar y violencia basada en género.",
@@ -1296,8 +1296,8 @@
           "https://wa.link/y1lxs3"
         ],
         "phones": [
-          "(3116120000",
-          "(3508032031"
+          "(3508032031",
+          "(3116120000"
         ]
       },
       "serviceType": "Disponible para brindar orientación psicosocial y jurídica a mujeres víctimas de violencias basadas en género. Al igual que acompañamiento para la restitución de derechos.",
@@ -1487,8 +1487,8 @@
           "https://wa.link/1y2u92"
         ],
         "phones": [
-          "(601) 7965150",
-          "(3228151101"
+          "(3228151101",
+          "(601) 7965150"
         ]
       },
       "serviceType": "Sirve para que las personas afectadas por el conflicto armado realicen trámites y consultas virtuales de forma gratuita, rápida y sin intermediarios",
@@ -1541,8 +1541,8 @@
       "contact": {
         "raw": "Ubicación: Avenida 2 Norte # 10-70 en el CAM Centro Administrativo Municipal. Puede marcar al Indicativo: 195 o al teléfono  Línea local 195 o al (602) 8856173",
         "phones": [
-          "195",
-          "(602) 8856173"
+          "(602) 8856173",
+          "195"
         ]
       },
       "serviceType": "Ecargada de diseñar, coordinar y aplicar políticas públicas para proteger a las personas en situación de pobreza, vulnerabilidad o exclusión",
@@ -1616,8 +1616,8 @@
           "https://wa.link/ns4708"
         ],
         "phones": [
-          "(601) 756 8000",
-          "(321 3300382"
+          "(321 3300382",
+          "(601) 756 8000"
         ],
         "emails": [
           "utorizaciones@aliansalud.com.co"
@@ -1698,8 +1698,8 @@
           "https://wa.link/1pxnit"
         ],
         "phones": [
-          "(311 6097426",
-          "(601) 3078069"
+          "(601) 3078069",
+          "(311 6097426"
         ],
         "emails": [
           "gerenciageneral@emssanareps.co"
@@ -1809,8 +1809,8 @@
           "https://wa.link/j430c2"
         ],
         "phones": [
-          "(3202550525",
-          "0180009191"
+          "0180009191",
+          "(3202550525"
         ],
         "emails": [
           "comunicacioneseps@colsanitas.com"
@@ -2001,8 +2001,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
@@ -2021,8 +2021,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
@@ -2041,8 +2041,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención prehospitalaria y primeros auxilios.",
@@ -2061,8 +2061,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención prehospitalaria, triage y apoyo psicosocial.",
@@ -2081,8 +2081,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención prehospitalaria y urgencias de primer nivel.",
@@ -2101,8 +2101,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención médica básica y contención psicológica.",
@@ -2121,8 +2121,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención prehospitalaria de primer nivel.",
@@ -2141,8 +2141,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención médica inmediata y clasificación.",
@@ -2161,8 +2161,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención prehospitalaria y apoyo psicosocial.",
@@ -2181,8 +2181,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención prehospitalaria y primeros auxilios.",
@@ -2201,8 +2201,8 @@
       "contact": {
         "raw": "Marcar el indicativo 123 o 195 (Líneas de emergencia)",
         "phones": [
-          "123",
-          "195"
+          "195",
+          "123"
         ]
       },
       "serviceType": "Atención médica de primer nivel y primeros auxilios.",
@@ -2810,11 +2810,11 @@
           "https://wa.link/x8bzzl"
         ],
         "phones": [
-          "(602) 518 4611",
           "317 642 1117",
-          "(602) 880 1785",
           "(3102299708",
-          "313 778 8460"
+          "313 778 8460",
+          "(602) 518 4611",
+          "(602) 880 1785"
         ]
       },
       "section": "funerarios"
@@ -2829,9 +2829,9 @@
       "contact": {
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
+          "314 213 8930",
           "320 315 4976",
-          "311 561 4854",
-          "314 213 8930"
+          "311 561 4854"
         ]
       },
       "section": "funerarios"
@@ -2960,7 +2960,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-09-01 11:05",
+    "extracted": "2026-09-01 16:02",
     "total": 119
   }
 }
