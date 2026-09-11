@@ -135,12 +135,15 @@ Cross-links: recursos-psi → reconstruir-psi (footer únicamente, enlace "Guía
 
 ### RutaCarousel (`ruta-carousel.tsx`)
 
-Carrusel client-side con las 3 infografías de la Ruta de atención Univalle Contigo (PDF enviado por Nelson Molina, 31 ago 2026). Ubicado al final del home, después de las section cards.
+Carrusel client-side con 5 infografías de la Ruta de atención Univalle Contigo + portada Campus 219 (PDFs enviados por Nelson Molina, 11 sep 2026). Ubicado al final del home, después de las section cards.
 
-- **Imágenes:** `public/assets/ruta/` (3 WebP ~240KB c/u, extraídas del PDF a 200dpi)
+- **Imágenes:** `public/assets/ruta/` (6 WebP ~240-340KB c/u, extraídas de PDF a 200dpi)
   - `ruta-salud-fisica.webp` — Fase 1: Salud Física (telecontacto estudiantes)
-  - `ruta-psicosocial.webp` — Fase 1: Psicosocial (telecontacto estudiantes)
-  - `ruta-contactos.webp` — Fase 2: Guía de Contactos (profesionales biopsicosociales)
+  - `ruta-psicosocial.webp` — Fase 1: Dimensión Psicosocial (telecontacto estudiantes)
+  - `ruta-contactos.webp` — Fase 2: Guía de Contactos Profesionales Biopsicosociales
+  - `ruta-regionalizacion.webp` — Fase 2: Sistema de Regionalización, Sedes, Seccionales y Nodos
+  - `ruta-docentes.webp` — Fase 2: Guía de Contactos para Docentes y Funcionarios
+  - `campus-219.webp` — Portada Campus Edición 219, septiembre 2026 (Univalle Contigo)
 - **Funcionalidades:** auto-avance 6s (pausa en hover/touch), dots de navegación, flechas desktop (hover), swipe mobile, lightbox con modal al hacer clic, navegación por teclado (ESC, flechas)
 - **Layout home:** Logo Univalle Contigo + Uvardilla a la derecha → Hero → Stats → Emergencia → Section cards → **Rutas de atención** (título h2 grande) → Footer
 

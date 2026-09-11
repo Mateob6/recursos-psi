@@ -12,17 +12,32 @@ const ITEMS: RutaItem[] = [
   {
     title: "Fase 1: Salud Física",
     src: "/assets/ruta/ruta-salud-fisica.webp",
-    alt: "Ruta de atención - Fase 1: Salud Física",
+    alt: "Ruta de atención - Fase 1: Salud Física (estudiantes)",
   },
   {
     title: "Fase 1: Psicosocial",
     src: "/assets/ruta/ruta-psicosocial.webp",
-    alt: "Ruta de atención - Fase 1: Psicosocial",
+    alt: "Ruta de atención - Fase 1: Dimensión Psicosocial (estudiantes)",
   },
   {
     title: "Fase 2: Guía de Contactos",
     src: "/assets/ruta/ruta-contactos.webp",
-    alt: "Ruta de atención - Fase 2: Guía de Contactos",
+    alt: "Ruta de atención - Fase 2: Guía de Contactos Profesionales Biopsicosociales",
+  },
+  {
+    title: "Fase 2: Regionalización",
+    src: "/assets/ruta/ruta-regionalizacion.webp",
+    alt: "Ruta de atención - Fase 2: Sistema de Regionalización, Sedes, Seccionales y Nodos",
+  },
+  {
+    title: "Fase 2: Docentes y Funcionarios",
+    src: "/assets/ruta/ruta-docentes.webp",
+    alt: "Ruta de atención - Fase 2: Guía de Contactos para Docentes y Funcionarios",
+  },
+  {
+    title: "Campus 219 — Univalle Contigo",
+    src: "/assets/ruta/campus-219.webp",
+    alt: "Revista Campus Edición 219, septiembre 2026 — Univalle Contigo",
   },
 ];
 
