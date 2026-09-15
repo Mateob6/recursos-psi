@@ -105,8 +105,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:jaimealber.giraldo@upb.edu.co mailto:emmanuel.arrubla@upb.edu.co",
         "emails": [
-          "emmanuel.arrubla@upb.edu.co",
-          "jaimealber.giraldo@upb.edu.co"
+          "jaimealber.giraldo@upb.edu.co",
+          "emmanuel.arrubla@upb.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -205,8 +205,8 @@
           "https://wa.link/w2a1y1"
         ],
         "phones": [
-          "(604) 4483422",
-          "(3166399910"
+          "(3166399910",
+          "(604) 4483422"
         ]
       },
       "cost": "Gratuito",
@@ -309,8 +309,8 @@
       "contact": {
         "raw": "Comunicarse mediante formulario: https://forms.gle/d935fEKqewpDpGwr9 También puede comunicarse mediante alguno de los siguientes números: 3023891597, 3147020125 o 3142725677.",
         "phones": [
-          "3142725677",
           "3023891597",
+          "3142725677",
           "3147020125"
         ],
         "urls": [
@@ -1185,8 +1185,8 @@
           "https://wa.link/vm2njr"
         ],
         "phones": [
-          "106",
-          "(300 754 8933"
+          "(300 754 8933",
+          "106"
         ]
       },
       "serviceType": "Brinda un espacio de escuha a las personas que lo necesiten y promociona el cuidado de la salud mental, además,  fue diseñada para que los niños, niñas, adolescentes y adultos de todas las edades, reciban escucha y apoyo psicológico por parte de la Secretaría Distrital de Salud.",
@@ -1398,8 +1398,8 @@
           "141"
         ],
         "emails": [
-          "sub.primerainfancia@cali.gov.co",
-          "citasatenciondia.seg@cali.gov.co"
+          "citasatenciondia.seg@cali.gov.co",
+          "sub.primerainfancia@cali.gov.co"
         ]
       },
       "serviceType": "Permite reportar emergencias, hacer denuncias o pedir ayuda sobre maltrato, abuso sexual, trabajo infantil o cualquier riesgo contra niños, niñas y adolescentes en Colombia.",
@@ -1541,8 +1541,8 @@
       "contact": {
         "raw": "Ubicación: Avenida 2 Norte # 10-70 en el CAM Centro Administrativo Municipal. Puede marcar al Indicativo: 195 o al teléfono  Línea local 195 o al (602) 8856173",
         "phones": [
-          "195",
-          "(602) 8856173"
+          "(602) 8856173",
+          "195"
         ]
       },
       "serviceType": "Ecargada de diseñar, coordinar y aplicar políticas públicas para proteger a las personas en situación de pobreza, vulnerabilidad o exclusión",
@@ -2810,11 +2810,11 @@
           "https://wa.link/x8bzzl"
         ],
         "phones": [
-          "(602) 518 4611",
-          "317 642 1117",
           "(3102299708",
           "313 778 8460",
-          "(602) 880 1785"
+          "(602) 518 4611",
+          "(602) 880 1785",
+          "317 642 1117"
         ]
       },
       "section": "funerarios"
@@ -2830,8 +2830,8 @@
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
           "311 561 4854",
-          "320 315 4976",
-          "314 213 8930"
+          "314 213 8930",
+          "320 315 4976"
         ]
       },
       "section": "funerarios"
@@ -2960,7 +2960,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-09-15 03:23",
+    "extracted": "2026-09-15 11:03",
     "total": 119
   }
 }
