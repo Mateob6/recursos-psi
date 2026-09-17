@@ -105,8 +105,8 @@
       "contact": {
         "raw": "Comunicarse mediante alguno de los siguientes correos: mailto:jaimealber.giraldo@upb.edu.co mailto:emmanuel.arrubla@upb.edu.co",
         "emails": [
-          "jaimealber.giraldo@upb.edu.co",
-          "emmanuel.arrubla@upb.edu.co"
+          "emmanuel.arrubla@upb.edu.co",
+          "jaimealber.giraldo@upb.edu.co"
         ]
       },
       "cost": "Gratuito",
@@ -242,8 +242,8 @@
           "https://api.whatsapp.com/send/?phone=525521843047"
         ],
         "phones": [
-          "5521843047",
-          "5255218430"
+          "5255218430",
+          "5521843047"
         ]
       },
       "cost": "Gratuito",
@@ -309,9 +309,9 @@
       "contact": {
         "raw": "Comunicarse mediante formulario: https://forms.gle/d935fEKqewpDpGwr9 También puede comunicarse mediante alguno de los siguientes números: 3023891597, 3147020125 o 3142725677.",
         "phones": [
+          "3142725677",
           "3023891597",
-          "3147020125",
-          "3142725677"
+          "3147020125"
         ],
         "urls": [
           "https://forms.gle/d935fEKqewpDpGwr9"
@@ -1156,8 +1156,8 @@
           "https://wa.link/kak7kc"
         ],
         "phones": [
-          "106",
-          "(3162458423"
+          "(3162458423",
+          "106"
         ]
       },
       "serviceType": "Es una línea de teleorientación en salud mental, operada por profesionales capacitados en escucha activa, orientación psicológica, intervención en crisis y acompañamiento emocional.",
@@ -1185,8 +1185,8 @@
           "https://wa.link/vm2njr"
         ],
         "phones": [
-          "(300 754 8933",
-          "106"
+          "106",
+          "(300 754 8933"
         ]
       },
       "serviceType": "Brinda un espacio de escuha a las personas que lo necesiten y promociona el cuidado de la salud mental, además,  fue diseñada para que los niños, niñas, adolescentes y adultos de todas las edades, reciban escucha y apoyo psicológico por parte de la Secretaría Distrital de Salud.",
@@ -1487,8 +1487,8 @@
           "https://wa.link/1y2u92"
         ],
         "phones": [
-          "(3228151101",
-          "(601) 7965150"
+          "(601) 7965150",
+          "(3228151101"
         ]
       },
       "serviceType": "Sirve para que las personas afectadas por el conflicto armado realicen trámites y consultas virtuales de forma gratuita, rápida y sin intermediarios",
@@ -1616,8 +1616,8 @@
           "https://wa.link/ns4708"
         ],
         "phones": [
-          "(601) 756 8000",
-          "(321 3300382"
+          "(321 3300382",
+          "(601) 756 8000"
         ],
         "emails": [
           "utorizaciones@aliansalud.com.co"
@@ -1698,8 +1698,8 @@
           "https://wa.link/1pxnit"
         ],
         "phones": [
-          "(601) 3078069",
-          "(311 6097426"
+          "(311 6097426",
+          "(601) 3078069"
         ],
         "emails": [
           "gerenciageneral@emssanareps.co"
@@ -2810,11 +2810,11 @@
           "https://wa.link/x8bzzl"
         ],
         "phones": [
-          "313 778 8460",
+          "(3102299708",
           "317 642 1117",
-          "(602) 518 4611",
           "(602) 880 1785",
-          "(3102299708"
+          "313 778 8460",
+          "(602) 518 4611"
         ]
       },
       "section": "funerarios"
@@ -2829,9 +2829,9 @@
       "contact": {
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
-          "320 315 4976",
           "311 561 4854",
-          "314 213 8930"
+          "314 213 8930",
+          "320 315 4976"
         ]
       },
       "section": "funerarios"
@@ -2960,7 +2960,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-09-17 10:57",
+    "extracted": "2026-09-17 16:13",
     "total": 119
   }
 }
