@@ -1266,8 +1266,8 @@
           "https://wa.link/rczjft"
         ],
         "phones": [
-          "(3188611522",
-          "155"
+          "155",
+          "(3188611522"
         ]
       },
       "serviceType": "Sirve para prevenir, atender y hacer seguimiento a los casos de violencia intrafamiliar y violencia basada en género.",
@@ -1296,8 +1296,8 @@
           "https://wa.link/y1lxs3"
         ],
         "phones": [
-          "(3508032031",
-          "(3116120000"
+          "(3116120000",
+          "(3508032031"
         ]
       },
       "serviceType": "Disponible para brindar orientación psicosocial y jurídica a mujeres víctimas de violencias basadas en género. Al igual que acompañamiento para la restitución de derechos.",
@@ -1541,8 +1541,8 @@
       "contact": {
         "raw": "Ubicación: Avenida 2 Norte # 10-70 en el CAM Centro Administrativo Municipal. Puede marcar al Indicativo: 195 o al teléfono  Línea local 195 o al (602) 8856173",
         "phones": [
-          "(602) 8856173",
-          "195"
+          "195",
+          "(602) 8856173"
         ]
       },
       "serviceType": "Ecargada de diseñar, coordinar y aplicar políticas públicas para proteger a las personas en situación de pobreza, vulnerabilidad o exclusión",
@@ -2810,10 +2810,10 @@
           "https://wa.link/x8bzzl"
         ],
         "phones": [
-          "(602) 518 4611",
-          "313 778 8460",
-          "(3102299708",
           "317 642 1117",
+          "(3102299708",
+          "313 778 8460",
+          "(602) 518 4611",
           "(602) 880 1785"
         ]
       },
@@ -2829,9 +2829,9 @@
       "contact": {
         "raw": "Líneas Directas en Cali: 314 213 8930 y 320 315 4976.\nLínea Nacional de Emergencia Exequial (24 horas): 311 561 4854. Llamada desde celular:  #523.",
         "phones": [
+          "311 561 4854",
           "320 315 4976",
-          "314 213 8930",
-          "311 561 4854"
+          "314 213 8930"
         ]
       },
       "section": "funerarios"
@@ -2960,7 +2960,7 @@
   "meta": {
     "source": "Google Sheets - Recursos para el apoyo biopsicosocial Univalle Contigo",
     "spreadsheet_id": "1dZ_LdrQDxj0qI-tL8UNQhiyuohfgax-BgQ1Oz9GSYAg",
-    "extracted": "2026-10-08 22:52",
+    "extracted": "2026-10-09 04:33",
     "total": 119
   }
 }
